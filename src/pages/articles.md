@@ -7,5 +7,6 @@ permalink: /articles/index.html
 eleventyNavigation:
   key: Articles
   order: 1
+contentname: Article
 pagestyle: pages/articles.css
 ---

@@ -7,18 +7,21 @@
 
   // Font size
   --fs-default: calc(6.63vw + 1rem);
-  --fs-base: --fs-default;
 
-  --fs-base: calc(var(--fs-default) / calc(1.618 * 3));
+  --fs-base: calc(var(--fs-default) / calc(1.618 * 1.25));
   --fs-1: calc(var(--fs-default) / calc(1.618 * 0));
   --fs-50: calc(var(--fs-default) / calc(1.618 * 0.5));
   --fs-100: calc(var(--fs-default) / calc(1.618 * 1));
   --fs-150: calc(var(--fs-default) / calc(1.618 * 1.5));
   --fs-200: calc(var(--fs-default) / calc(1.618 * 2));
-
+  @media screen and (min-width: 414px) {
+    --fs-base: calc(var(--fs-default) / calc(1.618 * 2.25));
+  }
+    
   @media screen and (min-width: 1080px) {
     --fs-default: calc(3.63vw + 1rem);
   }
+
 
   // Font Weight
   --fw-extralight: 100;

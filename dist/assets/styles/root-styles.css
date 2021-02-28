@@ -2,8 +2,7 @@
   --ff-header: "Lato", sans-serif;
   --ff-body: "Raleway", sans-serif;
   --fs-default: calc(6.63vw + 1rem);
-  --fs-base: --fs-default;
-  --fs-base: calc(var(--fs-default) / calc(1.618 * 3));
+  --fs-base: calc(var(--fs-default) / calc(1.618 * 1.25));
   --fs-1: calc(var(--fs-default) / calc(1.618 * 0));
   --fs-50: calc(var(--fs-default) / calc(1.618 * 0.5));
   --fs-100: calc(var(--fs-default) / calc(1.618 * 1));
@@ -28,6 +27,11 @@
   --z-bannerTitle: 3;
   --z-main: 0;
   --z-footer: 0;
+}
+@media screen and (min-width: 414px) {
+  :root {
+    --fs-base: calc(var(--fs-default) / calc(1.618 * 2.25));
+  }
 }
 @media screen and (min-width: 1080px) {
   :root {
@@ -524,6 +528,12 @@ nav .navList .navItem {
 nav .navList .navItem .fas {
   font-size: 1.5em;
 }
+footer > nav .navList .navItem {
+  font-size: var(--fs-1);
+}
+footer > nav .navList .navItem .fab {
+  font-size: var(--fs-50);
+}
 @media screen and (min-width: 1080px) {
   nav .navList .navItem {
     font-size: var(--fs-200);
@@ -531,11 +541,14 @@ nav .navList .navItem .fas {
   nav .navList .navItem .fas {
     font-size: 1.5em;
   }
+  footer > nav .navList .navItem {
+    font-size: var(--fs-1);
+  }
+  footer > nav .navList .navItem .fab {
+    font-size: calc(var(--fs-50) / 2);
+  }
 }
 
-.header {
-  max-height: 13vh;
-}
 .header .banner {
   display: flex;
   flex-direction: column;
@@ -862,9 +875,6 @@ nav .navList .navItem .fas {
 }
 
 footer {
-  max-height: 17vh;
-  color: var(--primaryFontColor);
-  background-color: var(--headerBGColor);
   text-align: center;
 }
 footer .navItem {
@@ -880,4 +890,10 @@ footer .navItem a .text {
 }
 footer .navItem a:hover .text {
   visibility: visible;
+}
+
+main {
+  min-height: 70vh;
+  max-width: 75ch;
+  margin: -0.4vh auto;
 }

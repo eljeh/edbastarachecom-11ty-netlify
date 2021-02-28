@@ -7,8 +7,11 @@ permalink: /about/index.html
 eleventyNavigation:
   key: About
   order: 2
+contentname: About Me
 pagestyle: pages/about.css
 ---
+
+# About me
 
 {% image "./src/_includes/assets/images/NoImage.jpg", "No Image Found" , "200", ''%}
 
