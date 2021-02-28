@@ -1,0 +1,26 @@
+footer {
+  max-height: 17vh;
+  color: var(--primaryFontColor);
+  background-color: var(--headerBGColor);
+  text-align: center;
+
+  .navItem {
+    display: inline-block;
+    margin: 0 1vw;
+
+    a {
+      display: flex;
+      flex-direction: column;
+
+      .text {
+        visibility: hidden;
+      }
+
+      &:hover {
+        .text {
+          visibility: visible;
+        }
+      }
+    }
+  }
+}

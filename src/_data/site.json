@@ -1,0 +1,14 @@
+{
+	"name" : "edbastarache.com",
+  "tagline":"allThings ed!",
+	"url":"http://edbastarache.com",
+	"logo": "/uploads/images/me.png",
+	"favicon":"/uploads/images/me.png",
+	"icon16":"/uploads/images/me.png",
+	"icon192":"/uploads/images/me.png",
+	"thumbnail":"/uploads/images/me.png",
+	"themeColor":"#ffa600",
+	"publisher":"Ed Bastarache",
+	"locale":"Canada",
+	"companytype":"IT"
+}

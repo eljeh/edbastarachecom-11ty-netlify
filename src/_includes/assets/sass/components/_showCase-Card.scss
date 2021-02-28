@@ -1,0 +1,92 @@
+// '/assests/css/scss/_components/_showCase-Card.scss'
+
+.row-wrap.w-3 > * {
+  min-width: 360px;
+}
+
+.showCase-Card {
+  padding: 2vh 1.618em;
+  margin-bottom: 4vh;
+  width: calc(100vw - 5.284vw);
+  position: relative;
+  background-color: white;
+  border-radius: 0.618vw;
+  border: 1px solid #00000021;
+  box-shadow: 3px 3px 7px 4px #00000021;
+  overflow: hidden;
+  z-index: 0;
+  transition: all 0.25s ease-out 0.25ms;
+
+  @media screen and (min-width: 1080px) {
+    width: calc(33vw - 5.284vw);
+  }
+
+  &:hover {
+    transform: scale(1.125);
+    border: 1px solid #00000011;
+    box-shadow: 0px -3px 11px 4px #00000011;
+    cursor: pointer;
+    z-index: 1;
+    img {
+      transform: scale(1.125);
+    }
+  }
+
+  picture {
+    display: flex;
+    min-width: 100%;
+    min-height: calc(calc(33vw - 5.284vw) * 0.318);
+    max-height: 36vh;
+    overflow: hidden;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+    margin: -4vh -8vh 0;
+    transition: all 0.25s ease-out 0.25ms;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      transition: all 0.3s ease-in-out 0.25ms;
+    }
+  }
+
+  .card-header {
+    display: flex;
+    padding: 2vh 0;
+    justify-content: space-between;
+    align-items: baseline;
+
+    .card-title {
+      flex: 3;
+      font-size: 1.25em;
+
+      .date {
+        display: block;
+        font-size: 0.5em;
+        color: #aaa;
+      }
+    }
+
+    .tag-list {
+      padding-inline-start: 0;
+      flex: 1;
+      text-align: right;
+
+      .tag-item {
+        display: inline-block;
+
+        .text {
+          display: none;
+        }
+
+        i {
+          font-size: calc(var(--fs-default) / calc(1.618 * 2));
+        }
+      }
+    }
+  }
+
+  .card-body {
+  }
+}

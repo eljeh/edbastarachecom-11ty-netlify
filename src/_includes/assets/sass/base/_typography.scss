@@ -1,0 +1,93 @@
+// '/assests/css/scss/base/_typography.scss'
+
+body {
+  font-family: var(--ff-body);
+  font-size: var(--fs-base);
+  //font-size: var(--fs-default);
+
+  line-height: 1.618;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ff-header);
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--fs-100);
+  font-weight: var(--fw-bold);
+}
+
+h2 {
+  font-size: var(--fs-150);
+  font-weight: var(--fw-bold);
+}
+
+h3 {
+  font-size: var(--fs-200);
+  font-weight: var(--fw-bold);
+}
+
+h4,
+h5,
+h6 {
+  font-size: var(--fs-base);
+  font-weight: var(--fw-bold);
+}
+
+.banner-title {
+  font-family: var(--ff-header);
+  font-size: var(--fs-100);
+  font-weight: var(--fw-bold);
+}
+
+small {
+  font-family: var(--ff-body);
+  font-weight: var(--fw-extralight);
+}
+
+nav .navList .navItem {
+  font-size: var(--fs-100);
+  .fas {
+    font-size: 1.5em;
+  }
+  @media screen and (min-width: 1080px) {
+    font-size: var(--fs-200);
+    .fas {
+      font-size: 1.5em;
+    }
+  }
+}
+
+// @media screen and (min-width: 1080px) {
+//   body {
+//     font-size: var(--fs-base);
+//   }
+
+//   h1 {
+//     font-size: var(--fs-100);
+//     font-weight: var(--fw-bold);
+//   }
+
+//   h2 {
+//     font-size: var(--fs-150);
+//     font-weight: var(--fw-bold);
+//   }
+
+//   h3 {
+//     font-size: var(--fs-200);
+//     font-weight: var(--fw-bold);
+//   }
+
+//   h4,
+//   h5,
+//   h6 {
+//     font-size: var(--fs-base);
+//     font-weight: var(--fw-bold);
+//   }
+// }

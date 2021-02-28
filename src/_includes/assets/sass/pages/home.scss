@@ -1,0 +1,7 @@
+@forward '../layouts/_main-landing.scss';
+@forward '../components/form.scss';
+
+header,footer{
+	background: black;
+	color: white;
+}

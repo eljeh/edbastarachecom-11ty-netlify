@@ -1,0 +1,19 @@
+<header class="header">
+	<div id="banner" class="banner">
+
+		{# <input id="toggle" type="checkbox" class="navToggle">
+		<label for="toggle" class="menuToggle">
+			<span></span><span></span><span></span>
+		</label> #}
+
+		<span class="banner-title">
+			<a href="{{ '/' | url }}">
+				{{ metadata.title }}
+				<small>
+					allThings ed!
+				</small>
+			</a>
+		</span>
+		{% include "components/mainNav.njk" %}
+	</div>
+</header>

@@ -1,0 +1,68 @@
+// '/assests/css/scss/abstracts/_spacers.scss'
+
+// $spacer: 4px !default;
+// $spacer-x: $spacer !default;
+// $spacer-y: $spacer !default;
+$spacer-x: 1.618vw !default;
+$spacer-y: 1vh !default;
+
+$spacers: (0: (x: 0,
+    y: 0),
+  sm: (x: ($spacer-x),
+    y: ($spacer-y)),
+  md: (x: ($spacer-x * 2),
+    y: ($spacer-y * 2)),
+  lg: (x: ($spacer-x * 4),
+    y: ($spacer-y * 4)),
+  xl: (x: ($spacer-x * 6),
+    y: ($spacer-y * 6)),
+  xxl: (x: ($spacer-x * 8),
+    y: ($spacer-y * 8))) !default;
+
+@each $prop,
+$abbrev in (margin: m, padding: p) {
+
+  @each $size,
+  $lengths in $spacers {
+    $length-x: map-get($lengths, x);
+    $length-y: map-get($lengths, y);
+
+    .#{$abbrev}-#{$size} {
+      #{$prop}: $length-y $length-x;
+    }
+
+    .#{$abbrev}t-#{$size} {
+      #{$prop}-top: $length-y;
+    }
+
+    .#{$abbrev}r-#{$size} {
+      #{$prop}-right: $length-x;
+    }
+
+    .#{$abbrev}b-#{$size} {
+      #{$prop}-bottom: $length-y;
+    }
+
+    .#{$abbrev}l-#{$size} {
+      #{$prop}-left: $length-x;
+    }
+
+    .#{$abbrev}x-#{$size} {
+      #{$prop}-right: $length-x;
+      #{$prop}-left: $length-x;
+    }
+
+    .#{$abbrev}y-#{$size} {
+      #{$prop}-top: $length-y;
+      #{$prop}-bottom: $length-y;
+    }
+  }
+}
+
+.d-flex {
+  display: flex;
+
+  &.fw-wrap {
+    flex-wrap: wrap;
+  }
+}

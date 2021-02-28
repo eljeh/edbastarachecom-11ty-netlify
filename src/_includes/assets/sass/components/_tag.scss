@@ -1,0 +1,27 @@
+a[rel="tag"],
+a[rel="tag"]:visited {
+	display: inline-block;
+  vertical-align: text-top;
+  text-transform: uppercase;
+	letter-spacing: .1em;
+  font-size: .625em;
+  padding: 0 .5em;
+	line-height: 2em;
+	height: 2em;
+  border: 1px solid black;
+	background-color: white;
+	color: black;
+  border-radius: .25em;
+  text-decoration: none;
+	margin: 0 .5em .5em 0;
+}
+
+a[rel="tag"]:hover {
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+}
+
+a[rel="tag"]:last-child {
+	margin-right: 0;
+}

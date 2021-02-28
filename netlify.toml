@@ -1,0 +1,48 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[context.production]
+  environment = { NODE_VERSION = "10.15.3", NODE_ENV = "production" }
+
+[dev]
+  command = "npm run start"
+  publish = "dist"
+  port = 3000
+  targetPort = 8181
+  NODE_ENV = "development"
+
+# Using the `.toml` version of this config file as plugins don't seem to work with the .yml style.
+[[plugins]]
+  package = "/plugins/sass"
+
+
+
+# REDIRECT and HEADERS examples
+
+# Redirect rule example
+# For more information see:- https://www.netlify.com/docs/netlify-toml-reference/
+
+#[[redirects]]
+#  from = "/*"
+#  to = "/blog/:splat"
+
+# The default HTTP status code is 301, but you can define a different one e.g.
+# status = 302
+
+# Headers rule example
+# For more information see:- https://www.netlify.com/docs/netlify-toml-reference/
+
+#[[headers]]
+#   Define which paths this specific [[headers]] block will cover.
+#   for = "/*"
+
+#[headers.values]
+#   X-Frame-Options = "DENY"
+#   X-XSS-Protection = "1; mode=block"
+#   Content-Security-Policy = "frame-ancestors https://www.facebook.com"
+
+# Redirects and headers are GLOBAL for all builds – they do not get scoped to
+# contexts no matter where you define them in the file.
+# For context-specific rules, use _headers or _redirects files, which are
+# applied on a PER-DEPLOY basis.
