@@ -1,0 +1,94 @@
+main {
+  min-height: 70vh;
+  margin: -0.4vh 0;
+}
+main::before, main::after {
+  position: absolute;
+  left: 0vw;
+  right: 0vw;
+  height: 11px;
+  content: "";
+  background-image: var(--headerWaveImage);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  transform: scaleX(-1);
+}
+@media screen and (min-width: 1080px) {
+  main::before, main::after {
+    height: 3.1vh;
+  }
+}
+main::after {
+  height: 50px;
+  margin-top: -3.2vh;
+  transform: scaleY(-1);
+}
+main > section.p-lg {
+  padding-top: 12vh;
+  padding-bottom: 15vh;
+}
+main > section.colored {
+  background-color: var(--pageBGColor);
+}
+main > section.colored::before, main > section.colored::after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100px;
+  content: "";
+  background-image: var(--coloredWaveImage);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  transform: scaleY(-1);
+}
+@media screen and (min-width: 1080px) {
+  main > section.colored::before {
+    margin-top: -11vh;
+  }
+}
+main > section.colored::after {
+  margin-top: 4vh;
+  transform: scaleY(1);
+  transform: scaleX(-1);
+}
+
+form {
+  display: grid;
+  padding: 2em 4em;
+}
+
+form label span {
+  display: inline-block;
+  transform: translate(10px, 10px);
+  background: white;
+  padding: 0 0.5em;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 1em;
+  margin-bottom: 1em;
+  font-size: 1rem;
+  font-family: "Avenir", "Avenir Next", sans-serif;
+}
+
+input,
+textarea {
+  border: 1px solid black;
+}
+
+button {
+  border: 1px solid var(--primary);
+  background-color: var(--primary);
+  color: var(--secondary);
+  cursor: pointer;
+}
+
+header, footer {
+  background: black;
+  color: white;
+}
