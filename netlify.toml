@@ -13,7 +13,7 @@
   NODE_ENV = "development"
 
 # Using the `.toml` version of this config file as plugins don't seem to work with the .yml style.
-[[plugins]]
+#[[plugins]]
 # package = "/plugins/sass"
 
 
