@@ -16,8 +16,6 @@
 #[[plugins]]
 #  package = "/plugins/sass"
 
-
-
 # REDIRECT and HEADERS examples
 
 # Redirect rule example
