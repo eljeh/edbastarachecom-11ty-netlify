@@ -1,6 +1,6 @@
 a[rel="tag"],
 a[rel="tag"]:visited {
-	display: inline-block;
+	display: inline;
   vertical-align: text-top;
   text-transform: uppercase;
 	letter-spacing: .1em;
@@ -8,8 +8,8 @@ a[rel="tag"]:visited {
   padding: 0 .5em;
 	line-height: 2em;
 	height: 2em;
-  border: 1px solid black;
-	background-color: white;
+  border: 1px solid var(--pageAccentColor, black);
+	background-color: transparent;
 	color: black;
   border-radius: .25em;
   text-decoration: none;
@@ -17,8 +17,8 @@ a[rel="tag"]:visited {
 }
 
 a[rel="tag"]:hover {
-	border: 1px solid black;
-	background-color: black;
+	border: 1px solid var(--pageAccentColor, black);
+	background-color: var(--pageAccentColor, black);
 	color: white;
 }
 

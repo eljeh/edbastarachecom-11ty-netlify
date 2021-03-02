@@ -6,24 +6,55 @@
 $spacer-x: 1.618vw !default;
 $spacer-y: 1vh !default;
 
-$spacers: (0: (x: 0,
-    y: 0),
-  sm: (x: ($spacer-x),
-    y: ($spacer-y)),
-  md: (x: ($spacer-x * 2),
-    y: ($spacer-y * 2)),
-  lg: (x: ($spacer-x * 4),
-    y: ($spacer-y * 4)),
-  xl: (x: ($spacer-x * 6),
-    y: ($spacer-y * 6)),
-  xxl: (x: ($spacer-x * 8),
-    y: ($spacer-y * 8))) !default;
+$spacers: (
+  0: (
+    x: 0,
+    y: 0,
+  ),
+  sm: (
+    x: (
+      $spacer-x,
+    ),
+    y: (
+      $spacer-y,
+    ),
+  ),
+  md: (
+    x: (
+      $spacer-x * 2,
+    ),
+    y: (
+      $spacer-y * 2,
+    ),
+  ),
+  lg: (
+    x: (
+      $spacer-x * 4,
+    ),
+    y: (
+      $spacer-y * 4,
+    ),
+  ),
+  xl: (
+    x: (
+      $spacer-x * 6,
+    ),
+    y: (
+      $spacer-y * 6,
+    ),
+  ),
+  xxl: (
+    x: (
+      $spacer-x * 8,
+    ),
+    y: (
+      $spacer-y * 8,
+    ),
+  ),
+) !default;
 
-@each $prop,
-$abbrev in (margin: m, padding: p) {
-
-  @each $size,
-  $lengths in $spacers {
+@each $prop, $abbrev in (margin: m, padding: p) {
+  @each $size, $lengths in $spacers {
     $length-x: map-get($lengths, x);
     $length-y: map-get($lengths, y);
 
@@ -58,7 +89,10 @@ $abbrev in (margin: m, padding: p) {
     }
   }
 }
-
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
 .d-flex {
   display: flex;
 

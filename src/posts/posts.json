@@ -4,5 +4,7 @@
   "author": "Anonymous",
   "tags": [
     "post"
-  ]
+  ],
+  "ancestors": "../../",
+  "pagestyle": "pages/article.css"
 }

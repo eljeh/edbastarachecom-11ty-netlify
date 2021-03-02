@@ -1,5 +1,5 @@
 <!doctype html>
-<html  data-current="Post" lang="en">
+<html  lang="en">
 	<head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -11,7 +11,7 @@
 
 	<!-- Site Content -->  
   <title>This is the third example post which has a slightly longer title than the others | edbastarache.com - allThings ed!</title>
-  <meta name="description" content="A template for building a simple blog website with the Eleventy static site generator, Netlify CMS, and with deployment to Netlify.">
+  <meta name="description" content="A template for building a simple article website with the Eleventy static site generator, Netlify CMS, and with deployment to Netlify.">
   <link name="keywords" content=""> 
 
   <!-- theme -->
@@ -25,7 +25,7 @@
   
   <!-- Google / Search Engine -->
   <meta itemprop="name" content="This is the third example post which has a slightly longer title than the others | edbastarache.com - allThings ed!">
-  <meta itemprop="description" content="A template for building a simple blog website with the Eleventy static site generator, Netlify CMS, and with deployment to Netlify.">
+  <meta itemprop="description" content="A template for building a simple article website with the Eleventy static site generator, Netlify CMS, and with deployment to Netlify.">
   <meta itemprop="image" content="/uploads/images/me.png">
   <meta name="publisher" content="Ed Bastarache">
   <meta name="google" content="notranslate">
@@ -33,7 +33,7 @@
   <!-- Open Graph / Facebook -->
   <meta property="og:url" content="http://edbastarache.com">
   <meta property="og:title" content="This is the third example post which has a slightly longer title than the others | edbastarache.com - allThings ed!"">
-  <meta property="og:description" content="A template for building a simple blog website with the Eleventy static site generator, Netlify CMS, and with deployment to Netlify.">
+  <meta property="og:description" content="A template for building a simple article website with the Eleventy static site generator, Netlify CMS, and with deployment to Netlify.">
   <meta property="og:image" content="/uploads/images/me.png">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_CA">
@@ -42,7 +42,7 @@
   <!-- Twitter -->
   <meta name="twitter:url" content="https://edbastarache.com">
   <meta name="twitter:title" content="This is the third example post which has a slightly longer title than the others | edbastarache.com - allThings ed!"">
-  <meta name="twitter:description" content="A template for building a simple blog website with the Eleventy static site generator, Netlify CMS, and with deployment to Netlify.">
+  <meta name="twitter:description" content="A template for building a simple article website with the Eleventy static site generator, Netlify CMS, and with deployment to Netlify.">
   <meta name="twitter:image:src" content="/uploads/images/me.png">
   
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -50,19 +50,15 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
    
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <link rel="stylesheet" href="../../assets/styles/root-styles.css">
+    <link rel="stylesheet" href="../../assets/styles/pages/article.css">
   
-  
-  
-  <link rel="stylesheet" href="../assets/styles/root-styles.css">
-  <link rel="stylesheet" href="../assets/styles/">
+
 </head>
 
 	<body>
 		<header class="header p-md">
 	<div id="banner" class="banner">
-
-		
-
 		<span class="banner-title">
 			<a href="/">
 				edbastarache.com
@@ -75,17 +71,17 @@
   
   <ul aria-label="Main Menu" role="menu" class="navList">
     <li role="menuitem" class="navItem">
-      <a href="/">
+      <a href="/"  class=" animated">
         Home
       </a>
     </li>
     <li role="menuitem" class="navItem">
-      <a href="/articles/">
+      <a href="/articles/"  class=" animated">
         Articles
       </a>
     </li>
     <li role="menuitem" class="navItem">
-      <a href="/about/">
+      <a href="/about/"  class=" animated">
         About
       </a>
     </li>
@@ -95,14 +91,20 @@
 	</div>
 </header>
 
-		<main class="p-md">
+		<main class="content p-lg">
 			<article>
   <h1>This is the third example post which has a slightly longer title than the others</h1>
-  <p>
-    <small>
-      <time datetime="2019-12-31">31 Dec 2019</time> 
-    </small>
-  </p>
+  <div class="article-details">
+    <span><strong>Published:</strong> <time datetime="2019-12-31">Dec 31 2019</time></span>
+    
+    
+    <span>
+      
+          <a href="/tags/tech/" rel="tag">tech</a>
+          <a href="/tags/politics/" rel="tag">politics</a>
+      </span>
+    
+  </div>
   <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
 <pre><code>pre,
 code {
@@ -113,17 +115,8 @@ code {
 <h2 id="section-header">Section Header</h2>
 <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
 
-  
-    <p>
-    
-        <a href="/tags/tech/" rel="tag">tech</a>
-        <a href="/tags/politics/" rel="tag">politics</a>
-    </p>
-  
 </article>
-<nav>
-  <a href="/articles/">← Article list</a>
-</nav>
+<a href="/articles/" class="animated">← Article list</a>
 
 		</main>
 		<footer class="p-md">

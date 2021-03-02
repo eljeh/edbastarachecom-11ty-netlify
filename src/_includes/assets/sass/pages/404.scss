@@ -1,3 +1,25 @@
-header,footer{
-	background: lightslategray;
+:root {
+  --hfBGColor: radial-gradient(
+    farthest-corner at 40px 40px,
+    #f35 0%,
+    #43e 100%
+  );
+  --hfFontColor: hsl(0, 0%, 100%);
+  --pageBGColor: hsl(0, 0%, 100%);
+  --pageFontColor: radial-gradient(
+    farthest-corner at 40px 40px,
+    #f35 0%,
+    #43e 100%
+  );
+  --pageAccentColor: purple;
+}
+
+header,
+footer {
+  background: var(--hfBGColor);
+  color: var(--hfFontColor);
+}
+body {
+  background: var(--pageBGColor);
+  color: var(--pageFontColor);
 }

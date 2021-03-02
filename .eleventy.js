@@ -34,20 +34,15 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLiquidShortcode("image", imageShortcode);
   eleventyConfig.addJavaScriptFunction("image", imageShortcode);
   eleventyConfig.setDataDeepMerge(true);
-  eleventyConfig.addFilter("readableDate", dateObj => { return DateTime.fromJSDate(dateObj).toFormat("dd LLL yyyy"); });
-  eleventyConfig.addFilter("machineDate", dateObj => { return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd"); });
-  eleventyConfig.addFilter("cssmin", function (code) { return new CleanCSS({}).minify(code).styles; });
-  eleventyConfig.addFilter("jsmin", function (code) {
-    let minified = UglifyJS.minify(code);
-    if (minified.error) {
-      console.log("UglifyJS error: ", minified.error);
-      return code;
-    }
-    return minified.code;
+  eleventyConfig.addFilter("showcased", arr => {
+    let showcase = p => p.date.showcased;
+    return arr.filter(showcase);
   });
+  eleventyConfig.addFilter("readableDate", dateObj => { return DateTime.fromJSDate(dateObj).toFormat("LLL dd yyyy"); });
+  eleventyConfig.addFilter("machineDate", dateObj => { return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd"); });
   eleventyConfig.addCollection("authors", collection => {
-    const blogs = collection.getFilteredByGlob("posts/*.md");
-    return blogs.reduce((coll, post) => {
+    const article = collection.getFilteredByGlob("posts/*.md");
+    return article.reduce((coll, post) => {
       const author = post.data.author;
       if (!author) {
         return coll;

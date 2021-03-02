@@ -52,3 +52,9 @@ body {
   background: var(--pageBGColor);
   color: var(--pageFontColor);
 }
+
+.article-details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+}

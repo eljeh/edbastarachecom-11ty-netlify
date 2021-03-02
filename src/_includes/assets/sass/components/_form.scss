@@ -4,7 +4,7 @@ form {
 
 form label span {
   display: inline-block;
-  transform: translate(10px, 10px);
+  transform: translate(0.5em, 0.75em);
   background: white;
   padding: 0 0.5em;
 }
@@ -23,5 +23,7 @@ textarea {
 }
 
 button {
-  cursor: pointer;
+  &:hover {
+    cursor: pointer;
+  }
 }

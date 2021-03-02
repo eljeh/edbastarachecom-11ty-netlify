@@ -12,7 +12,10 @@ permalink: /tags/{{ tag }}/
 layout: layouts/_base.njk
 renderData:
   title: "Tagged “{{ tag }}”"
-  metaDescription: "All posts from the Blog tagged with “{{ tag }}”"
+  metaDescription: "All posts from the article tagged with “{{ tag }}”"
+contentname: Tags
+ancestors: ../../
+pagestyle: pages/articles.css
 ---
 <h1>Tagged “{{ tag }}”</h1>
 {% set postslist = collections[tag] %}
@@ -20,6 +23,4 @@ renderData:
   <h2>Article List</h2>
   {% include "components/postslist.njk" %}
 </section>
-<nav>
-  <a href="{{ '/article/' | url }}">← Article list</a>
-</nav>
+<a href="{{ '/article/' | url }}" class="animated">← Article list</a>

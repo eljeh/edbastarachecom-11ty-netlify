@@ -10,6 +10,9 @@ renderData:
   author: "{{ author }}"
   title: "Posts by {{ author }}"
   metaDescription: "An archive of all posts by the author: {{ author }}."
+contentname: Author
+ancestors: ../../
+pagestyle: pages/articles.css
 ---
 <h1>{{ renderData.title | safe }}</h1>
 <section>
@@ -31,7 +34,7 @@ renderData:
 			{% endif %}
 			<p>
 				<time datetime="{{ post.date | machineDate }}">
-					<small>{{ post.date | readableDate }} by <a href="/authors/{{ post.author | slug }}/">{{ post.author }}</a></small>
+					{{ post.date | readableDate }} by <a href="/authors/{{ post.author | slug }}/">{{ post.author }}</a>
 				</time>
 			</p>
 			{% if post.tags %}
@@ -46,7 +49,5 @@ renderData:
 			{% endif %}
 		</article>
 	{% endfor %}
-  <nav>
-    <a href="{{ '/authors/' | url }}">← Authors index</a>
-  </nav>
+	<a href="{{ '/authors/' | url }}" class="animated">← Authors index</a>
 </section>

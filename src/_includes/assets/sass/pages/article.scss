@@ -1,5 +1,4 @@
-@forward '../components/designThinking.scss';
-@forward '../components/form.scss';
+@forward '../components/tag';
 :root {
   --hfBGColor: radial-gradient(
     farthest-corner at 40px 40px,
@@ -24,4 +23,10 @@ footer {
 body {
   background: var(--pageBGColor);
   color: var(--pageFontColor);
+}
+
+.article-details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
 }

@@ -1,26 +1,22 @@
 ---
 layout: layouts/_base.njk
-contentname: Post
 ---
 <article>
   <h1>{{ title }}</h1>
-  <p>
-    <small>
-      <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> 
-    </small>
-  </p>
+  <div class="article-details">
+    <span><strong>Published:</strong> <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time></span>
+    {# <strong>Updated:</strong> <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate}}</time>  #}
+    {% if tags %}
+    <span>
+      {% for tag in tags %}
+        {%- if tag != "post" -%}
+          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+          <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+        {%- endif -%}
+      {% endfor %}
+      </span>
+    {% endif %}
+  </div>
   {{ layoutContent | safe }}
-  {% if tags %}
-    <p>
-    {% for tag in tags %}
-      {%- if tag != "post" -%}
-        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-        <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-      {%- endif -%}
-    {% endfor %}
-    </p>
-  {% endif %}
 </article>
-<nav>
-  <a href="{{ '/articles/' | url }}">← Article list</a>
-</nav>
+<a href="{{ '/articles/' | url }}" class="animated">← Article list</a>

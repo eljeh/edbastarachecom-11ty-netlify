@@ -8,14 +8,14 @@
   // Font size
   --fs-default: calc(6.63vw + 1rem);
 
-  --fs-base: calc(var(--fs-default) / calc(1.618 * 1.25));
+  --fs-base: calc(var(--fs-default) / calc(1.618 * 1.5));
   --fs-1: calc(var(--fs-default) / calc(1.618 * 0));
   --fs-50: calc(var(--fs-default) / calc(1.618 * 0.5));
   --fs-100: calc(var(--fs-default) / calc(1.618 * 1));
   --fs-150: calc(var(--fs-default) / calc(1.618 * 1.5));
   --fs-200: calc(var(--fs-default) / calc(1.618 * 2));
   @media screen and (min-width: 414px) {
-    --fs-base: calc(var(--fs-default) / calc(1.618 * 2.25));
+    --fs-base: calc(var(--fs-default) / calc(1.618 * 2.5));
   }
     
   @media screen and (min-width: 1080px) {
@@ -38,11 +38,7 @@
 
 //#426099
 
-  --coloredWaveImage: //url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 1440 20' %3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23f3f3f3;%7D%0A%3C/style%3E%3Cpath class='st0' d='M1440,12c0,0-274.5-7-411.7-8.1C857,2.6,685.6,6.8,514.3,9.6c-73.6,1.2-147.3,2.2-214.1,2.9 c-88.7,1-165.4,1.6-214.3,2L0.2,15.1V0H1440V12z'/%3E%3C/svg%3E");
-  --headerWaveImage: //url("data:image/svg+xml, %3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 1440 20'%3E%3Cpath d='M1440,12c0,0-274.5-7-411.7-8.1C857,2.6,685.6,6.8,514.3,9.6c-73.6,1.2-147.3,2.2-214.1,2.9c-88.7,1-165.4,1.6-214.3,2 L0.2,15.1V0H1440V12z' /%3E%3C/svg%3E");
-
-  //z-index
-
+//z-index
   --z-header: 0;
   --z-banner: 2;
   --z-menuToggle: 4;

@@ -1,11 +1,14 @@
 ---
 title: Authors
-metaDescription: This page lists all of the Blog's authors.
+metaDescription: This page lists all of the article's authors.
 layout: layouts/_base.njk
 pagination:
   data: collections.authors
   size: Infinity
 permalink: "authors/index.html"
+contentname: Authors
+ancestors: ../../
+pagestyle: pages/articles.css
 ---
 <h1>{{ title }}</h1>
 <section>
@@ -16,7 +19,5 @@ permalink: "authors/index.html"
       </h3>
     </article>
   {% endfor %}
-  <nav>
-    <a href="{{ '/article/' | url }}">← Blog index</a>
-  </nav>
+  <a href="{{ '/article/' | url }}" class="animated">← Article List</a>
 </section>

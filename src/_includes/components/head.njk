@@ -48,15 +48,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
    
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  {# {% set css %}
-    {% include "assets/css/inline.css" %}
-  {% endset %}
-  <style>{{ css | cssmin | safe }}</style> #}
-  {# {% set js %}
-    {% include "assets/scripts/inline.js" %}
-  {% endset %}
-  <script>{{ js | jsmin | safe }}</script> #}
-  {# <link rel="stylesheet" href=".assets/styles/inline.css"> #}
-  <link rel="stylesheet" href="../assets/styles/root-styles.css">
-  <link rel="stylesheet" href="../assets/styles/{{pagestyle}}">
+  <link rel="stylesheet" href="{{ancestors}}assets/styles/root-styles.css">
+  {%- if pagestyle  %}
+    <link rel="stylesheet" href="{{ancestors}}assets/styles/{{pagestyle}}">
+  {% endif %}
+
 </head>

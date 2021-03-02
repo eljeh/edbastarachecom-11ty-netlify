@@ -4,7 +4,7 @@ form {
 
 form label span {
   display: inline-block;
-  transform: translate(10px, 10px);
+  transform: translate(0.5em, 0.75em);
   background: white;
   padding: 0 0.5em;
 }
@@ -22,10 +22,29 @@ textarea {
   border: 1px solid black;
 }
 
-button {
+button:hover {
   cursor: pointer;
 }
 
-header, footer {
-  background: lightskyblue;
+:root {
+  --hfBGColor: radial-gradient(
+    farthest-corner at 40px 40px,
+    hsl(350, 100%, 60%) 0%,
+    hsl(245, 85%, 57%) 100%
+  );
+  --hfFontColor: hsl(0, 0%, 100%);
+  --pageBGColor: hsl(0, 0%, 100%);
+  --pageFontColor: hsl(0, 0%, 0%);
+  --pageAccentColor: hsl(300, 100%, 25%);
+}
+
+header,
+footer {
+  background: var(--hfBGColor);
+  color: var(--hfFontColor);
+}
+
+body {
+  background: var(--pageBGColor);
+  color: var(--pageFontColor);
 }
