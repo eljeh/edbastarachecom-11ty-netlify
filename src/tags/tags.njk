@@ -19,7 +19,7 @@ pagestyle: pages/articles.css
 ---
 <h1>Tagged “{{ tag }}”</h1>
 {% set postslist = collections[tag] %}
-<section>
+<section class="content">
   <h2>Article List</h2>
   {% include "components/postslist.njk" %}
 </section>

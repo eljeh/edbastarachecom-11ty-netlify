@@ -9,6 +9,7 @@
 				{% endif %}
 			</a>
 		</h3>
+		<span>Readed time {{ post | readingTime }}</span>
 		{% if post.data.summary %}
 			<p>
 				{{ post.data.summary }}
@@ -16,7 +17,7 @@
 		{% endif %}
 		<p>
 			<time datetime="{{ post.date | machineDate }}">
-				{{ post.date | readableDate }} by <a href="/authors/{{ post.data.author | slug }}/">{{ post.data.author }}</a>
+				{{ post.date | readableDate }}
 			</time>
 		</p>
 		{% if post.data.tags %}

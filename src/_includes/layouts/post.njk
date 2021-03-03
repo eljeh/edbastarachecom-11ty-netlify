@@ -17,6 +17,10 @@ layout: layouts/_base.njk
       </span>
     {% endif %}
   </div>
-  {{ layoutContent | safe }}
+
+  <section class="content">
+    {{ layoutContent | safe }}
+  </section>
+  
 </article>
 <a href="{{ '/articles/' | url }}" class="animated">← Article list</a>

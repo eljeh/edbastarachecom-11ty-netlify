@@ -3,6 +3,7 @@ const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-es");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const Image = require("@11ty/eleventy-img");
+const readingTime = require('eleventy-plugin-reading-time');
 
 async function imageShortcode(src, alt, sizes, cls = '') {
   let metadata = await Image(src, {
@@ -30,14 +31,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("_admin");
   eleventyConfig.addPassthroughCopy("src/includes/assets/");
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
+  eleventyConfig.addPlugin(readingTime);
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
   eleventyConfig.addLiquidShortcode("image", imageShortcode);
   eleventyConfig.addJavaScriptFunction("image", imageShortcode);
   eleventyConfig.setDataDeepMerge(true);
-  eleventyConfig.addFilter("showcased", arr => {
-    let showcase = p => p.date.showcased;
-    return arr.filter(showcase);
-  });
+  eleventyConfig.addFilter("showcased", arr => { let showcase = p => p.date.showcased; return arr.filter(showcase); });
   eleventyConfig.addFilter("readableDate", dateObj => { return DateTime.fromJSDate(dateObj).toFormat("LLL dd yyyy"); });
   eleventyConfig.addFilter("machineDate", dateObj => { return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd"); });
   eleventyConfig.addCollection("authors", collection => {
