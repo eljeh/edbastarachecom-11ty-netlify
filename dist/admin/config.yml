@@ -14,6 +14,7 @@ collections:
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Meta Description', name: 'metaDescription', widget: 'text' }
       - { label: 'Summary', name: 'summary', widget: 'text' }
       - { label: 'Tags', name: 'tags', widget: 'list', default: ['post'] }
       - { label: 'Body', name: 'body', widget: 'markdown' }
@@ -26,10 +27,8 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Permalink', name: 'permalink', widget: 'string' }
-      - label: 'Navigation' # https://www.11ty.dev/docs/plugins/navigation/
-        name: 'eleventyNavigation'
-        widget: 'object'
-        fields:
+      - { label: 'Navigation', name: 'eleventyNavigation', widget: 'object',fields:
           - { label: 'Key', name: 'key', widget: 'string' }
           - { label: 'Order', name: 'order', widget: 'number', default: 0 }
+          }
       - { label: 'Body', name: 'body', widget: 'markdown' }
