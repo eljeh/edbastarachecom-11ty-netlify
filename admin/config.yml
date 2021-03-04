@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
-media_folder: 'src/img' #Live image Uploads
+media_folder: 'images' #Live image Uploads
 #public_folder: '/_uploads/images' #prebuild image Uploads
 
 collections:
