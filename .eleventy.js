@@ -28,8 +28,7 @@ async function imageShortcode(src, alt, sizes, cls = '') {
 module.exports = function (eleventyConfig) {
 
   eleventyConfig.addWatchTarget("src/_includes/assets/sass/");
-  eleventyConfig.addPassthroughCopy("_admin");
-  eleventyConfig.addPassthroughCopy("_uploads");
+  eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("src/includes/assets/");
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(readingTime);
