@@ -19,16 +19,16 @@ collections:
       - { label: 'Tags', name: 'tags', widget: 'list', default: ['post'] }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   # Our pages e.g. About
-  - name: 'pages'
-    label: 'Page'
-    folder: 'src/pages'
-    create: false # Change to true to allow editors to create new pages
-    slug: '{{slug}}'
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Permalink', name: 'permalink', widget: 'string' }
-      - { label: 'Navigation', name: 'eleventyNavigation', widget: 'object',fields:
-          - { label: 'Key', name: 'key', widget: 'string' }
-          - { label: 'Order', name: 'order', widget: 'number', default: 0 }
-          }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+  #- name: 'pages'
+  #  label: 'Page'
+  #  folder: 'src/pages'
+  #  create: false # Change to true to allow editors to create new pages
+  #  slug: '{{slug}}'
+  #  fields:
+  #    - { label: 'Title', name: 'title', widget: 'string' }
+  #    - { label: 'Permalink', name: 'permalink', widget: 'string' }
+  #    - { label: 'Navigation', name: 'eleventyNavigation', widget: 'object',fields:
+  #        - { label: 'Key', name: 'key', widget: 'string' }
+  #        - { label: 'Order', name: 'order', widget: 'number', default: 0 }
+  #        }
+  #    - { label: 'Body', name: 'body', widget: 'markdown' }
