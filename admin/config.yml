@@ -14,14 +14,8 @@ collections:
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{pageTitle}}'
     fields:
-      - {
-          label: 'Layout',
-          name: 'layout',
-          widget: 'hidden',
-          default: 'pages/post.njk',
-        }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'pages/post.njk'}
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Meta Description', name: 'metaDescription', widget: 'text' }
       - { label: 'Summary', name: 'summary', widget: 'text' }
       - { label: 'Tags', name: 'tags', widget: 'list', default: ['post'] }
       - { label: 'Body', name: 'body', widget: 'markdown' }
