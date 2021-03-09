@@ -19,25 +19,24 @@
     "name": "Ed Bastarache",
     "url": "https://edbastarache.com/"
   },
-  "devDependencies": {
+  "dependencies": {
     "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy-img": "^0.8.0",
+    "autoprefixer": "^9.8.6",
+    "cross-env": "^7.0.2",
+    "cssnano": "^4.1.10",
+    "eleventy-plugin-reading-time": "0.0.1",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^8.3.1",
+    "sass": "^1.32.8",
+    "uglify-es": "^3.3.9",
     "luxon": "^1.25.0",
     "markdown-it": "^10.0.0",
     "markdown-it-anchor": "^5.3.0"
   },
-  "dependencies": {
-    "@11ty/eleventy-img": "^0.8.0",
+  "devDependencies": {
     "@11ty/eleventy-navigation": "^0.1.6",
-    "autoprefixer": "^9.8.6",
-    "clean-css": "^4.2.1",
-    "cssnano": "^4.1.10",
-    "eleventy-plugin-reading-time": "0.0.1",
-    "html-minifier": "^4.0.0",
-    "node-sass": "^4.13.1",
-    "npm-run-all": "^4.1.5",
-    "postcss": "^8.2.6",
-    "postcss-cli": "^8.3.1",
-    "sass": "^1.32.8",
-    "uglify-es": "^3.3.9"
+    "@11ty/eleventy-plugin-rss": "^1.1.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6"
   }
 }
