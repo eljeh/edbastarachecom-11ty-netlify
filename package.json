@@ -11,7 +11,7 @@
     "debug": "DEBUG=* npx eleventy",
     "build:sass": "sass  --no-source-map src/_includes/assets/sass:dist/assets/styles",
     "build:eleventy": "eleventy",
-    "postbuild": "postcss _dist/assets/styles/*.css -u autoprefixer -r",
+    "postbuild": "postcss _dist/assets/styles/*.css -u autoprefixer cssnano -r --no-map",
     "build": "npm-run-all build:sass build:eleventy",
     "start": "npm-run-all build:sass --parallel watch:*"
   },
