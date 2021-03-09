@@ -1,39 +1,56 @@
 :root {
-  --ff-header: "Lato", sans-serif;
-  --ff-body: "Raleway", sans-serif;
+  --ff-header: Lato, sans-serif;
+  --ff-body: Raleway, sans-serif;
   --fs-default: calc(6.63vw + 1rem);
   --fs-base: calc(var(--fs-default) / calc(1.618 * 1.5));
-  --fs-1: calc(var(--fs-default) / calc(1.618 * 0));
+  --fs-1: var(--fs-default);
   --fs-50: calc(var(--fs-default) / calc(1.618 * 0.5));
   --fs-100: calc(var(--fs-default) / calc(1.618 * 1));
   --fs-150: calc(var(--fs-default) / calc(1.618 * 1.5));
   --fs-200: calc(var(--fs-default) / calc(1.618 * 2));
+  --fs-250: calc(var(--fs-default) / calc(1.618 * 2.5));
   --fw-extralight: 100;
   --fw-light: 300;
   --fw-normal: 400;
   --fw-bold: 700;
   --fw-extraBold: 900;
-  --headerBGColor: hsl(0, 0%, 100%);
-  --pageBGColor: hsl(0, 0%, 95%);
-  --primaryBGColor: hsl(0, 0%, 100%);
-  --primaryFontColor: hsl(0, 0%, 0%);
-  --primaryAlphaColor: hsla(39, 100%, 50%, 0.5);
+  --cl-header-bg: white;
+  --cl-header-ft: black;
+  --cl-body-bg: white;
+  --cl-body-ft: black;
+  --cl-form-bg: white;
+  --cl-form-ft: black;
+  --cl-form-br: black;
+  --cl-input-bg: white;
+  --cl-input-ft: black;
+  --cl-input-br: black;
+  --cl-tag-bg: transparent;
+  --cl-tag-ft: black;
+  --cl-tag-br: black;
+  --cl-tag-bg-hover: black;
+  --cl-tag-ft-hover: white;
+  --cl-tag-br-hover: black;
+  --cl-card-bg: transparent;
+  --cl-card-ft: black;
+  --cl-card-br: black;
+  --cl-card-sh: rgba(0, 0, 0, 0.15);
+  --cl-card-sh-hover: rgba(0, 0, 0, 0.11);
   --z-header: 0;
-  --z-banner: 2;
-  --z-menuToggle: 4;
-  --z-mainNav: 3;
-  --z-bannerTitle: 3;
+  --z-banner: 20;
+  --z-menuToggle: 40;
+  --z-mainNav: 30;
+  --z-bannerTitle: 30;
   --z-main: 0;
   --z-footer: 0;
 }
-@media screen and (min-width: 414px) {
-  :root {
-    --fs-base: calc(var(--fs-default) / calc(1.618 * 2.5));
-  }
-}
-@media screen and (min-width: 1080px) {
+@media (min-width: 1080px) {
   :root {
     --fs-default: calc(3.63vw + 1rem);
+  }
+}
+@media (min-width: 414px) {
+  :root {
+    --fs-base: calc(var(--fs-default) / calc(1.618 * 2.5));
   }
 }
 
@@ -409,6 +426,33 @@
   flex-wrap: wrap;
 }
 
+.row-wrap.w-3 > * {
+  min-width: 360px;
+}
+
+.align-center {
+  align-self: center;
+}
+
+.column {
+  flex-direction: column;
+}
+.column-r {
+  flex-direction: column-reverse;
+}
+
+.row {
+  flex-direction: row;
+}
+.row-r {
+  flex-direction: row-reverse;
+}
+
+.items-center {
+  display: grid;
+  place-items: center;
+}
+
 *,
 *::before,
 *::after {
@@ -510,29 +554,26 @@ h4,
 h5,
 h6 {
   font-family: var(--ff-header);
+  font-weight: var(--fw-bold);
   line-height: 1.2;
 }
 
 h1 {
   font-size: var(--fs-100);
-  font-weight: var(--fw-bold);
 }
 
 h2 {
   font-size: var(--fs-150);
-  font-weight: var(--fw-bold);
 }
 
 h3 {
   font-size: var(--fs-200);
-  font-weight: var(--fw-bold);
 }
 
 h4,
 h5,
 h6 {
-  font-size: var(--fs-base);
-  font-weight: var(--fw-bold);
+  font-size: var(--fs-250);
 }
 
 .banner-title {
@@ -553,10 +594,10 @@ nav .navList .navItem .fas {
   font-size: 1.5em;
 }
 footer > nav .navList .navItem {
-  font-size: var(--fs-1);
+  font-size: var(--fs-200);
 }
 footer > nav .navList .navItem .fab {
-  font-size: var(--fs-50);
+  font-size: var(--fs-1);
 }
 @media screen and (min-width: 1080px) {
   nav .navList .navItem {
@@ -566,16 +607,20 @@ footer > nav .navList .navItem .fab {
     font-size: 1.5em;
   }
   footer > nav .navList .navItem {
-    font-size: var(--fs-1);
-  }
-  footer > nav .navList .navItem .fab {
-    font-size: calc(var(--fs-50) / 2);
+    font-size: var(--fs-150);
   }
 }
 
 .banner {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (min-width: 1080px) {
+  .banner {
+    flex-direction: row;
+  }
 }
 
 nav[aria-label="Main Navigation"] {
@@ -603,26 +648,112 @@ nav[aria-label="Main Navigation"] ul li .active::before {
   transform: scaleX(1);
 }
 
-footer {
-  text-align: center;
+header {
+  background: var(--header-bg-c);
+  color: var(--header-ft-c);
 }
-footer .navItem {
+
+nav[aria-label="Social Navigation"] {
+  align-self: center;
+}
+nav[aria-label="Social Navigation"] ul li {
   display: inline-block;
   margin: 0 0.25vw;
 }
-footer .navItem a {
+nav[aria-label="Social Navigation"] ul li a {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
-footer .navItem a .text {
+nav[aria-label="Social Navigation"] ul li a .text {
   visibility: hidden;
 }
-footer .navItem a:hover .text {
+nav[aria-label="Social Navigation"] ul li a:hover .text {
   visibility: visible;
 }
 
+footer {
+  background: var(--header-bg-c);
+  color: var(--header-ft-c);
+}
+
 main {
-  min-height: 70vh;
+  min-height: 66vh;
   max-width: 96ch;
   margin: -0.4vh auto;
+}
+
+.showCase-Card {
+  padding: 2vh 1.618em;
+  margin-bottom: 4vh;
+  width: calc(100vw - 5.284vw);
+  position: relative;
+  background-color: white;
+  border-radius: 0.618vw;
+  border: 1px solid var(--cl-card-sh, #00000021);
+  box-shadow: 3px 3px 7px 4px var(--cl-card-sh, #00000021);
+  overflow: hidden;
+  z-index: 0;
+  transition: all 0.25s ease-out 0.25ms;
+}
+@media screen and (min-width: 1080px) {
+  .showCase-Card {
+    width: calc(33vw - 5.284vw);
+  }
+}
+.showCase-Card:hover {
+  transform: scale(1.125);
+  border: 1px solid var(--cl-card-sh-hover, #00000011);
+  box-shadow: 0px -3px 11px 4px var(--cl-card-sh-hover, #00000011);
+  cursor: pointer;
+  z-index: 1;
+}
+.showCase-Card:hover img {
+  transform: scale(1.125);
+}
+.showCase-Card picture {
+  display: flex;
+  min-width: 100%;
+  min-height: calc(calc(33vw - 5.284vw) * 0.318);
+  max-height: 36vh;
+  overflow: hidden;
+  margin: 0 auto;
+  justify-items: center;
+  align-items: center;
+  margin: -4vh -8vh 0;
+  transition: all 0.25s ease-out 0.25ms;
+}
+.showCase-Card picture img {
+  max-width: 100%;
+  height: auto;
+  transition: all 0.3s ease-in-out 0.25ms;
+}
+.showCase-Card .card-header {
+  display: flex;
+  padding: 2vh 0;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.showCase-Card .card-header .card-title {
+  flex: 3;
+  font-size: 1.25em;
+}
+.showCase-Card .card-header .card-title .date {
+  display: block;
+  font-size: 0.5em;
+  color: #aaa;
+}
+.showCase-Card .card-header .tag-list {
+  padding-inline-start: 0;
+  flex: 1;
+  text-align: right;
+}
+.showCase-Card .card-header .tag-list .tag-item {
+  display: inline-block;
+}
+.showCase-Card .card-header .tag-list .tag-item .text {
+  display: none;
+}
+.showCase-Card .card-header .tag-list .tag-item i {
+  font-size: calc(var(--fs-default) / calc(1.618 * 2));
 }

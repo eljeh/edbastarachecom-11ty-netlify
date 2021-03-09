@@ -1,8 +1,9 @@
 backend:
   name: git-gateway
   branch: master # Branch to update
-media_folder: 'dist/uploads/images' #Live image Uploads
-public_folder: '/uploads/images' #prebuild image Uploads
+  publish_mode: editorial_workflow
+media_folder: 'dist/img/uploads' #Live image Uploads
+#public_folder: '/uploads/images' #prebuild image Uploads
 slug:
   encoding: 'ascii'
   clean_accents: true

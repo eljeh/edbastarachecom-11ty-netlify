@@ -3,8 +3,6 @@
 body {
   font-family: var(--ff-body);
   font-size: var(--fs-base);
-  //font-size: var(--fs-default);
-
   line-height: 1.618;
 }
 
@@ -15,29 +13,26 @@ h4,
 h5,
 h6 {
   font-family: var(--ff-header);
+  font-weight: var(--fw-bold);
   line-height: 1.2;
 }
 
 h1 {
   font-size: var(--fs-100);
-  font-weight: var(--fw-bold);
 }
 
 h2 {
   font-size: var(--fs-150);
-  font-weight: var(--fw-bold);
 }
 
 h3 {
   font-size: var(--fs-200);
-  font-weight: var(--fw-bold);
 }
 
 h4,
 h5,
 h6 {
-  font-size: var(--fs-base);
-  font-weight: var(--fw-bold);
+  font-size: var(--fs-250);
 }
 
 .banner-title {
@@ -57,9 +52,9 @@ nav .navList .navItem {
     font-size: 1.5em;
   }
   footer > & {
-    font-size: var(--fs-1);
+    font-size: var(--fs-200);
     .fab {
-      font-size: var(--fs-50);
+      font-size: var(--fs-1);
     }
   }
   @media screen and (min-width: 1080px) {
@@ -68,38 +63,7 @@ nav .navList .navItem {
       font-size: 1.5em;
     }
     footer > & {
-      font-size: var(--fs-1);
-      .fab {
-        font-size: calc(var(--fs-50) / 2);
-      }
+      font-size: var(--fs-150);
     }
   }
 }
-
-// @media screen and (min-width: 1080px) {
-//   body {
-//     font-size: var(--fs-base);
-//   }
-
-//   h1 {
-//     font-size: var(--fs-100);
-//     font-weight: var(--fw-bold);
-//   }
-
-//   h2 {
-//     font-size: var(--fs-150);
-//     font-weight: var(--fw-bold);
-//   }
-
-//   h3 {
-//     font-size: var(--fs-200);
-//     font-weight: var(--fw-bold);
-//   }
-
-//   h4,
-//   h5,
-//   h6 {
-//     font-size: var(--fs-base);
-//     font-weight: var(--fw-bold);
-//   }
-// }

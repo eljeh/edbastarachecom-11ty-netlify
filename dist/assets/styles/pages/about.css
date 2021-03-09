@@ -5,7 +5,7 @@ form {
 form label span {
   display: inline-block;
   transform: translate(0.5em, 0.75em);
-  background: white;
+  background: var(--cl-form-bg);
   padding: 0 0.5em;
 }
 
@@ -19,32 +19,9 @@ button {
 
 input,
 textarea {
-  border: 1px solid black;
+  border: 1px solid var(--cl-form-br);
 }
 
 button:hover {
   cursor: pointer;
-}
-
-:root {
-  --hfBGColor: radial-gradient(
-    farthest-corner at 40px 40px,
-    hsl(350, 100%, 60%) 0%,
-    hsl(245, 85%, 57%) 100%
-  );
-  --hfFontColor: hsl(0, 0%, 100%);
-  --pageBGColor: hsl(0, 0%, 100%);
-  --pageFontColor: hsl(0, 0%, 0%);
-  --pageAccentColor: hsl(300, 100%, 25%);
-}
-
-header,
-footer {
-  background: var(--hfBGColor);
-  color: var(--hfFontColor);
-}
-
-body {
-  background: var(--pageBGColor);
-  color: var(--pageFontColor);
 }

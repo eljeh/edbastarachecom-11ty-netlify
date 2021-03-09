@@ -13,7 +13,7 @@ pagestyle: pages/about.css
 
 # About me
 
-{% image "./src/_includes/assets/images/NoImage.jpg", "No Image Found" , "200", 'mx-auto'%}
+{% image "./src/img/NoImage.jpg", "No Image Found" , "200", 'mx-auto'%}
 
 ## My services
 

@@ -1,22 +1,6 @@
+@forward '../components/socialNav';
+
 footer {
-  text-align: center;
-  .navItem {
-    display: inline-block;
-    margin: 0 0.25vw;
-
-    a {
-      display: flex;
-      flex-direction: column;
-
-      .text {
-        visibility: hidden;
-      }
-
-      &:hover {
-        .text {
-          visibility: visible;
-        }
-      }
-    }
-  }
+  background: var(--header-bg-c);
+  color: var(--header-ft-c);
 }

@@ -1,0 +1,21 @@
+// Font family
+$ff-lato: 'Lato', sans-serif;
+$ff-raleway: 'Raleway', sans-serif;
+
+// Font size
+$fs-default-m: calc(6.63vw + 1rem);
+$fs-default-d: calc(3.63vw + 1rem); //55.204px
+
+$fs-1: var(--fs-default);
+$fs-50: calc(var(--fs-default) / calc(1.618 * 0.5)); //0.809
+$fs-100: calc(var(--fs-default) / calc(1.618 * 1)); //1.1618
+$fs-150: calc(var(--fs-default) / calc(1.618 * 1.5)); //2.427 <--base mobile
+$fs-200: calc(var(--fs-default) / calc(1.618 * 2)); //3.236
+$fs-250: calc(var(--fs-default) / calc(1.618 * 2.5)); //4.045  <--base desktop
+
+//Font wight
+$extralight: 100;
+$light: 300;
+$normal: 400;
+$bold: 700;
+$extraBold: 900;

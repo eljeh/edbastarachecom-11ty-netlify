@@ -1,60 +1,31 @@
+.article-details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+}
+
 a[rel=tag],
 a[rel=tag]:visited {
-  display: inline;
-  vertical-align: text-top;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 0.625em;
   padding: 0 0.5em;
   line-height: 2em;
   height: 2em;
-  border: 1px solid var(--pageAccentColor, black);
-  background-color: transparent;
-  color: black;
+  border: 1px solid var(--cl-tag-br, black);
+  background-color: var(--cl-tag-bg);
+  color: var(--cl-tag-br);
   border-radius: 0.25em;
   text-decoration: none;
   margin: 0 0.5em 0.5em 0;
 }
 
 a[rel=tag]:hover {
-  border: 1px solid var(--pageAccentColor, black);
-  background-color: var(--pageAccentColor, black);
-  color: white;
+  border: 1px solid var(--cl-tag-br-hover, black);
+  background-color: var(--cl-tag-bg-hover, black);
+  color: var(--cl-tag-ft-hover, black);
 }
 
 a[rel=tag]:last-child {
   margin-right: 0;
-}
-
-:root {
-  --hfBGColor: radial-gradient(
-    farthest-corner at 40px 40px,
-    #f35 0%,
-    #43e 100%
-  );
-  --hfFontColor: hsl(0, 0%, 100%);
-  --pageBGColor: hsl(0, 0%, 100%);
-  --pageFontColor: radial-gradient(
-    farthest-corner at 40px 40px,
-    #f35 0%,
-    #43e 100%
-  );
-  --pageAccentColor: purple;
-}
-
-header,
-footer {
-  background: var(--hfBGColor);
-  color: var(--hfFontColor);
-}
-
-body {
-  background: var(--pageBGColor);
-  color: var(--pageFontColor);
-}
-
-.article-details {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap-reverse;
 }

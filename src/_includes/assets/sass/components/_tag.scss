@@ -1,27 +1,25 @@
-a[rel="tag"],
-a[rel="tag"]:visited {
-	display: inline;
-  vertical-align: text-top;
+a[rel='tag'],
+a[rel='tag']:visited {
   text-transform: uppercase;
-	letter-spacing: .1em;
-  font-size: .625em;
-  padding: 0 .5em;
-	line-height: 2em;
-	height: 2em;
-  border: 1px solid var(--pageAccentColor, black);
-	background-color: transparent;
-	color: black;
-  border-radius: .25em;
+  letter-spacing: 0.1em;
+  font-size: 0.625em;
+  padding: 0 0.5em;
+  line-height: 2em;
+  height: 2em;
+  border: 1px solid var(--cl-tag-br, black);
+  background-color: var(--cl-tag-bg);
+  color: var(--cl-tag-br);
+  border-radius: 0.25em;
   text-decoration: none;
-	margin: 0 .5em .5em 0;
+  margin: 0 0.5em 0.5em 0;
 }
 
-a[rel="tag"]:hover {
-	border: 1px solid var(--pageAccentColor, black);
-	background-color: var(--pageAccentColor, black);
-	color: white;
+a[rel='tag']:hover {
+  border: 1px solid var(--cl-tag-br-hover, black);
+  background-color: var(--cl-tag-bg-hover, black);
+  color: var(--cl-tag-ft-hover, black);
 }
 
-a[rel="tag"]:last-child {
-	margin-right: 0;
+a[rel='tag']:last-child {
+  margin-right: 0;
 }

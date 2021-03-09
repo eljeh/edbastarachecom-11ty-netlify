@@ -4,14 +4,12 @@ const UglifyJS = require("uglify-es");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const Image = require("@11ty/eleventy-img");
 const readingTime = require('eleventy-plugin-reading-time');
-
 async function imageShortcode(src, alt, sizes, cls = '') {
   let metadata = await Image(src, {
     widths: [300, 600],
     formats: ["avif", "webp", "jpeg"],
     outputDir: "./dist/img",
   });
-
   let imageAttributes = {
     alt,
     sizes,
@@ -19,7 +17,6 @@ async function imageShortcode(src, alt, sizes, cls = '') {
     loading: "lazy",
     decoding: "async",
   };
-
   return Image.generateHTML(metadata, imageAttributes, {
     whitespaceMode: "inline"
   });
@@ -30,6 +27,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("src/_includes/assets/sass/");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("src/includes/assets/");
+  eleventyConfig.addPassthroughCopy("src/img/");
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(readingTime);
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
@@ -66,7 +64,7 @@ module.exports = function (eleventyConfig) {
     passthroughFileCopy: true,
     dir: {
       input: "src",
-      output: "dist"
-    }
+      output: "dist",
+    },
   };
 };

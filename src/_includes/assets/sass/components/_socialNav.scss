@@ -1,0 +1,23 @@
+nav[aria-label='Social Navigation'] {
+  align-self: center;
+  ul {
+    li {
+      display: inline-block;
+      margin: 0 0.25vw;
+      a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .text {
+          visibility: hidden;
+        }
+
+        &:hover {
+          .text {
+            visibility: visible;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,27 +1,12 @@
 @forward '../components/designThinking.scss';
 @forward '../components/form.scss';
-:root {
-  --hfBGColor: radial-gradient(
-    farthest-corner at 40px 40px,
-    #f35 0%,
-    #43e 100%
-  );
-  --hfFontColor: hsl(0, 0%, 100%);
-  --pageBGColor: hsl(0, 0%, 100%);
-  --pageFontColor: radial-gradient(
-    farthest-corner at 40px 40px,
-    #f35 0%,
-    #43e 100%
-  );
-  --pageAccentColor: purple;
-}
 
 header,
 footer {
-  background: var(--hfBGColor);
-  color: var(--hfFontColor);
+  background: var(--header-bg-c);
+  color: var(--header-ft-c);
 }
 body {
-  background: var(--pageBGColor);
-  color: var(--pageFontColor);
+  background: var(--body-bg-c);
+  color: var(--body-ft-c);
 }
