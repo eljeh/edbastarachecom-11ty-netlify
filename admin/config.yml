@@ -26,7 +26,6 @@ collections:
       - { label: 'Hero Image', name: 'heroImage', widget: 'image' }
       - { label: 'Date', name: 'date', widget: 'date', default: '' }
       - { label: 'Post Body', name: 'body', widget: 'markdown' }
-      - { label: 'Tags', name: 'tags', widget: 'list', default: ['post'] }
       - {
           label: 'Article Type',
           name: 'articleType',
