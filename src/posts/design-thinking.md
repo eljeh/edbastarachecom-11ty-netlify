@@ -1,8 +1,12 @@
 ---
 title: Design Thinking
-summary: Why contemplating our mortality can be a powerful catalyst for change
+description: Why contemplating our mortality can be a powerful catalyst for change
+heroImage:
+date:
+articleType:
 tags:
   - UX
+showcase:
 ---
 
 ## User center design that is a non-linear process

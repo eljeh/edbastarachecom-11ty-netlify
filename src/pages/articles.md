@@ -1,7 +1,7 @@
 ---
 layout: layouts/articles.njk
 title: Articles
-metaDescription: A sample article page listing various posts and authors.
+description: A sample article page listing various posts and authors.
 permalink: /articles/index.html
 eleventyNavigation:
   key: Articles

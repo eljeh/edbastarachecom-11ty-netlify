@@ -1,10 +1,11 @@
 {
   "layout": "layouts/post.njk",
   "permalink": "posts/{{ title | slug }}/index.html",
-  "author": "Anonymous",
+  "articleType": "articleType",
   "tags": [
     "post"
   ],
+  "showcase" : false,
   "ancestors": "../../",
   "pagestyle": "pages/article.css"
 }

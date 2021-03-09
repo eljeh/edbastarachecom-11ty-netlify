@@ -1,9 +1,12 @@
 ---
 title: Laws of UX
-metaDescription: This section will include some important UX laws & theory
-summary: This section will include some important UX laws & theory
+description: This section will include some important UX laws & theory
+heroImage:
+date:
+articleType:
 tags:
   - UX
+showcase:
 ---
 
 <article>
