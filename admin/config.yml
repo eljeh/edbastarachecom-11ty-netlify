@@ -1,6 +1,3 @@
 backend:
   name: git-gateway
   branch: master # Branch to update
-  publish_mode: editorial_workflow
-media_folder: 'dist/img/uploads' #Live image Uploads
-#public_folder: '/uploads/images' #prebuild image Uploads
