@@ -21,15 +21,5 @@ collections:
       - { label: 'Hero Image', name: 'heroImage', widget: 'image' }
       - { label: 'Date', name: 'date', widget: 'date', default: '' }
       - { label: 'Post Body', name: 'body', widget: 'markdown' }
-      - { label: 'Article Type', name: 'articleType', widget: 'select', options:
-            [
-              '3dprinting',
-              'designsystem',
-              'homeautomation',
-              'photography',
-              'portfolio',
-              'tips',
-              'ux',
-            ],
-        } #Adds Article type tag
-      - { label: 'Showcase', name: 'showcase', widget: 'boolean', default: false, } #Set Article to Showcase
+      #- { label: 'Article Type', name: 'articleType', widget: 'select', options:['3dprinting','designsystem','homeautomation','photography','portfolio','tips','ux',],} #Adds Article type tag
+      #- { label: 'Showcase', name: 'showcase', widget: 'boolean', default: false, } #Set Article to Showcase
