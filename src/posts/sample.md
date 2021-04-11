@@ -1,12 +1,10 @@
 ---
-title: The fifth and hopefully final example post
+title: Sample Post
 description: Why contemplating our mortality can be a powerful catalyst for change
 heroImage:
 date:
 articleType:
-tags:
-  - environment
-  - sport
+tags: []
 showcase:
 ---
 

@@ -1,8 +1,27 @@
 ---
 layout: layouts/_base.njk
 ---
+<div class="text-center">
+	<h1 class="page-title">UX/UI Design, Frontend<br>Developing & Consultanting</h1>
+	<span>Giving Life to the Idea</span>
+</div>
 
 {{ layoutContent | safe }}
 
-{% include "components/contactForm.njk" %}
+<section class="content">
+	<h2 class="section-title text-center">Design Thinking</h2>
+	{% include "components/designThinking.njk" %}
+</section>
+<section class="content">
+	<h2 class="section-title text-center">UX Laws & Theory</h2>
+	{% include "components/ux-laws-theory.njk" %}
+</section>
+{# <section class="content">
+	<h2>Contact Me</h2>
+	{% include "components/showCaseCard.njk" %}
+</section> #}
+<section class="content">
+	<h2 class="section-title text-center">Contact Me</h2>
+	{% include "components/contactForm.njk" %}
+</section>
 

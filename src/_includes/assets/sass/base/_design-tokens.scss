@@ -1,0 +1,95 @@
+@use '../abstracts/' as *;
+:root {
+  // Font Family
+  --ff-header: #{$ff-lato};
+  --ff-body: #{$ff-raleway};
+
+  // Line Height
+  --lh-body: #{$lh-mobile};
+  @include media-desktop {
+    --lh-body: #{$lh-desktop};
+  }
+
+  //
+  --fs-root: 24px;
+  @include media-desktop {
+    --fs-root: 38px;
+  }
+  --fs-default: calc(1.618vw + 2rem);
+
+  --fs-50: #{$fs-50}; //    m:56.0374px  |  d:78.7289px
+  --fs-75: #{$fs-75}; //    m:37.3583px  |  d:52.4859px
+  --fs-100: #{$fs-100}; //  m:28.0187px  |  d:39.3644px
+  --fs-112: #{$fs-112}; //  m:24.9055px  |  d:34.9906px
+  --fs-125: #{$fs-125}; //  m:22.415px   |  d:31.4915px
+  --fs-150: #{$fs-150}; //  m:18.6791px  |  d:26.243px
+  --fs-175: #{$fs-175}; //  m:16.0107px  |  d:22.494px
+  --fs-200: #{$fs-200}; //  m:14.0093px  |  d:19.6822px
+  --fs-250: #{$fs-250}; //  m:11.2075px  |  d:15.7458px
+  --fs-300: #{$fs-300}; //  m:9.33956px  |  d:13.1215px
+  --fs-350: #{$fs-350}; //  m:8.00534px  |  d:11.247px
+  --fs-400: #{$fs-400}; //  m:7.00467px  |  d:9.84111px
+
+  --fs-base: #{$fs-200}; //         m:16.0107px
+  --page-title: #{$fs-75}; //       m:56.0374px
+  --section-title: #{$fs-112}; //   m:24.9055px
+  --article-title: #{$fs-150}; //   m:22.415px
+  --heading: #{$fs-200}; //         m:18.6791px
+
+  @include media-desktop {
+    --fs-base: #{$fs-350}; //       d:15.7458px
+    --page-title: #{$fs-100}; //    d:39.3644px
+    --section-title: #{$fs-150}; // d:26.243px
+    --article-title: #{$fs-200}; // d:19.6822px
+    --heading: #{$fs-250}; //       d:15.7458px
+  }
+
+  // Font Weight
+  --fw-extralight: #{$extralight};
+  --fw-light: #{$light};
+  --fw-normal: #{$normal};
+  --fw-bold: #{$bold};
+  --fw-extraBold: #{$extraBold};
+
+  // Colours
+  @each $color, $shade in $colors {
+    @each $prop, $value in $shade {
+      --clr-#{$color}-#{$prop}: #{$value};
+    }
+  }
+
+  // Assigned Colours
+  --cl-header-bg: #{$white};
+  --cl-header-ft: #{$black};
+  --cl-body-bg: #{$white};
+  --cl-body-ft: #{$black};
+
+  --cl-form-bg: #{$white};
+  --cl-form-ft: #{$black};
+  --cl-form-br: #{$black};
+  --cl-input-bg: #{$white};
+  --cl-input-ft: #{$black};
+  --cl-input-br: #{$black};
+
+  --cl-tag-bg: transparent;
+  --cl-tag-ft: #{$black};
+  --cl-tag-br: #{$black};
+  --cl-tag-bg-hover: #{$black};
+  --cl-tag-ft-hover: #{$white};
+  --cl-tag-br-hover: #{$black};
+
+  --cl-card-bg: transparent;
+  --cl-card-ft: #{$black};
+  --cl-card-br: #{$black};
+  --cl-card-sh: #{$black-a15};
+  --cl-card-sh-hover: #{$black-a11};
+
+  //z-index
+  --z-header: 0;
+  --z-banner: 20;
+  --z-menuToggle: 40;
+  --z-mainNav: 30;
+  --z-bannerTitle: 30;
+  --z-main: 0;
+  --z-footer: 0;
+}

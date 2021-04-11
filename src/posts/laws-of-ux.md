@@ -4,9 +4,19 @@ description: This section will include some important UX laws & theory
 heroImage:
 date:
 articleType:
-tags:
-  - UX
-showcase:
+tags: [
+	'post',
+	#'3d printing',
+  'User Experience',
+	'User Interface',
+	#'Design',
+	#'Portfolio',
+	#'Home Automation',
+  #'Photography',
+  #'Tips & Tricks',
+	#'Showcase',
+	#'featured'
+	]
 ---
 
 <article>

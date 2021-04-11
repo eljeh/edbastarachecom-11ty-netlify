@@ -4,9 +4,19 @@ description: Why contemplating our mortality can be a powerful catalyst for chan
 heroImage:
 date:
 articleType:
-tags:
-  - UX
-showcase:
+tags: [
+	'post',
+	#'3d printing',
+  'User Experience',
+	'User Interface',
+	#'Design',
+	#'Portfolio',
+	#'Home Automation',
+  #'Photography',
+  #'Tips & Tricks',
+	#'Showcase',
+	#'featured'
+	]
 ---
 
 ## User center design that is a non-linear process

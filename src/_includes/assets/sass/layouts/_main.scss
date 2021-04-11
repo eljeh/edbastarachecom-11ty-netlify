@@ -1,5 +1,10 @@
+@use '../abstracts/' as *;
 main {
   min-height: 66vh;
   max-width: 96ch;
   margin: -0.4vh auto;
+  padding: 4vh 6.472vw; 
+  @include media-desktop {
+    padding: 4vh 0; 
+  }
 }

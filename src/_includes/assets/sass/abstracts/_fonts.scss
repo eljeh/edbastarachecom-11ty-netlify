@@ -2,16 +2,43 @@
 $ff-lato: 'Lato', sans-serif;
 $ff-raleway: 'Raleway', sans-serif;
 
-// Font size
-$fs-default-m: calc(6.63vw + 1rem);
-$fs-default-d: calc(3.63vw + 1rem); //55.204px
+// Line Height
+$lh-mobile: 1.4em;
+$lh-desktop: 1.4em;
 
-$fs-1: var(--fs-default);
-$fs-50: calc(var(--fs-default) / calc(1.618 * 0.5)); //0.809
-$fs-100: calc(var(--fs-default) / calc(1.618 * 1)); //1.1618
-$fs-150: calc(var(--fs-default) / calc(1.618 * 1.5)); //2.427 <--base mobile
-$fs-200: calc(var(--fs-default) / calc(1.618 * 2)); //3.236
-$fs-250: calc(var(--fs-default) / calc(1.618 * 2.5)); //4.045  <--base desktop
+// Font size
+$fs-50: calc(
+  var(--fs-default) / calc(1.618 * 0.5)
+); //    0.809 | m:56.0374px d:78.7289px
+$fs-75: calc(
+  var(--fs-default) / calc(1.618 * 0.75)
+); //   1.213 | m:37.3583px  d:52.4859px
+$fs-100: calc(
+  var(--fs-default) / calc(1.618 * 1)
+); //     1.618 | m:28.0187px  d:39.3644px
+$fs-112: calc(
+  var(--fs-default) / calc(1.618 * 1.125)
+); // 1.820 | m:24.9055px d:34.9906px
+$fs-125: calc(
+  var(--fs-default) / calc(1.618 * 1.25)
+); //  2.022 | m:22.415px  d:31.4915px
+$fs-150: calc(
+  var(--fs-default) / calc(1.618 * 1.5)
+); //   2.427 | m:18.6791px  d:26.243px
+$fs-175: calc(
+  var(--fs-default) / calc(1.618 * 1.75)
+); //  2.831 | m:16.0107px  d:22.494px
+$fs-200: calc(
+  var(--fs-default) / calc(1.618 * 2)
+); // 3.236 | m:14.0093px  d:19.6822px
+$fs-250: calc(
+  var(--fs-default) / calc(1.618 * 2.5)
+); //   4.045 | m:11.2075px d:15.7458px
+$fs-300: calc(
+  var(--fs-default) / calc(1.618 * 3)
+); //     4.854 | m:9.33956px  d:13.1215px
+$fs-350: calc(var(--fs-default) / calc(1.618 * 3.5)); //  m:8.00534px d:11.247px
+$fs-400: calc(var(--fs-default) / calc(1.618 * 4)); //  m:7.00467px d:9.84111px
 
 //Font wight
 $extralight: 100;

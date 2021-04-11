@@ -1,4 +1,6 @@
-@use '../abstracts/visuals' as *;
+@use 'visuals' as *;
+@use 'breakpoints' as *;
+
 @mixin media-phone {
   @media (min-width: $mobile) {
     @content;
@@ -9,3 +11,5 @@
     @content;
   }
 }
+
+
