@@ -1,0 +1,34 @@
+@media screen and (max-width: 768px) {
+  #designthinking-svg {
+    width: 100%;
+    height: 117vw;
+  }
+
+  #Expathize {
+    transform: translate(180px, -394px) scale(2);
+  }
+
+  #Define {
+    transform: translate(-46px, -240px) scale(2);
+  }
+
+  #Ideate {
+    transform: translate(-276px, -95px) scale(2);
+  }
+
+  #Prototype {
+    transform: translate(-504px, 49px) scale(2);
+  }
+
+  #Test {
+    transform: translate(-726px, 188px) scale(2);
+  }
+
+  #Top-arrows {
+    transform: translate(458px, -270px) rotate(90deg) scale(1.3);
+  }
+
+  #bottom-arrows {
+    transform: translate(343px, -270px) rotate(90deg) scale(1.3);
+  }
+}

@@ -1,5 +1,13 @@
 {% for post in postslist | reverse %}
 	<article{% if post.url == url %} data-current="current item"{% endif %}>
+
+
+	{# {% if post.data.heroImage %}
+		<img src="{{post.data.heroImage | url}}" loading="lazy" width="100%" height="auto" alt="">
+		{% image '{{post.data.heroImage | url}}' 'A sample inlined image' '600' 'mx-auto' %}
+	{% endif %} #}
+
+
 		<h3 class="heading">
 			<a href="{{ post.url | url }}">
 				{% if post.data.title %}

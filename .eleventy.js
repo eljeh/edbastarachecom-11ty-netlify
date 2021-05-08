@@ -1,7 +1,8 @@
 const { DateTime } = require("luxon");
-const CleanCSS = require("clean-css");
+
 const UglifyJS = require("uglify-es");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const svgContents = require("eleventy-plugin-svg-contents");
 const Image = require("@11ty/eleventy-img");
 const readingTime = require('eleventy-plugin-reading-time');
 async function imageShortcode(src, alt, sizes, cls = '') {
@@ -23,7 +24,7 @@ async function imageShortcode(src, alt, sizes, cls = '') {
 }
 
 module.exports = function (eleventyConfig) {
-
+  eleventyConfig.addPlugin(svgContents);
   eleventyConfig.addWatchTarget("src/_includes/assets/sass/");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("src/includes/assets/");
