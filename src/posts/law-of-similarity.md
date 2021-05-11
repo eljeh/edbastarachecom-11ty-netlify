@@ -1,7 +1,7 @@
 ---
 title: 'Law of Similarity'
 description: 'The human eye tends to perceive similar elements in a design as a complete picture, shape, or group, even if those elements are separated.'
-heroImage: ../img/NoImage.jpg
+heroImage: ./src/img/NoImage.jpg
 date: 2021-05-08
 tags: [
 	'post',

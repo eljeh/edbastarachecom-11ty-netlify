@@ -5,8 +5,7 @@
 		<a href="{{ post.url | url }}">
 
 			{% if post.data.heroImage %}
-				{# <img src="{{post.data.heroImage | url}}" alt="{{ post.data.title }}" class="" loading="lazy" decoding="async" width="300" height="auto"> #}
-				{% image "./src/img/NoImage.jpg", "No Image Foundas" , "300", ''%}
+				{% image post.data.heroImage, post.data.title , "300", ''%}
 			{% endif %}
 
 			<div>

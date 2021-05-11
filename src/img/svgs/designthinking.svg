@@ -5,6 +5,7 @@
 	text{
 		font-family:'Nanum Pen Script', cursive;
 		font-weight: 600;
+		font-display: swap;
 		font-size:20px;
 		fill:#5E5F5F;
 		}
