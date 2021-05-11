@@ -1,7 +1,7 @@
 ---
 layout: layouts/articles.njk
 title: Articles
-description: A sample article page listing various posts and authors.
+description: 'A sample article page listing various posts and authors.'
 permalink: /articles/index.html
 eleventyNavigation:
   key: Articles
@@ -10,3 +10,4 @@ contentname: Article
 ancestors: ../
 pagestyle: pages/articles.css
 ---
+

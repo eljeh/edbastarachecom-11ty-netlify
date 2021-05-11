@@ -1,7 +1,7 @@
 ---
 title: 'Law of Similarity'
 description: 'The human eye tends to perceive similar elements in a design as a complete picture, shape, or group, even if those elements are separated.'
-heroImage:
+heroImage: ../img/NoImage.jpg
 date: 2021-05-08
 tags: [
 	'post',
@@ -10,10 +10,10 @@ tags: [
 	]
 ---
 
-### OVERVIEW
+## OVERVIEW
 
 The human eye tends to perceive similar elements in a design as a complete picture, shape, or group, even if those elements are separated.
 
-### KEY TAKEAWAYS
+## KEY TAKEAWAYS
 
 Ensure that links and navigation systems are visually differentiated from normal text elements, and are consistently styled.

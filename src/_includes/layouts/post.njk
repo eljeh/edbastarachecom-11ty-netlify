@@ -1,11 +1,11 @@
 ---
 layout: layouts/_base.njk
 ---
-<article>
+<section>
   <h1>{{ title }}</h1>
   <div class="article-details">
     <span><strong>Published:</strong> <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time></span>
-    {# <strong>Updated:</strong> <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate}}</time>  #}
+    {# <strong>Updated:</strong> <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate}}</time> #}
     {% if tags %}
     <span>
       {% for tag in tags %}
@@ -17,10 +17,10 @@ layout: layouts/_base.njk
       </span>
     {% endif %}
   </div>
-
-  <section class="content">
+  <article class="content">
     {{ layoutContent | safe }}
-  </section>
-  
-</article>
-<a href="{{ '/articles/' | url }}" class="animated">← Article list</a>
+  </article>
+  <hr class="my-lg">
+  {% include "components/taglist.njk" %}
+</section>
+

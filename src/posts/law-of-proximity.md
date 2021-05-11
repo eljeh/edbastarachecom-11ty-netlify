@@ -10,10 +10,10 @@ tags: [
 	]
 ---
 
-### OVERVIEW
+## OVERVIEW
 
 Objects that are near, or proximate to each other, tend to be grouped.
 
-### KEY TAKEAWAYS
+## KEY TAKEAWAYS
 
 Proximity helps to establish a relationship with nearby objects. Proximity helps users understand and organize information faster and more efficiently.

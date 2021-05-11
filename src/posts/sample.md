@@ -4,7 +4,7 @@ description: 'Why contemplating our mortality can be a powerful catalyst for cha
 heroImage: ../img/NoImage.jpg
 date: 1982-02-02
 tags: [
-		'post'
+		#'post'
 		#'3d printing',
 		#User Experience',
 		#'User Interface',

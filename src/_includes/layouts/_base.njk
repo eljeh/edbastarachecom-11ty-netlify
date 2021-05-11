@@ -1,7 +1,7 @@
 <!doctype html>
 <html {% if contentname %} data-current="{{ contentname }}"{% endif %} lang="en">
 	{% include "components/head.njk" %}
-	<body>
+	<body class="{{contentname | slug}}-page">
 		{% include "components/header.njk" %}
 		<main class="content">
 			{{ layoutContent | safe }}

@@ -17,10 +17,13 @@ contentname: Tags
 ancestors: ../../
 pagestyle: pages/articles.css
 ---
-<h1>Tagged “{{ tag }}”</h1>
-{% set postslist = collections[tag] %}
-<section class="content">
-  <h2>Article List</h2>
-  {% include "components/postslist.njk" %}
-</section>
-<a href="{{ '/article/' | url }}" class="animated">← Article list</a>
+<section>
+  <h1>Tagged “{{ tag }}”</h1>
+  {% set postslist = collections[tag] %}
+  <article class="content">
+    <h2>Article List</h2>
+    {% include "components/postslist.njk" %}
+  </article>
+  <hr class="my-lg"/>
+  {% include "components/taglist.njk" %}
+</article>

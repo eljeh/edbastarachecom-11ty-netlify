@@ -10,10 +10,10 @@ tags: [
 	]
 ---
 
-### OVERVIEW
+## OVERVIEW
 
 Elements tend to be perceived into groups if they are sharing an area with a clearly defined boundary.
 
-### KEY TAKEAWAYS
+## KEY TAKEAWAYS
 
 Adding a border around an element or group of elements is an easy way to create a common region. Common regions can be created by defining a background behind an element or group of elements.

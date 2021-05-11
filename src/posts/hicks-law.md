@@ -10,10 +10,10 @@ tags: [
 	]
 ---
 
-### OVERVIEW
+## OVERVIEW
 
 The time it takes to make a decision increases with the number and complexity of choices.
 
-### KEY TAKEAWAYS
+## KEY TAKEAWAYS
 
 Simplify choices for the user by breaking down complex tasks into smaller steps. Avoid overwhelming users by highlighting recommended options. Use progressive onboarding to minimize cognitive load for new users.
