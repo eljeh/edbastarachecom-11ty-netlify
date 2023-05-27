@@ -44,7 +44,7 @@ section.hero{
   align-items: center;
   & > .content{
     flex-wrap: wrap-reverse;
-    @container (min-width: 1080px){
+    @container (min-width: 800px){
       flex-wrap: nowrap;
     }
   }
@@ -65,7 +65,7 @@ section.hero{
 
 
 
-  @container (min-width: 1080px){
+  @container (min-width: 800px){
     margin-top: 5em !important;
     margin-right: -12em;
     font-size: 1.25em;
@@ -77,16 +77,17 @@ section.hero{
     line-height: 1.25;
     text-transform: capitalize;
     font-weight: 700;
-    font-size: clamp(1em, 2.5vw, 1.25em);
+    font-size: clamp(0.4em, 2vw, 1.33em);
   }
   .Sub-title{
     font-size: 2.85em;
     text-transform: capitalize;
     line-height: 1em;
     margin-top: -0.25em;
-    @container (min-width: 1080px){
-      font-size: 3em;
+    @container (min-width: 800px){
+        font-size: clamp(2.1em, 4.8vw, 3.2em);
     }
+
   }
   .cta{
     width: fit-content;
