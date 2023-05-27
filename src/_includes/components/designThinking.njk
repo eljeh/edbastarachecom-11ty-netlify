@@ -1,5 +1,7 @@
 <div class="content designThinking1">
-{% image "./src/img/NoImage.jpg", "No Image Found" , "200", 'mx-auto'%}
+
+    {{ "/src/img/svgs/designthinking.svg" | svgContents  | safe }}
+
     <p>A non-linear, human-centered set of cognitive, strategic and practical processes</p>
     <article>
         <h3 class="article-title">Empathize</h3>

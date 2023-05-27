@@ -1,3 +1,5 @@
+@use '../abstracts' as *;
+
 html {
   font-size: var(--fs-root);
 }
@@ -14,6 +16,7 @@ h5,
 h6 {
   font-family: var(--ff-header);
   font-weight: var(--fw-bold);
+  line-height: 1;
 }
 
 // Font sizes
@@ -23,6 +26,7 @@ body {
 
 .page-title {
   font-size: var(--page-title);
+
 }
 
 .section-title {
@@ -35,13 +39,17 @@ body {
 
 .heading {
   font-size: var(--heading);
+  margin-bottom: 0.35em;
 }
 
 .banner-title {
   font-family: var(--ff-header);
-  font-size: var(--fs-112);
+  font-size: var(--fs-150);
   font-weight: var(--fw-bold);
   letter-spacing: -0.06em;
+  @include media-desktop {
+    font-size: var(--fs-112);
+  }
 }
 
 small {
@@ -50,7 +58,7 @@ small {
 }
 
 nav .navList .navItem {
-  font-size: var(--fs-150);
+  font-size: var(--fs-250);
   .fas {
     font-size: 1.5em;
   }

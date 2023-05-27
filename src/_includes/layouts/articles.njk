@@ -1,10 +1,19 @@
 ---
 layout: layouts/_base.njk
 ---
-<h1 class="page-heading">{{ title }}</h1>
-{{ layoutContent | safe }}
-<section class="content">
-<h2>Articel List</h2>
-{% set postslist = collections.post %}
-{% include "components/postslist.njk" %}
+<div class="articles">
+<section class="hero">
+		<div class="hero-copy">
+			<h1 class="page-heading">
+				{{ title }}
+			</h1>
+	</div>
 </section>
+
+	{{ layoutContent | safe }}
+	<section class="content article-list">
+		<h2>Article List</h2>
+		{% set postslist = collections.post %}
+		{% include "components/postslist.njk" %}
+	</section>
+</div>

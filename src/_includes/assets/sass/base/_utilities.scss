@@ -93,9 +93,10 @@ $spacers: (
   margin-right: auto;
 }
 
-.d-flex {
+.flex {
   display: flex;
-
+  justify-content: center;
+  align-items: center;
   &.fw-wrap {
     flex-wrap: wrap;
   }
@@ -162,4 +163,14 @@ a {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
+}
+
+picture {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  img{
+    min-width: 100%
+  }
 }

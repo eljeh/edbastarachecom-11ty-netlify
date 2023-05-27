@@ -1,0 +1,21 @@
+<a href="{{ article.url | url }}" class="article-card">
+	<article  {% if project.url == url %} data-current="current item"{% endif %}>
+		<picture><img src="{{ article.data.heroImage }}"></picture>
+		<div class="article-copy">
+			<h3 class="heading">
+
+					{% if article.data.title %}
+						{{ article.data.title }}
+					{% else %}
+						Untitled
+					{% endif %}
+
+			</h3>
+			{% if article.data.description %}
+				<p>
+					{{ article.data.description }}
+				</p>
+			{% endif %}
+		</div>
+	</article>
+</a>

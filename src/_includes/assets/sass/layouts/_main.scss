@@ -1,10 +1,49 @@
 @use '../abstracts/' as *;
 main {
   min-height: 66vh;
-  max-width: 96ch;
-  margin: -0.4vh auto;
-  padding: 4vh 6.472vw; 
+}
+main>section,
+main>article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4vw 4em;
+  min-height: 32vh;
   @include media-desktop {
-    padding: 4vh 0; 
+    padding-bottom: 10em;
   }
 }
+section>.content,
+article>.content{
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  &.contained{
+    max-width: 118ch;
+  }
+}
+.content.contained{
+  max-width: 118ch;
+}
+
+
+header.scrolled{
+  .banner{
+    margin: 0 3.236vw;
+    overflow: hidden;
+    .banner-title{
+      font-size: 4.5em;
+      margin-top: -0.16em;
+    }
+    .navList .cta{
+      border-radius: 0;
+    }
+  }
+
+}
+
+
+

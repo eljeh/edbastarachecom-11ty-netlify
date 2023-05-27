@@ -1,0 +1,19 @@
+<a href="{{ project.url | url }}" class="project-card" >
+<article {% if project.url == url %} data-current="current item"{% endif %}>
+	<picture><img src="{{project.data.heroImage}}"></picture>
+	<div class="project-copy">
+		<h3 class="heading">
+				{% if project.data.title %}
+					{{ project.data.title }}
+				{% else %}
+					Untitled
+				{% endif %}
+		</h3>
+		{% if project.data.description %}
+			<p>
+				{{ project.data.description }}
+			</p>
+		{% endif %}
+	</div>
+</article>
+</a>

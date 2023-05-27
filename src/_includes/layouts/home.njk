@@ -1,27 +1,123 @@
 ---
 layout: layouts/_base.njk
 ---
-<div class="text-center">
-	<h1 class="page-title">UX/UI Design, Frontend<br>Developing & Consultanting</h1>
-	<span>Giving Life to the Idea</span>
-</div>
+
+<section class="hero">
+	<div class="content contained">
+		<div class="hero-copy">
+			<h1 class="page-title">
+				UX/UI Design, Front-end Development & Consulting Services
+			</h1>
+			<h2 class="Sub-title">
+				Bringing your idea to life
+			</h2>
+			<p class="">
+				As an experienced UX/UI Front-end Developer with a decade of expertise in web design and development delivering brand-aligned, intuitive, and user-friendly experiences with a focus on SEO best practices.
+			</p>
+			<a href="#" class="cta">Lets Chat</a>
+		</div>
+		<picture class="hero-image">
+			<img src="../../img/ed.png" loading="lazy" width="756" height="1134" alt="Developer Photo">
+			<img src="../../img/ed.png" loading="lazy" width="756" height="1134" role="presentation" class="filter-effects">
+		</picture>
+	</div>
+</section>
 
 {{ layoutContent | safe }}
 
-<section class="content">
-	<h2 class="section-title text-center">Design Thinking</h2>
-	{% include "components/designThinking.njk" %}
+<section class="intro">
+	<div class="content contained">
+		<ul class="solution-list" data-col="6">
+			<li class="solution-card">
+					<span class="material-symbols-outlined icon">mindfulness</span>
+					<h2 class="heading">User-Centric Design</h2>
+					<p>
+						Discover user insights, analyze data, create engaging prototypes.
+					</p>
+			</li>
+			<li class="solution-card">
+					<span class="material-symbols-outlined icon">interactive_space</span>
+					<h2 class="heading">Creative Visual Design</h2>
+					<p>
+						Craft captivating experiences with fonts, icons, colors, branding.
+					</p>
+			</li>
+			<li class="solution-card">
+					<span class="material-symbols-outlined icon">touch_app</span>
+					<h2 class="heading">Engaging User Interfaces</h2>
+					<p>
+						Spark excitement & increase conversions with captivating animations, seamless interactions.
+					</p>
+			</li>
+			<li class="solution-card">
+					<span class="material-symbols-outlined icon">devices</span>
+					<h2 class="heading">Responsive Web Design</h2>
+					<p>
+						Create adaptable layouts for enhanced user engagement, online success.
+					</p>
+			</li>
+			<li class="solution-card">
+					<span class="material-symbols-outlined icon">conversion_path</span>
+					<h2 class="heading">Optimizing Conversions</h2>
+					<p>
+						Utilize analytics for improved conversions, website performance, business growth.
+					</p>
+			</li>
+			<li class="solution-card">
+					<span class="material-symbols-outlined icon">campaign</span>
+					<h2 class="heading">Digital Marketing</h2>
+					<p>
+						Boost online visibility and surpass competitors with latest SEO strategies.
+					</p>
+			</li>
+		</ul>
+	</div>
 </section>
-<section class="content">
-	<h2 class="section-title text-center">UX Laws & Theory</h2>
-	{% include "components/ux-laws-theory.njk" %}
+<section class="featured-articles">
+	<div class="content contained column">
+		<h2 class="section-title kabob-title">Featured Articles</h2>
+		{% set articleslist = collections.featuredArticles %}
+		{% include "components/featured-Articleslist.njk" %}
+	</div>
 </section>
-{# <section class="content">
-	<h2>Contact Me</h2>
-	{% include "components/showCaseCard.njk" %}
-</section> #}
-<section class="content">
-	<h2 class="section-title text-center">Contact Me</h2>
-	{% include "components/contactForm.njk" %}
+<section class="projects">
+	<div class="content contained column">
+		<h2 class="section-title kabob-title">Projects</h2>
+		{% set projectslist = collections.featuredProjects %}
+		{% include "components/featured-Projectslist.njk" %}
+	</div>
+</section>
+<section class="contact-services">
+	<div class="content contained column">
+		<div class="flex">
+			<div class="services content">
+				<h2 class="article-title kabob-title">Services</h2>
+				<ul class="service-list">
+					<li>
+						<h3 class="heading">Design and Prototyping</h3>
+						<p>
+							With a focus on user experience to create designs that are not only visually appealing but also intuitive to use, ensuring that your customers can easily find what they are looking for and complete their desired actions. By combining creativity and strategy, I can deliver a design that effectively communicates your message and drive customer engagement.
+						</p>
+					</li>
+					<li>
+						<h3 class="heading">Website Development</h3>
+						<p>
+							Specializing in creating custom websites that not only look beautiful but also have a strong foundation with a focus on scalability, security, and ease of management. I have extensive knowledge of a diverse range of CMS platforms and templating languages, allowing me to deliver high-performance, fast-loading, and responsive websites that are optimized for search engines and user experience.
+						</p>
+					</li>
+					<li>
+						<h3 class="heading">Quality Assurance & Analytics</h3>
+						<p>
+							Understanding that a website's success goes beyond aesthetics. Quality assurance and analytics services, including SEO optimization, accessibility standards, and analytics/tracking will ensure that your website performs at its best, delivering the best experience for your audience. 
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="contact content">
+				<h2 class="article-title kabob-title">Contact Me</h2>
+				{% include "components/contactForm.njk" %}
+			</div>
+		</div>
+	</div>
 </section>
 

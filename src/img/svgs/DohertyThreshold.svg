@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 150 1920 800" style="width:100%; height: auto; padding-top: 0">
+
+  <title>Doherty Threshold</title>
+  <desc>Productivity soars when a computer and its users interact at a pace (400ms) that ensures that neither has to wait on the other.</desc>
+
+  <style type="text/css">
+    .RedactedScript {font-family:RedactedScript-Bold, Redacted Script;font-weight:700}
+    .PenScript {font-family:'Nanum Pen Script', cursive;font-weight:600}
+    .Muli-Bold {font-family:Muli-Bold, Muli;font-weight:700}
+    .Muli {font-family:Muli-Regular, Muli;}
+
+    .font-48{font-size:48px;}
+    .font-43{font-size:43px;}
+    .font-40{font-size:40px;}
+    .font-24{font-size:24px;}
+    .font-20{font-size:20px;}
+    .font-18{font-size:18px;}
+    .font-16{font-size:16px;}
+    .font-14{font-size:14px;}
+
+    .fill-none{fill:none;}
+    .fill-white{fill:#fff;}
+    .fill-9h{fill:hsl(180, 3%, 93%)}
+    .fill-8h{fill:hsl(210, 7%, 94%)}
+    .fill-7h{fill:hsl(210, 5%, 92%)}
+    .fill-6h{fill:hsl(210, 3%, 85%)}
+    .fill-5h{fill:hsl(210, 2%, 84%)}
+		.fill-4h{fill:hsl(220, 3%, 79%);}
+		.fill-2h{fill:hsl(200, 2%, 74%);}
+		.fill-h{fill:hsl(195, 2%, 68%);}
+		.fill-f{fill:hsl(195, 2%, 68%);}
+		.fill-hb{fill:hsl(195, 3%, 53%);}
+		.fill-b{fill:hsl(192, 3%, 63%);}
+		.fill-2b{fill:hsl(192, 3%, 46%);}
+		.fill-4b{fill:hsl(189, 7%, 34%);}
+		.fill-5b{fill:hsl(190, 6%, 40%);}
+		.fill-6b{fill:hsl(185, 7%, 29%);}
+		.fill-7b{fill:hsl(195, 3%, 23%);}
+		.fill-8b{fill:hsl(180, 5%, 9%);}
+		.fill-9b{fill:hsl(180, 50%, 2%);}
+
+    .stroke-white{stroke:#fff;}
+    .stroke-9h{stroke:hsl(180, 3%, 93%)}
+    .stroke-8h{stroke:hsl(210, 7%, 94%)}
+    .stroke-7h{stroke:hsl(210, 5%, 92%)}
+    .stroke-6h{stroke:hsl(210, 3%, 85%)}
+    .stroke-5h{stroke:hsl(210, 2%, 84%)}
+		.stroke-4h{stroke:hsl(220, 3%, 79%);}
+		.stroke-2h{stroke:hsl(200, 2%, 74%);}
+		.stroke-h{stroke:hsl(195, 2%, 68%);}
+		.stroke-f{stroke:hsl(195, 2%, 68%);}
+		.stroke-hb{stroke:hsl(195, 3%, 53%);}
+		.stroke-b{stroke:hsl(192, 3%, 63%);}
+		.stroke-2b{stroke:hsl(192, 3%, 46%);}
+		.stroke-4b{stroke:hsl(189, 7%, 34%);}
+		.stroke-5b{stroke:hsl(190, 6%, 40%);}
+		.stroke-6b{stroke:hsl(185, 7%, 29%);}
+		.stroke-7b{stroke:hsl(195, 3%, 23%);}
+		.stroke-8b{stroke:hsl(180, 5%, 9%);}
+		.stroke-9b{stroke:hsl(180, 50%, 2%);}
+    
+    .stroke-32{stroke-width:32px;}
+    .stroke-24{stroke-width:24px;}
+    .stroke-18{stroke-width:18px;}
+    .stroke-14{stroke-width:14px;}
+    .stroke-8{stroke-width:8px;}
+    .stroke-4{stroke-width:4px;}
+    .stroke-2{stroke-width:2px;}
+    .stroke-none{stroke-width:none;}
+  </style>
+
+
+  <g id="DohertyThreshold" clip-path="url(#clip-DohertyThreshold)">
+    <g id="Doherty_Threshold" data-name="Doherty Threshold">
+
+      <g id="Group_1277" data-name="Group 1277" transform="translate(0 -34.134)">
+        <g transform="translate(484.73 529.134)">
+          <path d="M9,102.627a9,9,0,0,1-9-9V9A9,9,0,0,1,9,0H388.885a9,9,0,0,1,9,9V93.627a9,9,0,0,1-9,9Z" class="fill-7h stroke-2h stroke-4"/>
+          <text transform="translate(189.062 66.289)" class="fill-2h font-58 PenScript">
+            <tspan x="-113.047" y="8">SUBMITTING</tspan>
+          </text>
+        </g>
+
+        <g transform="translate(1054.612 529.353)">
+          <path d="M9,102.629a9,9,0,0,1-9-9V9A9,9,0,0,1,9,0H388.885a9,9,0,0,1,9,9V93.629a9,9,0,0,1-9,9Z" transform="translate(0 0)" class="fill-7h stroke-4b stroke-4"/>
+          <path d="M8,98.789a8,8,0,0,1-8-8V8A8,8,0,0,1,8,0H276.2V98.789Z" transform="translate(1.919 1.919)" class="fill-4h"/>
+          <text transform="translate(188.388 66.647)" class="fill-6b font-58 PenScript">
+            <tspan x="-113.047" y="8">SUBMITTING</tspan>
+          </text>
+        </g>
+
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+---
+layout: layouts/_base.njk
+---
+<article>
+  <h1>{{ title }}</h1>
+  <div class="project-details">
+    {% if tags %}
+    <span>
+      {% for tag in tags %}
+        {%- if tag != "post" -%}
+          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+          <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+        {%- endif -%}
+      {% endfor %}
+      </span>
+    {% endif %}
+  </div>
+
+  <section class="content">
+  image
+    {{ layoutContent | safe }}
+  </section>
+  
+</article>
+<a href="{{ '/projects/' | url }}" class="animated">← Project list</a>

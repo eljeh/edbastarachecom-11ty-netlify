@@ -1,11 +1,18 @@
+@use '../abstracts/' as *;
 form {
-  display: grid;
+  display: block;
+  flex-direction: column;
+  background: var(--clr-form-bg);
+  color: var(--clr-form-ft);
+  @include media-desktop {
+    display: flex;
+  }
 }
 
 form label span {
   display: inline-block;
   transform: translate(0.5em, 0.75em);
-  background: var(--cl-form-bg);
+  background: var(--clr-form-bg);
   padding: 0 0.5em;
 }
 
@@ -19,7 +26,9 @@ button {
 
 input,
 textarea {
-  border: 1px solid var(--cl-form-br);
+  border: 1px solid var(--clr-input-br);
+  background: var(--clr-input-bg);
+  color: var(--clr-input-ft);
 }
 
 button {

@@ -1,3 +1,10 @@
+.article{
+  padding-top: 5em;
+}
+.article,
+.article > .content{
+  flex-direction: column;
+}
 .article-details {
   display: flex;
   justify-content: space-between;

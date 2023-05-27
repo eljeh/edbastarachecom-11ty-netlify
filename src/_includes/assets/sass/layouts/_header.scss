@@ -1,8 +1,12 @@
-@forward '../components/banner';
+ @forward '../components/banner';
 @forward '../components/mainNav';
 
 header {
-  background: var(--header-bg-c);
-  color: var(--header-ft-c);
-  
+  container: header/inline-size;
+  background: var(--clr-header-bg);
+  color: var(--clr-header-ft);
+  position: fixed;
+  width: 100%;
+  z-index: var(--z-header);
+  box-shadow: 0px 2px 9px 0px #03030380;
 }

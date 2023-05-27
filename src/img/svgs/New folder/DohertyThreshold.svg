@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080" style="width:100%; height: auto">
+<defs>
+<style>
+.a{clip-path:url(#b);}
+.b{fill:#fff;}
+.c,.e{fill:#f2f2f2;}
+.c{stroke:#333232;stroke-width:2px;}
+.d{fill:#b3b3b3;}
+.d,.g{font-size:43px;font-family:Muli-Bold, Muli;font-weight:700;}
+.e{stroke:#1a1a1a;stroke-width:4px;}
+.f{fill:#ccc;}
+.g{fill:#1a1a1a;}
+</style>
+<clipPath id="b"><rect width="1920" height="1080"/></clipPath></defs><g id="a" class="a"><rect class="b" width="1920" height="1080"/><rect class="b" width="1920" height="1080"/>
+<g transform="translate(484.73 529.134)">
+	<path class="c" d="M9,102.627a9,9,0,0,1-9-9V9A9,9,0,0,1,9,0H388.885a9,9,0,0,1,9,9V93.627a9,9,0,0,1-9,9Z"/>
+	<text class="d" transform="translate(189.062 66.289)">
+		<tspan x="-113.047" y="0">Submitting</tspan>
+	</text>
+</g>
+<g transform="translate(1054.612 529.353)">
+	<path class="e" d="M9,102.629a9,9,0,0,1-9-9V9A9,9,0,0,1,9,0H388.885a9,9,0,0,1,9,9V93.629a9,9,0,0,1-9,9Z" transform="translate(0 0)"/>
+	<path class="f" d="M8,98.789a8,8,0,0,1-8-8V8A8,8,0,0,1,8,0H276.2V98.789Z" transform="translate(1.919 1.919)"/>
+	<text class="g" transform="translate(188.388 66.647)">
+		<tspan x="-113.047" y="0">Submitting</tspan>
+	</text>
+</g>
+</g>
+</svg>

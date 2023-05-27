@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 150 1920 800" style="width:100%; height: auto; padding-top: 0">
+
+  <title>Aesthetic Usability Effect</title>
+  <desc>Users often perceive aesthetically pleasing design as design that’s more usable.</desc>
+
+  <style type="text/css">
+    .fill-none{fill:none;}
+    .fill-fff{fill:#fff;}
+    .fill-cccccc{fill:#ccc;}
+    .fill-5e5f5f{fill:#5E5F5F;}
+    .fill-f2f2f2{fill:#f2f2f2;}
+    .fill-e6e6e6{fill:#e6e6e6;}
+    .fill-fafafa{fill:#fafafa;}
+    .fill-b3b3b3{fill:#b3b3b3;}
+    .fill-1a1a1a{fill:#1a1a1a;}
+
+    .stroke-fff{stroke:#fff;}
+    .stroke-333232{stroke:#333232;}
+    .stroke-1a1a1a{stroke:#1a1a1a;}
+
+    .stroke-32{stroke-width:32px;}
+    .stroke-24{stroke-width:24px;}
+    .stroke-18{stroke-width:18px;}
+    .stroke-14{stroke-width:14px;}
+    .stroke-4{stroke-width:4px;}
+    .stroke-2{stroke-width:2px;}
+
+    .RedactedScript {font-family:RedactedScript-Bold, Redacted Script;font-weight:700}
+    .PenScript {font-family:'Nanum Pen Script', cursive;font-weight:600}
+    .Muli-Bold {font-family:Muli-Bold, Muli;font-weight:700}
+    .Muli {font-family:Muli-Regular, Muli;}
+
+    .font-43{font-size:43px;}
+    .font-40{font-size:40px;}
+    .font-24{font-size:24px;}
+    .font-20{font-size:20px;}
+    .font-18{font-size:18px;}
+    .font-16{font-size:16px;}
+    .font-14{font-size:14px;}
+
+    .fill-9h{fill:hsl(180, 3%, 93%)}
+    .fill-8h{fill:hsl(210, 7%, 94%)}
+    .fill-7h{fill:hsl(210, 5%, 92%)}
+    .fill-6h{fill:hsl(210, 3%, 85%)}
+    .fill-5h{fill:hsl(210, 2%, 84%)}
+		.fill-4h{fill:hsl(220, 3%, 79%);}
+		.fill-2h{fill:hsl(200, 2%, 74%);}
+		.fill-h{fill:hsl(195, 2%, 68%);}
+		.fill-f{fill:hsl(195, 2%, 68%);}
+		.fill-hb{fill:hsl(195, 3%, 53%);}
+		.fill-b{fill:hsl(192, 3%, 63%);}
+		.fill-2b{fill:hsl(192, 3%, 46%);}
+		.fill-4b{fill:hsl(189, 7%, 34%);}
+		.fill-5b{fill:hsl(190, 6%, 40%);}
+		.fill-6b{fill:hsl(185, 7%, 29%);}
+		.fill-7b{fill:hsl(195, 3%, 23%);}
+		.fill-8b{fill:hsl(180, 5%, 9%);}
+		.fill-9b{fill:hsl(180, 50%, 2%);}
+
+    .stroke-9h{stroke:hsl(180, 3%, 93%)}
+    .stroke-8h{stroke:hsl(210, 7%, 94%)}
+    .stroke-7h{stroke:hsl(210, 5%, 92%)}
+    .stroke-6h{stroke:hsl(210, 3%, 85%)}
+    .stroke-5h{stroke:hsl(210, 2%, 84%)}
+		.stroke-4h{stroke:hsl(220, 3%, 79%);}
+		.stroke-2h{stroke:hsl(200, 2%, 74%);}
+		.stroke-h{stroke:hsl(195, 2%, 68%);}
+		.stroke-f{stroke:hsl(195, 2%, 68%);}
+		.stroke-hb{stroke:hsl(195, 3%, 53%);}
+		.stroke-b{stroke:hsl(192, 3%, 63%);}
+		.stroke-2b{stroke:hsl(192, 3%, 46%);}
+		.stroke-4b{stroke:hsl(189, 7%, 34%);}
+		.stroke-5b{stroke:hsl(190, 6%, 40%);}
+		.stroke-6b{stroke:hsl(185, 7%, 29%);}
+		.stroke-7b{stroke:hsl(195, 3%, 23%);}
+		.stroke-8b{stroke:hsl(180, 5%, 9%);}
+		.stroke-9b{stroke:hsl(180, 50%, 2%);}
+  </style>
+
+  <g id="Aesthetic_Usability_Effect" data-name="Aesthetic Usability Effect">
+    
+    <g transform="translate(189 479.32)">
+
+      <g id="Group_1240" data-name="Group 1240" transform="translate(0)">
+        <rect width="136" height="135" transform="translate(135 -0.32) rotate(90)" class="fill-8h stroke-6b stroke-4"/>
+        <path d="M90.53,0,45.238,78.4,0,0Z" transform="translate(101.576 22.972) rotate(90)" class="fill-6b"/>
+      </g>
+
+      <g transform="translate(308 0) rotate(90)">
+        <rect width="136" height="136" transform="translate(135.68 0) rotate(90)" class="fill-8h stroke-6b stroke-4"/>
+        <path d="M90.53,0,45.238,78.4,0,0Z" transform="translate(102 23.173) rotate(90)" class="fill-6b"/>
+      </g>
+
+      <g transform="translate(344 136) rotate(-90)">
+        <rect width="136" height="136" transform="translate(136.32 0) rotate(90)" class="fill-8h stroke-6b stroke-4"/>
+        <path d="M90.53,0,45.238,78.4,0,0Z" transform="translate(102 22.995) rotate(90)" class="fill-6b"/>
+      </g>
+
+      <g transform="translate(651 136) rotate(180)">
+        <rect width="136" height="136" transform="translate(136 0.32) rotate(90)" class="fill-8h stroke-6b stroke-4"/>
+        <path d="M90.53,0,45.238,78.4,0,0Z" transform="translate(102.109 22.972) rotate(90)" class="fill-6b"/>
+      </g>
+
+      <g transform="translate(685.276 0.873)">
+        <rect width="135.609" height="135.609" transform="translate(135.609) rotate(90)" class="fill-8h stroke-6b stroke-4"/>
+        <ellipse cx="35.5" cy="35" rx="35.5" ry="35" transform="translate(32.885 33.803)" class="fill-6b"/>
+      </g>
+
+    </g>
+
+    <g transform="translate(1197 342.509)">
+      <g transform="translate(0 135)">
+        <rect width="136" height="136" transform="translate(136 0.491) rotate(90)" class="fill-8h stroke-6b stroke-4"/>
+        <path d="M90.53,0,45.238,78.4,0,0Z" transform="translate(102.206 22.972) rotate(90)" class="fill-6b"/>
+      </g>
+      <g transform="translate(272 0) rotate(90)">
+        <rect width="136" height="135" transform="translate(135.491 0) rotate(90)" class="fill-8h stroke-6b stroke-4"/>
+        <path d="M90.53,0,45.238,78.4,0,0Z" transform="translate(101.391 23.157) rotate(90)" class="fill-6b"/>
+      </g>
+      <g transform="translate(136 406) rotate(-90)">
+        <rect width="136" height="135" transform="translate(134.509 0) rotate(90)" class="fill-8h stroke-6b stroke-4"/>
+        <path d="M90.53,0,45.238,78.4,0,0Z" transform="translate(101.391 22.788) rotate(90)" class="fill-6b"/>
+      </g>
+      <g transform="translate(407 271) rotate(180)">
+        <rect width="136" height="135" transform="translate(135 -0.491) rotate(90)" class="fill-8h stroke-6b stroke-4"/>
+        <path d="M90.53,0,45.238,78.4,0,0Z" transform="translate(101.576 22.972) rotate(90)" class="fill-6b"/>
+      </g>
+      <g transform="translate(136 135)">
+        <rect width="136" height="136" transform="translate(136 -0.491) rotate(90)" class="fill-8h stroke-6b stroke-4"/>
+        <circle cx="35.258" cy="35.258" r="35.258" transform="translate(33.604 33.42)" class="fill-6b"/>
+      </g>
+    </g>
+
+  </g>
+
+</svg>

@@ -1,8 +1,15 @@
+@use '../abstracts' as *;
+
 nav[aria-label='Main Navigation'] {
   align-self: center;
+  margin-top: 0.25em;
+  @include media-desktop {
+    margin-top: 1em;
+  }
   ul {
     display: flex;
-    gap: 2em;
+    align-items: center;
+    gap: 5vw;
     li {
       position: relative;
       .active {
@@ -14,11 +21,25 @@ nav[aria-label='Main Navigation'] {
           height: 0.1em;
           bottom: 0;
           left: 0;
-          background-color: var(--hfFontColor, black);
+          background-color: var(--clr-header-cta);
           visibility: visible;
           transform: scaleX(1);
         }
       }
+      .cta{
+        width: fit-content;
+        padding: 0.382em 1em;
+        border-radius: 0.25em;
+        background: var(--clr-header-cta);
+        color: black;
+        font-weight: bold;
+      }
     }
+    @include media-desktop {
+      gap:2em;
+    }
+  }
+  @container (min-width:1080px){
+      margin-top: 0;
   }
 }

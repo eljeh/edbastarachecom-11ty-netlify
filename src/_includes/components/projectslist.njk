@@ -1,0 +1,18 @@
+{% for project in projectslist | reverse %}
+	<article{% if project.url == url %} data-current="current item"{% endif %}>
+		<h3 class="heading">
+			<a href="{{ project.url | url }}">
+				{% if project.data.title %}
+					{{ project.data.title }}
+				{% else %}
+					Untitled
+				{% endif %}
+			</a>
+		</h3>
+		{% if project.data.description %}
+			<p>
+				{{ project.data.description }}
+			</p>
+		{% endif %}
+	</article>
+{% endfor %}

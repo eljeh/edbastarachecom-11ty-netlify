@@ -4,7 +4,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 1vh 3.236vw;
   @include media-desktop {
-    flex-direction: row;
+    margin: 2vh 3.236vw;
+  }
+  @container (min-width:1080px){
+      flex-direction: row;
   }
 }

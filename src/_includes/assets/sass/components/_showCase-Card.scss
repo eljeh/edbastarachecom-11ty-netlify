@@ -7,8 +7,8 @@
   position: relative;
   background-color: white;
   border-radius: 0.618vw;
-  border: 1px solid var(--cl-card-sh, #00000021);
-  box-shadow: 3px 3px 7px 4px var(--cl-card-sh, #00000021);
+  border: 1px solid var(--clr-card-sh, #00000021);
+  box-shadow: 3px 3px 7px 4px var(--clr-card-sh, #00000021);
   overflow: hidden;
   z-index: 0;
   transition: all 0.25s ease-out 0.25ms;
@@ -19,8 +19,8 @@
 
   &:hover {
     transform: scale(1.125);
-    border: 1px solid var(--cl-card-sh-hover, #00000011);
-    box-shadow: 0px -3px 11px 4px var(--cl-card-sh-hover, #00000011);
+    border: 1px solid var(--clr-card-sh-hover, #00000011);
+    box-shadow: 0px -3px 11px 4px var(--clr-card-sh-hover, #00000011);
     cursor: pointer;
     z-index: 1;
     img {

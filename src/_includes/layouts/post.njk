@@ -1,24 +1,33 @@
 ---
 layout: layouts/_base.njk
 ---
-<article>
-  <h1>{{ title }}</h1>
-  <div class="article-details">
-    <span><strong>Published:</strong> <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time></span>
-    {# <strong>Updated:</strong> <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate}}</time>  #}
-    {% if tags %}
-    <span>
-      {% for tag in tags %}
-        {%- if tag != "post" -%}
-          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-          <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-        {%- endif -%}
-      {% endfor %}
-      </span>
-    {% endif %}
+<article class="article">
+
+  <div class="hero">
+    <div class="content contained">
+      <div class="hero-copy">
+        <h1 class="page-title">{{ title }}</h1>
+          <div class="article-details">
+            <span><strong>Published:</strong> <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time></span>
+            {% if tags %}
+            <span>
+              {% for tag in tags %}
+                {%- if tag != "post" -%}
+                  {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+                  <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+                {%- endif -%}
+              {% endfor %}
+              </span>
+            {% endif %}
+          </div>
+      </div>
+      <picture class="hero-image">
+        <img src="{{ heroImage }}" loading="lazy" width="" height="" alt="">
+      </picture>
+    </div>
   </div>
 
-  <section class="content">
+  <section class="content contained">
     {{ layoutContent | safe }}
   </section>
   

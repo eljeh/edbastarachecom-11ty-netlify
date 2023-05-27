@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="842" viewBox="0 0 1920 842" style="width:100%; height: auto">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #fafafa;
+        stroke: #333232;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: #1a1a1a;
+      }
+    </style>
+  </defs>
+  <g id="Group_1281" data-name="Group 1281" transform="translate(0 -125)">
+    <rect id="Rectangle_544" data-name="Rectangle 544" class="cls-1" width="1920" height="842" transform="translate(0 125)"/>
+    <g id="Group_1271" data-name="Group 1271" transform="translate(0 70.135)">
+      <g id="Group_1252" data-name="Group 1252" transform="translate(189 409.184)">
+        <g id="Group_1240" data-name="Group 1240" transform="translate(0)">
+          <rect id="Rectangle_475" data-name="Rectangle 475" class="cls-2" width="136" height="135" transform="translate(135 -0.32) rotate(90)"/>
+          <path id="Path_1108" data-name="Path 1108" class="cls-3" d="M90.53,0,45.238,78.4,0,0Z" transform="translate(101.576 22.972) rotate(90)"/>
+        </g>
+        <g id="Group_1241" data-name="Group 1241" transform="translate(308 0) rotate(90)">
+          <rect id="Rectangle_475-2" data-name="Rectangle 475" class="cls-2" width="136" height="136" transform="translate(135.68 0) rotate(90)"/>
+          <path id="Path_1108-2" data-name="Path 1108" class="cls-3" d="M90.53,0,45.238,78.4,0,0Z" transform="translate(102 23.173) rotate(90)"/>
+        </g>
+        <g id="Group_1242" data-name="Group 1242" transform="translate(344 136) rotate(-90)">
+          <rect id="Rectangle_475-3" data-name="Rectangle 475" class="cls-2" width="136" height="136" transform="translate(136.32 0) rotate(90)"/>
+          <path id="Path_1108-3" data-name="Path 1108" class="cls-3" d="M90.53,0,45.238,78.4,0,0Z" transform="translate(102 22.995) rotate(90)"/>
+        </g>
+        <g id="Group_1243" data-name="Group 1243" transform="translate(651 136) rotate(180)">
+          <rect id="Rectangle_475-4" data-name="Rectangle 475" class="cls-2" width="136" height="136" transform="translate(136 0.32) rotate(90)"/>
+          <path id="Path_1108-4" data-name="Path 1108" class="cls-3" d="M90.53,0,45.238,78.4,0,0Z" transform="translate(102.109 22.972) rotate(90)"/>
+        </g>
+        <g id="Group_1249" data-name="Group 1249" transform="translate(685.276 0.873)">
+          <g id="Group_1248" data-name="Group 1248" transform="translate(135.609 135.609) rotate(180)">
+            <rect id="Rectangle_475-5" data-name="Rectangle 475" class="cls-2" width="135.609" height="135.609" transform="translate(135.609) rotate(90)"/>
+            <ellipse id="Ellipse_340" data-name="Ellipse 340" class="cls-3" cx="35.5" cy="35" rx="35.5" ry="35" transform="translate(32.885 33.803)"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_1251" data-name="Group 1251" transform="translate(1197 272.373)">
+        <g id="Group_1244" data-name="Group 1244" transform="translate(0 135)">
+          <rect id="Rectangle_475-6" data-name="Rectangle 475" class="cls-2" width="136" height="136" transform="translate(136 0.491) rotate(90)"/>
+          <path id="Path_1108-5" data-name="Path 1108" class="cls-3" d="M90.53,0,45.238,78.4,0,0Z" transform="translate(102.206 22.972) rotate(90)"/>
+        </g>
+        <g id="Group_1245" data-name="Group 1245" transform="translate(272 0) rotate(90)">
+          <rect id="Rectangle_475-7" data-name="Rectangle 475" class="cls-2" width="136" height="135" transform="translate(135.491 0) rotate(90)"/>
+          <path id="Path_1108-6" data-name="Path 1108" class="cls-3" d="M90.53,0,45.238,78.4,0,0Z" transform="translate(101.391 23.157) rotate(90)"/>
+        </g>
+        <g id="Group_1246" data-name="Group 1246" transform="translate(136 406) rotate(-90)">
+          <rect id="Rectangle_475-8" data-name="Rectangle 475" class="cls-2" width="136" height="135" transform="translate(134.509 0) rotate(90)"/>
+          <path id="Path_1108-7" data-name="Path 1108" class="cls-3" d="M90.53,0,45.238,78.4,0,0Z" transform="translate(101.391 22.788) rotate(90)"/>
+        </g>
+        <g id="Group_1247" data-name="Group 1247" transform="translate(407 271) rotate(180)">
+          <rect id="Rectangle_475-9" data-name="Rectangle 475" class="cls-2" width="136" height="135" transform="translate(135 -0.491) rotate(90)"/>
+          <path id="Path_1108-8" data-name="Path 1108" class="cls-3" d="M90.53,0,45.238,78.4,0,0Z" transform="translate(101.576 22.972) rotate(90)"/>
+        </g>
+        <g id="Group_1250" data-name="Group 1250" transform="translate(136 135)">
+          <g id="Group_1248-2" data-name="Group 1248" transform="translate(136 136) rotate(180)">
+            <rect id="Rectangle_475-10" data-name="Rectangle 475" class="cls-2" width="136" height="136" transform="translate(136 -0.491) rotate(90)"/>
+            <circle id="Ellipse_340-2" data-name="Ellipse 340" class="cls-3" cx="35.258" cy="35.258" r="35.258" transform="translate(33.604 33.42)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -6,18 +6,18 @@ a[rel='tag']:visited {
   padding: 0 0.5em;
   line-height: 2em;
   height: 2em;
-  border: 1px solid var(--cl-tag-br, black);
-  background-color: var(--cl-tag-bg);
-  color: var(--cl-tag-br);
+  border: 1px solid var(--clr-tag-br, black);
+  background-color: var(--clr-tag-bg);
+  color: var(--clr-tag-br);
   border-radius: 0.25em;
   text-decoration: none;
   margin: 0 0.5em 0.5em 0;
 }
 
 a[rel='tag']:hover {
-  border: 1px solid var(--cl-tag-br-hover, black);
-  background-color: var(--cl-tag-bg-hover, black);
-  color: var(--cl-tag-ft-hover, black);
+  border: 1px solid var(--clr-tag-br-hover, black);
+  background-color: var(--clr-tag-bg-hover, black);
+  color: var(--clr-tag-ft-hover, black);
 }
 
 a[rel='tag']:last-child {

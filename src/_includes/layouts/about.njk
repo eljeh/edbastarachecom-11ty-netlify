@@ -1,6 +1,9 @@
 ---
 layout: layouts/_base.njk
 ---
-
-{{ layoutContent | safe }}
-{% include "components/contactForm.njk" %}
+<section>
+	<div class="content contained">
+		{{ layoutContent | safe }}
+		{% include "components/contactForm.njk" %}
+	</div>
+</section>
