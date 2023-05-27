@@ -1,0 +1,17 @@
+<nav aria-label="Tag Navigation">
+  <ul aria-label="Tag Menu" role="menu" class="navList ">
+  {%- for tag, posts in collections %}
+    {%- if tag != ['post'] -%}
+      <li role="menuitem" class="navitem">
+        {%- if tag == 'all' -%}
+          {% set tagUrl %}/articles/{% endset %}
+          <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}  |  {{ posts | length }}</a>
+        {% else %}
+          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+          <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}  |  {{ posts | length }}</a>
+        {%- endif -%}
+      </il>
+    {%- endif -%}
+  {%- endfor %}
+  <ul>
+</nav>

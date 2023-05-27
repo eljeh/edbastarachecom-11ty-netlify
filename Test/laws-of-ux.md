@@ -1,9 +1,8 @@
 ---
 title: Laws of UX
 description: This section will include some important UX laws & theory
-heroImage:
-date:
-articleType:
+heroImage:,
+date: 2021-05-08,
 tags: [
 	'post',
 	#'3d printing',

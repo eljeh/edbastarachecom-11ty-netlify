@@ -38,20 +38,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("showcased", arr => { let showcase = p => p.date.showcased; return arr.filter(showcase); });
   eleventyConfig.addFilter("readableDate", dateObj => { return DateTime.fromJSDate(dateObj).toFormat("LLL dd yyyy"); });
   eleventyConfig.addFilter("machineDate", dateObj => { return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd"); });
-  eleventyConfig.addCollection("authors", collection => {
-    const article = collection.getFilteredByGlob("posts/*.md");
-    return article.reduce((coll, post) => {
-      const author = post.data.author;
-      if (!author) {
-        return coll;
-      }
-      if (!coll.hasOwnProperty(author)) {
-        coll[author] = [];
-      }
-      coll[author].push(post.data);
-      return coll;
-    }, {});
-  });
   let markdownIt = require("markdown-it");
   let markdownItAnchor = require("markdown-it-anchor");
   let options = { html: true, breaks: true, linkify: true };

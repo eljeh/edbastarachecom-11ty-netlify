@@ -1,6 +1,7 @@
 ---
 layout: layouts/_base.njk
 ---
+<<<<<<< HEAD
 <article class="article">
 
   <div class="hero">
@@ -28,8 +29,28 @@ layout: layouts/_base.njk
   </div>
 
   <section class="content contained">
+=======
+<section>
+  <h1>{{ title }}</h1>
+  <div class="article-details">
+    <span><strong>Published:</strong> <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time></span>
+    {# <strong>Updated:</strong> <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate}}</time> #}
+    {% if tags %}
+    <span>
+      {% for tag in tags %}
+        {%- if tag != "post" -%}
+          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+          <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+        {%- endif -%}
+      {% endfor %}
+      </span>
+    {% endif %}
+  </div>
+  <article class="content">
+>>>>>>> 1881643b5ed94726fee3a26bab3d46b16da31ce9
     {{ layoutContent | safe }}
-  </section>
-  
-</article>
-<a href="{{ '/articles/' | url }}" class="animated">← Article list</a>
+  </article>
+  <hr class="my-lg">
+  {% include "components/taglist.njk" %}
+</section>
+

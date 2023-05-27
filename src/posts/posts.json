@@ -2,9 +2,8 @@
   "layout": "layouts/post.njk",
   "permalink": "posts/{{ title | slug }}/index.html",
   "articleType": "articleType",
-  "tags": [
-    "post"
-  ],
+  "contentname": "article",
+  "tags": [],
   "showcase" : false,
   "ancestors": "../../",
   "pagestyle": "pages/article.css"

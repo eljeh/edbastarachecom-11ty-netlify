@@ -1,0 +1,24 @@
+body.article-page {
+  main {
+    article {
+      border-bottom: 0.125em solid lightgray;
+      padding-bottom: 1em;
+
+      & > a {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0.382em 1em;
+        &:hover {
+          background: hsl(0, 0%, 98%);
+          outline: 0.125em solid hsl(0, 0%, 95%);
+        }
+        &>div{
+          flex:1;
+        }
+      }
+      .article-tags {
+        padding: 1em 1em 0;
+      }
+    }
+  }
+}

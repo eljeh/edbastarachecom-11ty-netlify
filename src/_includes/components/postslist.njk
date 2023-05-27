@@ -1,34 +1,47 @@
 {% for post in postslist | reverse %}
+
 	<article{% if post.url == url %} data-current="current item"{% endif %}>
-		<h3 class="heading">
-			<a href="{{ post.url | url }}">
-				{% if post.data.title %}
-					{{ post.data.title }}
-				{% else %}
-					Untitled
+
+		<a href="{{ post.url | url }}">
+
+			{% if post.data.heroImage %}
+				{% image post.data.heroImage, post.data.title , "300", ''%}
+			{% endif %}
+
+			<div>
+
+				<h3 class="heading">
+						{% if post.data.title %}
+							{{ post.data.title }}
+						{% else %}
+							Untitled
+						{% endif %}
+				</h3>
+
+				<span>{{ post | readingTime }} read time</span>
+				{% if post.data.description %}
+					<p>
+						{{ post.data.description }}
+					</p>
 				{% endif %}
-			</a>
-		</h3>
-		<span>{{ post | readingTime }} read time</span>
-		{% if post.data.description %}
-			<p>
-				{{ post.data.description }}
-			</p>
-		{% endif %}
-		<p>
-			<time datetime="{{ post.date | machineDate }}">
-				{{ post.date | readableDate }}
-			</time>
-		</p>
+				<p>
+					<time datetime="{{ post.date | machineDate }}">
+						{{ post.date | readableDate }}
+					</time>
+				</p>
+
+			</div>
+		</a>
 		{% if post.data.tags %}
-			<p>
+			<div class="article-tags">
 				{% for tag in post.data.tags %}
 					{%- if tag != "post" -%}
 						{% set tagUrl %}/tags/{{ tag }}/{% endset %}
-					<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+						<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
 					{%- endif -%}
 				{% endfor %}
-			</p>
+			</div>
 		{% endif %}
+		
 	</article>
 {% endfor %}
