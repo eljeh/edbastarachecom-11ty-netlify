@@ -1,5 +1,6 @@
 @use '../abstracts/' as *;
 @forward '../components/tag';
+<<<<<<< HEAD
 
 .hero{
 	background: whitesmoke;
@@ -28,3 +29,7 @@
 		max-width: 42em;
 	}
 }
+=======
+@forward '../components/article-list';
+@forward '../components/tagNav';
+>>>>>>> 1881643b5ed94726fee3a26bab3d46b16da31ce9

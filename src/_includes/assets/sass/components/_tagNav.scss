@@ -1,0 +1,8 @@
+nav[aria-label='Tag Navigation'] {
+  padding-top: 0;
+  ul {
+    display: flex;
+    gap: 0.5em;
+    justify-content: center;
+  }
+}
