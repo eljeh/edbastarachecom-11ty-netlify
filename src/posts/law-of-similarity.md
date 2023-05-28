@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title: Law of Similarity
 description: This section will include some important UX laws & theory
 heroImage:
@@ -36,23 +35,3 @@ The human eye tends to perceive similar elements in a design as a complete pictu
 Ensure that links and navigation systems are visually differentiated from normal text elements, and are consistently styled.
 
 </article>
-=======
-title: 'Law of Similarity'
-description: 'The human eye tends to perceive similar elements in a design as a complete picture, shape, or group, even if those elements are separated.'
-heroImage: ./src/img/NoImage.jpg
-date: 2021-05-08
-tags: [
-	'post',
-  'User Experience',
-	'User Interface'
-	]
----
-
-## OVERVIEW
-
-The human eye tends to perceive similar elements in a design as a complete picture, shape, or group, even if those elements are separated.
-
-## KEY TAKEAWAYS
-
-Ensure that links and navigation systems are visually differentiated from normal text elements, and are consistently styled.
->>>>>>> 1881643b5ed94726fee3a26bab3d46b16da31ce9

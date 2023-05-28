@@ -1,5 +1,5 @@
 {
-  "name": "edbastarache.com",
+  "name": "edbastarache.dev",
   "version": "",
   "description": "",
   "main": "index.html",
@@ -13,7 +13,7 @@
   },
   "author": {
     "name": "Ed Bastarache",
-    "url": "https://edbastarache.com/"
+    "url": "https://edbastarache.dev/"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",

@@ -1,19 +1,13 @@
 ---
-<<<<<<< HEAD
+
 title: Design Thinking
 description: Why contemplating our mortality can be a powerful catalyst for change
 heroImage: https://picsum.photos/600/300?random=1
-=======
-title: 'Design Thinking'
-description: 'A non-linear, human-centred set of cognitive, strategic, and practical processes'
-heroImage:
->>>>>>> 1881643b5ed94726fee3a26bab3d46b16da31ce9
 date:
 tags: [
 	'post',
   'User Experience',
 	'User Interface',
-<<<<<<< HEAD
 	#'Design',
 	#'Portfolio',
 	#'Home Automation',
@@ -27,16 +21,10 @@ tags: [
 ## User center design that is a non-linear process
 
 <article class="content">
-=======
-	]
----
 
-## A non-linear, human-centred set of cognitive, strategic, and practical processes
->>>>>>> 1881643b5ed94726fee3a26bab3d46b16da31ce9
 
 Let's dive into the exciting world of Design Thinking and explore its five stages. One important thing to know is that Design Thinking is all about user-centered design and it's a non-linear process, which means we can jump back and forth between the stages. Ready? Let's go!
 
-<<<<<<< HEAD
 Empathize: This stage is all about understanding the people we're designing for. We put ourselves in their shoes and truly empathize with their needs, desires, and challenges. We interview them, observe them, and gather as much information as possible to gain deep insights into their experiences. It's like stepping into their world and seeing things from their perspective.
 
 
@@ -56,32 +44,4 @@ Remember, these stages aren't always linear. We may need to go back and forth be
 
 Design Thinking empowers us to create user-centered solutions that truly address people's needs and improve their lives. It combines empathy, creativity, critical thinking, and a willingness to learn from failure. 
 </article>
-=======
-- Qualitative & Quantitative Data Collection
-- Reveals the user's needs & feelings
-- Identifying the Problem & Pain Points
 
-### Define
-
-- Reviewing data Collected
-- Determining Need
-- 5 whys
-- Creation of Personas
-- Problem statements
-
-### Ideate
-
-- Brainstorming
-- Quantity not quality
-- Focusing on Novelty over relevance
-
-### Prototype
-
-- Prototypes help understand the engagement with the end-users & stakeholders.
-- Help reveal a deeper insight and more valuable experiences, to inform design decisions moving forward.
-
-### Test
-
-- Multiple prototypes helps the user compare solutions that achieve the same goal with a different journey.
-- Show, don’t tell: let your users experience the prototype
->>>>>>> 1881643b5ed94726fee3a26bab3d46b16da31ce9
