@@ -1,5 +1,5 @@
 ---
-title: website replacement
+title: Website Replacement
 description: A year-long project assessing HubSpot as a potential replacement website.
 heroImage: https://picsum.photos/600/300?random=9
 date:

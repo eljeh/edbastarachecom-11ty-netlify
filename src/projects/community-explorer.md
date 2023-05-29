@@ -1,5 +1,5 @@
 ---
-title: community explorer
+title: Community Explorer
 description: Developed Prototype for integration of amenities, points of interest, and schools into rental property search page.
 heroImage: https://picsum.photos/600/300?random=6
 date:

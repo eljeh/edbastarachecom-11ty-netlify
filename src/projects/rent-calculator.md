@@ -1,5 +1,5 @@
 ---
-title: rent calculator
+title: Rent Calculator
 description: Developed user-friendly Rent Calculator tool to help users find affordable rental properties based on income.
 heroImage: https://picsum.photos/600/300?random=7
 date:

@@ -9,7 +9,6 @@
     "build:sass": "sass src/_includes/assets/sass:dist/assets/styles",
     "build:eleventy": "eleventy",
     "start": "npm-run-all build:sass --parallel watch:*",
-    "test": "npm-run-all build:sass --parallel  watch:*",
     "build": "npm-run-all build:sass build:eleventy"
   },
   "author": {

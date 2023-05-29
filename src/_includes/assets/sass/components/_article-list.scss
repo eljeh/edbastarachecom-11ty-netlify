@@ -1,6 +1,11 @@
 body.article-page {
   .article-list{
     flex-direction: column;
+    &>.content.contained{
+      max-width: 72ch;
+      align-items: stretch;
+      justify-content: start;
+    }
   }
   main {
     article {

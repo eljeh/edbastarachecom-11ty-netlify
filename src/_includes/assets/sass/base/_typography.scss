@@ -78,3 +78,27 @@ nav .navList .navItem {
     }
   }
 }
+
+.kabob-title{
+  display: flex;
+  align-items: center;
+  margin:0 0.25em;
+  gap: 0.25em;
+  line-height: 0.5em;
+  font-size: 1.5em;
+  opacity: 0.65;
+  &:before,
+
+  &:after{
+    min-height: 0.05em;
+    display:block;
+    background-color: var(--clr-primary-400);
+    content: "";
+  }
+  &:before{
+    flex: 0 0 1em;
+  }
+  &:after{
+    flex: 1 1 auto;
+  }
+}
