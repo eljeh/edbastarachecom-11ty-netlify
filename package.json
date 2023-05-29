@@ -9,6 +9,7 @@
     "build:sass": "sass src/_includes/assets/sass:dist/assets/styles",
     "build:eleventy": "eleventy",
     "start": "npm-run-all build:sass --parallel watch:*",
+    "test": "npm-run-all build:sass --parallel  watch:*",
     "build": "npm-run-all build:sass build:eleventy"
   },
   "author": {
@@ -18,7 +19,6 @@
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-img": "^0.8.0",
-    "@11ty/eleventy-upgrade-help": "^2.0.5",
     "autoprefixer": "^9.8.6",
     "cheerio": "^1.0.0-rc.3",
     "cross-env": "^7.0.2",

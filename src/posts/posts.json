@@ -3,8 +3,10 @@
   "permalink": "posts/{{ title | slug }}/index.html",
   "articleType": "articleType",
   "contentname": "article",
-  "tags": [],
-  "showcase" : false,
+  "tags": [
+    "post"
+  ],
+  "showcase": false,
   "ancestors": "../../",
   "pagestyle": "pages/article.css"
 }

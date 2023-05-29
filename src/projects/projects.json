@@ -2,6 +2,7 @@
   "layout": "layouts/project.njk",
   "permalink": "projects/{{ title | slug }}/index.html",
   "articleType": "articleType",
+  "contentname": "project",
   "tags": [
     "project"
   ],

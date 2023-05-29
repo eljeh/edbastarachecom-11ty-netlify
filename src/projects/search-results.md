@@ -1,5 +1,5 @@
 ---
-title: Search Results Page
+title: search results
 description: Investigate restructuring the UI, making it more user-friendly.
 heroImage: https://picsum.photos/600/300?random=8
 date:

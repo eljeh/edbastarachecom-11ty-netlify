@@ -5,6 +5,8 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const svgContents = require("eleventy-plugin-svg-contents");
 const Image = require("@11ty/eleventy-img");
 const readingTime = require('eleventy-plugin-reading-time');
+
+
 async function imageShortcode(src, alt, sizes, cls = '') {
   let metadata = await Image(src, {
     widths: [300, 600],
@@ -22,6 +24,7 @@ async function imageShortcode(src, alt, sizes, cls = '') {
     whitespaceMode: "inline"
   });
 }
+
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(svgContents);

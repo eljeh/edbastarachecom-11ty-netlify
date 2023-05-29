@@ -1,7 +1,7 @@
 ---
 title: Sample Post
 description: 'Why contemplating our mortality can be a powerful catalyst for change.'
-heroImage: ../img/NoImage.jpg
+heroImage: 
 date: 1982-02-02
 tags: [
 		#'post'

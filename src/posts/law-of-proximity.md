@@ -5,7 +5,6 @@ heroImage: https://picsum.photos/600/300?random=5
 date:
 articleType:
 tags: [
-	'post',
 	#'3d printing',
   'User Experience',
 	'User Interface',

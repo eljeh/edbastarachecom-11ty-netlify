@@ -1,7 +1,7 @@
 ---
-title: Website Replacement
-description: A year-long project assessing HubSpot as a potential replacement website.
-heroImage: https://picsum.photos/600/300?random=9
+title: community explorer
+description: Developed Prototype for integration of amenities, points of interest, and schools into rental property search page.
+heroImage: https://picsum.photos/600/300?random=6
 date:
 articleType:
 tags: [
@@ -20,11 +20,11 @@ tags: [
 	]
 ---
 
-## Website Replacement
+## Community Explorer
 
 <article>
 
-### Project Debriefing: Evaluating HubSpot as a Replacement for Boardwalk REIT's Website
+### Project Debriefing: Community Explorer Prototype - Amenities Widget
 
 The Search Results Page Refactoring project for Boardwalk REIT aimed to enhance the performance, design, and user experience of their property search results page. Although the prototype is yet to be implemented, it incorporates modern HTML and CSS practices to optimize page speed and CMS manageability, resulting in a faster and more efficient website. Furthermore, the refactoring intended also investigate  a redesign the search results page and introduce an advanced filter system to empower users in refining their searches effectively.
 

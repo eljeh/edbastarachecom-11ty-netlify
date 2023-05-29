@@ -4,7 +4,6 @@ description: Why contemplating our mortality can be a powerful catalyst for chan
 heroImage: https://picsum.photos/600/300?random=1
 date:
 tags: [
-	'post',
   'User Experience',
 	'User Interface',
 	#'Design',

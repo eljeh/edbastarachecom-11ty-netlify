@@ -5,7 +5,6 @@ heroImage:
 date:
 articleType:
 tags: [
-	'post',
 	#'3d printing',
   'User Experience',
 	'User Interface',

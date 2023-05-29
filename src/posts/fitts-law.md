@@ -4,7 +4,6 @@ description: 'The time to acquire a target is a function of the distance to and 
 heroImage:
 date: 2021-05-08
 tags: [
-	'post',
   'User Experience',
 	'User Interface'
 	]
