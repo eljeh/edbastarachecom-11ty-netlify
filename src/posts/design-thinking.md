@@ -28,7 +28,7 @@ Let's dive into the exciting world of Design Thinking and explore its five stage
 Empathize: This stage is all about understanding the people we're designing for. We put ourselves in their shoes and truly empathize with their needs, desires, and challenges. We interview them, observe them, and gather as much information as possible to gain deep insights into their experiences. It's like stepping into their world and seeing things from their perspective.
 
 
-{% svg "/src/img/svgs/designthinking.svg" %}
+<!-- {% svg "/src/img/svgs/designthinking.svg" %} -->
 
 
 
