@@ -1,0 +1,51 @@
+@use '../abstracts/' as *;
+.hero{
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
+  background: var(--clr-hero-bg);
+  color: var(--clr-hero-ft);
+  width: 100%;
+  align-items: center;
+}
+.hero-copy{
+  width: 100%;
+  display: flex;
+  gap:0.75em;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 4vw;
+  align-items: center;
+  text-align: center;
+
+  .page-title{
+    line-height: 1.25;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: clamp(0.4em, 2vw, 1.33em);
+  }
+  .Sub-title{
+    font-size: 2.85em;
+    text-transform: capitalize;
+    line-height: 1em;
+    margin-top: -0.25em;
+    @container (min-width: 800px){
+        font-size: clamp(2.1em, 4.8vw, 3.2em);
+    }
+
+  }
+  .cta{
+    width: fit-content;
+    padding: 0.382em 1em;
+    margin: 1em 0;
+    background: var(--clr-hero-cta);
+    color: white;border: 2px solid var(--clr-hero-cta);
+    border-radius: 0.25em;
+    box-shadow: 0px 2px 9px 0px #5959595c;
+  }
+}
+.hero-image{
+ 
+}
+.hero-image {
+
+}

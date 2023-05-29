@@ -1,5 +1,11 @@
-.project-details {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap-reverse;
+body.project-page{
+  .hero{
+    
+  }
+  .project-details {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+  }
 }
+

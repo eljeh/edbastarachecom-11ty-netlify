@@ -13,6 +13,9 @@ main>article {
     padding-bottom: 10em;
   }
 }
+main>article{
+  flex-direction: column;
+}
 section>.content,
 article>.content{
   width: 100vw;
@@ -29,8 +32,7 @@ article>.content{
   max-width: 118ch;
 }
 
-
-header.scrolled{
+.header.scrolled{
   .banner{
     margin: 0 3.236vw;
     overflow: hidden;

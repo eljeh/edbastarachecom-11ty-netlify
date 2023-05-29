@@ -1,5 +1,5 @@
-body.article-page {
-  .article-list{
+body.project-page {
+  .project-list{
     flex-direction: column;
   }
   main {
@@ -10,7 +10,6 @@ body.article-page {
       & > a {
         display: flex;
         flex-direction: row-reverse;
-        gap: 1em;
         padding: 0.382em 1em;
         &:hover {
           background: hsl(0, 0%, 98%);

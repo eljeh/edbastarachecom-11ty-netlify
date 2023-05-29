@@ -4,7 +4,7 @@ layout: layouts/_base.njk
 
 <article class="article">
 
-  <div class="hero">
+  <header class="hero">
     <div class="content contained">
       <div class="hero-copy">
         <h1 class="page-title">{{ title }}</h1>
@@ -23,15 +23,17 @@ layout: layouts/_base.njk
           </div>
       </div>
       <picture class="hero-image">
-        <img src="{{ heroImage }}" loading="lazy" width="" height="" alt="">
+        {% if heroImage %}
+          {% image heroImage, title , "300", ''%}
+        {% endif %}
       </picture>
     </div>
-  </div>
+  </header>
 
   <section class="content contained">
     {{ layoutContent | safe }}
-  </article>
+  </section>
   <hr class="my-lg">
   {% include "components/taglist.njk" %}
-</section>
+
 

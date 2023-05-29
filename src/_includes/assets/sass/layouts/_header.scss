@@ -1,7 +1,7 @@
  @forward '../components/banner';
 @forward '../components/mainNav';
 
-header {
+.header {
   container: header/inline-size;
   background: var(--clr-header-bg);
   color: var(--clr-header-ft);

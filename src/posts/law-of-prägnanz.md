@@ -1,7 +1,7 @@
 ---
 title: Law of Prägnanz
 description: This section will include some important UX laws & theory
-heroImage:
+heroImage: https://picsum.photos/600/300?random=25
 date:
 articleType:
 tags: [
