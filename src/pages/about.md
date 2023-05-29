@@ -12,7 +12,7 @@ pagestyle: pages/about.css
 ---
 
 # About me
-{% image "./src/img/noImage.jpg", "No Image Found" , "200", 'mx-auto'%}
+<!-- {% image "./src/img/noImage.jpg", "No Image Found" , "200", 'mx-auto'%} -->
 ** EDIT and EXPAND ON!!!**
 As a seasoned UX/UI Front-end Developer with over a decade of experience in web design and development, I have a proven track record of delivering exceptional results. I specialize in crafting engaging and intuitive user experiences that align with your brand and drive conversions. My extensive knowledge of SEO best practices ensures that your website is optimized for maximum visibility and reach.
 
