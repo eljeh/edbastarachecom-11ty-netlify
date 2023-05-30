@@ -1,12 +1,16 @@
 @use '../abstracts/' as *;
 .hero{
-  padding-top: 3.5em;
+  padding-top: 3.5em !important;
+  margin-bottom: 0;
   padding-bottom: 3.5em;
   width: 100%;
   align-items: center;
+  @include media-desktop {
+    margin-bottom: -12em;
+  }
   & > .content{
     flex-wrap: wrap-reverse;
-    @container (min-width: 800px){
+    @container (min-width: 768px){
       flex-wrap: nowrap;
     }
   }
@@ -25,7 +29,7 @@
   align-items: center;
   text-align: center;
 
-  @container (min-width: 800px){
+  @container (min-width: 768px){
     margin-top: 5em !important;
     margin-right: -12em;
     font-size: 1.25em;
@@ -37,14 +41,14 @@
     line-height: 1.25;
     text-transform: capitalize;
     font-weight: 700;
-    font-size: clamp(0.4em, 2vw, 1.33em);
+    font-size: clamp(1em, 2vw, 1.33em);
   }
   .Sub-title{
     font-size: 2.85em;
     text-transform: capitalize;
     line-height: 1em;
     margin-top: -0.25em;
-    @container (min-width: 800px){
+    @container (min-width: 768px){
         font-size: clamp(2.1em, 4.8vw, 3.2em);
     }
 
@@ -66,26 +70,25 @@
   align-items: center;
   width:100vw;
   min-width:14em;
-  max-width:44em;
+  max-width:38em;
   aspect-ratio: 1/1;
   overflow: hidden;
   @include media-desktop {  
     padding: 0;
     width: 42vw;
   }
-  @container (min-width: 1080px){
+  @container (min-width: 768px){
     margin-right: -6em !important;
     width:62vw;
   }
 }
 .hero-image {
   position: relative;
-  @container (min-width: 1080px){
-    -webkit-mask-image: radial-gradient(circle, black 40%, rgba(0, 0, 0, 0) 50%);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: 100% 180%;
-    -webkit-mask-position: 0 55%;
-  }
+  -webkit-mask-image: radial-gradient(circle, black 40%, rgba(0, 0, 0, 0) 50%);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 180%;
+  -webkit-mask-position: 0 55%;
+
   img.filter-effects {
     position: absolute;
     filter: blur(2em) brightness(0);

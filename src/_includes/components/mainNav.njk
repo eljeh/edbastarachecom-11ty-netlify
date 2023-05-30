@@ -1,5 +1,6 @@
 <nav aria-label="Main Navigation">
-  {% set navPages = collections.all | eleventyNavigation %}
+
+  {# {% set navPages = collections.all | eleventyNavigation %}
   <ul aria-label="Main Menu" role="menu" class="navList">
   {%- for entry in navPages %}
     <li role="menuitem" class="navItem">
@@ -7,7 +8,31 @@
         {{ entry.title }}
       </a>
     </li>
-  {%- endfor %}
+  {%- endfor %} #}
+
+
+<ul aria-label="Main Menu" role="menu" class="navList">
+    <li role="menuitem" class="navItem">
+      <a href="/" data-current="Home" class="animated">
+        Home
+      </a>
+    </li>
+    <li role="menuitem" class="navItem">
+      <a href="#projects" class=" animated">
+        Projects
+      </a>
+    </li>
+    <li role="menuitem" class="navItem">
+      <a href="#articles" class=" animated">
+        Articles
+      </a>
+    </li>
+    <li role="menuitem" class="navItem">
+      <a href="#about" class=" animated">
+        About
+      </a>
+    </li>
+
     <li role="menuitem" class="navItem">
 		  <a href="#" class="cta">Services</a>
     </li>

@@ -21,7 +21,7 @@ h6 {
 
 // Font sizes
 body {
-  font-size: var(--fs-base);
+  font-size: clamp(16px, 0.94vw, 18px);
 }
 
 .page-title {
@@ -38,13 +38,13 @@ body {
 }
 
 .heading {
-  font-size: var(--heading);
+  font-size: clamp(1em, 5vw, 1.2em);
   margin-bottom: 0.35em;
 }
 
 .banner-title {
   font-family: var(--ff-header);
-  font-size: var(--fs-150);
+  // font-size: var(--fs-150);
   font-weight: var(--fw-bold);
   letter-spacing: -0.06em;
   @include media-desktop {
@@ -58,23 +58,23 @@ small {
 }
 
 nav .navList .navItem {
-  font-size: var(--fs-250);
+  // font-size: var(--fs-250);
   .fas {
     font-size: 1.5em;
   }
   footer > & {
-    font-size: var(--fs-200);
+    // font-size: var(--fs-200);
     .fab {
       font-size: var(--fs-100);
     }
   }
   @media screen and (min-width: 1080px) {
-    font-size: var(--fs-350);
+    // font-size: var(--fs-350);
     .fas {
       font-size: var(--fs-350);
     }
     footer > & {
-      font-size: var(--fs-350);
+      // font-size: var(--fs-350);
     }
   }
 }
@@ -85,7 +85,7 @@ nav .navList .navItem {
   margin:0 0.25em;
   gap: 0.25em;
   line-height: 0.5em;
-  font-size: 1.5em;
+  font-size: clamp(1.5em, 1.4vw, 1.75em);
   opacity: 0.65;
   &:before,
 

@@ -23,7 +23,6 @@ layout: layouts/_base.njk
 	</div>
 </section>
 
-
 {{ layoutContent | safe }}
 
 <section class="intro">
@@ -74,31 +73,29 @@ layout: layouts/_base.njk
 		</ul>
 	</div>
 </section>
-<section class="featured-articles">
-	<div class="content contained column">
-		<h2 class="section-title kabob-title">Featured Articles</h2>
-		{% set articleslist = collections.featuredArticles %}
-		{% include "components/featured-Articleslist.njk" %}
-	</div>
-</section>
-<section class="projects">
+<section id="projects" class="projects">
 	<div class="content contained column">
 		<h2 class="section-title kabob-title">Projects</h2>
 		{% set projectslist = collections.featuredProjects %}
 		{% include "components/featured-Projectslist.njk" %}
 	</div>
 </section>
-
-<section class="about">
+<section id="articles" class="featured-articles">
+	<div class="content contained column">
+		<h2 class="section-title kabob-title">Articles</h2>
+		{% set articleslist = collections.featuredArticles %}
+		{% include "components/featured-Articleslist.njk" %}
+	</div>
+</section>
+<section id="about" class="about">
 	<div class="content contained column">
 		<h2 class="section-title kabob-title">About Me</h2>
 		{% include "components/aboutme.njk" %}
 	</div>
 </section>
-
-<section class="skills">
+<section class="knowledge">
 	<div class="content contained column">
-		<h2 class="section-title kabob-title">Skills</h2>
+		<h2 class="section-title kabob-title">Knowledge</h2>
 		{% include "components/skills.njk" %}
 	</div>
 </section>

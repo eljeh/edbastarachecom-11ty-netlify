@@ -26,7 +26,7 @@ section.intro {
     flex-wrap: wrap;
     @include media-desktop {
       justify-content: space-around;
-      gap:3em;
+      gap:3em 0;
     }
     .solution-card{
       flex: 1 1 100%;
@@ -48,7 +48,7 @@ section.intro {
         align-items: start;
         text-align: left;
         z-index: 1;
-        flex: 0 1 30%;
+        flex: 0 1 28%;
         max-width: 20em;
       }
       &>.icon{
@@ -66,7 +66,7 @@ section.intro {
 .featured-articles .content,
 .projects .content,
 .about .content,
-.skills .content{
+.knowledge .content{
   align-items: stretch;
   justify-content: start;
 
@@ -158,12 +158,21 @@ section.intro {
   }
 }
 
-.skills {
+.about .aboutme,
+.knowledge .skill-list{
+    padding: 1.618em;
+}
+
+.knowledge {
   .skill-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 1em;
     dl{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0 1em;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0 1em;
+      flex: 49%;
       dt{
         flex: 0 0 100%;
         font-weight: 600;
