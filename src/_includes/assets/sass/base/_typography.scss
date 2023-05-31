@@ -44,12 +44,10 @@ body {
 
 .banner-title {
   font-family: var(--ff-header);
-  // font-size: var(--fs-150);
+  font-size: clamp(2em, 3vw, 3.5em);
   font-weight: var(--fw-bold);
   letter-spacing: -0.06em;
-  @include media-desktop {
-    font-size: var(--fs-112);
-  }
+
 }
 
 small {

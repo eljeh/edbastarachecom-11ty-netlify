@@ -12,7 +12,7 @@ layout: layouts/_base.njk
 				Bringing your idea to life
 			</h2>
 			<p class="">
-				As an experienced UX/UI Front-end Developer with a decade of expertise in web design and development delivering brand-aligned, intuitive, and user-friendly experiences with a focus on SEO best practices.
+				As an experienced UX/UI Front-end Developer with a decade of expertise in web design and development delivering brand aligned, intuitive, and user-friendly experiences with a focus on SEO best practices.
 			</p>
 			<a href="#" class="cta">Lets Chat</a>
 		</div>
@@ -136,3 +136,93 @@ layout: layouts/_base.njk
 	</div>
 </section>
 
+
+<script>
+gsap.registerPlugin(ScrollTrigger);
+
+ ScrollTrigger.create({
+		trigger: "body",
+		start: "top -5%",
+		toggleClass: "scrolled",
+		toggleActions: "restart pause reverse pause"
+	});
+
+
+gsap.from(".solution-card", {
+	scrollTrigger: {
+		trigger: ".solution-list",
+		start: "top 100%",
+		end: "top 60%",
+		scrub: 2,
+		toggleActions: "restart pause reverse pause"
+	},
+	y: 300,
+	rotation: 5,
+	opacity: 0,
+	duration: 2,
+	stagger: 0.9,
+	ease: "none"
+});
+
+gsap.from(".article-card", {
+	scrollTrigger: {
+		trigger: ".article-cards",
+		start: "top 120%",
+		end: "top 60%",
+		scrub: 2,
+		toggleActions: "restart pause reverse pause"
+	},
+	y: 300,
+	rotation: 5,
+	opacity: 0,
+	duration: 2,
+	stagger: 0.75,
+	ease: "none"
+});
+
+gsap.from(".project-card", {
+	scrollTrigger: {
+		trigger: ".project-cards",
+		start: "top 120%",
+		end: "top 60%",
+		scrub: 2,
+		toggleActions: "restart pause reverse pause"
+	},
+	y: 300,
+	rotation: 5,
+	opacity: 0,
+	duration: 2,
+	stagger: 0.75,
+	ease: "none"
+});
+gsap.from(".aboutme", {
+	scrollTrigger: {
+		trigger: ".aboutme",
+		start: "top 100%",
+		end: "top 60%",
+		scrub: 2,
+		toggleActions: "restart pause reverse pause"
+	},
+	y: 150,
+	rotation: 0,
+	opacity: 0,
+	duration: 2,
+	stagger: 0.75,
+	ease: "none"
+});
+gsap.from(".skill-list dl", {
+	scrollTrigger: {
+		trigger: ".skill-list",
+		start: "top 100%",
+		end: "top 60%",
+		scrub: 2,
+		toggleActions: "restart pause reverse pause"
+	},
+	y: 150,
+	rotation:0,
+	opacity: 0,
+	duration: 2,
+	stagger: 0.75,
+	ease: "none"
+});
+</script>

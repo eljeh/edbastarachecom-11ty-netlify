@@ -32,13 +32,18 @@ article>.content{
   max-width: 118ch;
 }
 
-.header.scrolled{
+.banner,
+.banner-title{
+  transition: all 0.5s
+}
+body.scrolled{
   .banner{
     margin: 0 3.236vw;
     overflow: hidden;
+    transition: all 0.5s;
     .banner-title{
-      font-size: 4.5em;
-      margin-top: -0.16em;
+      font-size: 2em;
+      transition: all 1s;
     }
     .navList .cta{
       border-radius: 0;
@@ -46,6 +51,5 @@ article>.content{
   }
 
 }
-
 
 
