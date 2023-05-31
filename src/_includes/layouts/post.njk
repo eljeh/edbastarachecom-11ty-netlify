@@ -1,16 +1,16 @@
 ---
 layout: layouts/_base.njk
 ---
-
 <article class="article">
 
   <header class="hero">
     <div class="content contained">
       <div class="hero-copy">
         <h1 class="page-title">{{ title }}</h1>
-          <div class="article-details">
-            <span><strong>Published:</strong> <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time></span>
-            {% if tags %}
+            {# removed for MVP #}
+          {# <div class="article-details">
+            <span><strong>Published:</strong> <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time></span> #}
+            {# {% if tags %}
             <span>
               {% for tag in tags %}
                 {%- if tag != "post" -%}
@@ -19,21 +19,27 @@ layout: layouts/_base.njk
                 {%- endif -%}
               {% endfor %}
               </span>
-            {% endif %}
-          </div>
+            {% endif %} #}
+          {# </div> #}
       </div>
+
       <picture class="hero-image">
         {% if heroImage %}
           {% image heroImage, title , "300", ''%}
         {% endif %}
       </picture>
+
     </div>
   </header>
 
   <section class="content contained">
     {{ layoutContent | safe }}
+    <a href="{{ '/' | url }}" class="animated">← Back Home</a>
   </section>
-  <hr class="my-lg">
-  {% include "components/taglist.njk" %}
+
+</article>
+
+  {# <hr class="my-lg">
+  {% include "components/taglist.njk" %} #}
 
 
