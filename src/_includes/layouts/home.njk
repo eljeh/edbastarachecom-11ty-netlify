@@ -147,18 +147,32 @@ gsap.registerPlugin(ScrollTrigger);
 		toggleActions: "restart pause reverse pause"
 	});
 
+gsap.to(".filter-effects", {
+	scrollTrigger: {
+		trigger: ".hero-image",
+		start: "bottom 72%",
+		end: "bottom 0%",
+		scrub: true,
+		toggleActions: "restart pause reverse pause"
+	},
+	y: -30,
+	rotation: 0,
+	opacity: 1,
+	ease: "none"
+});
+
 
 gsap.from(".solution-card", {
 	scrollTrigger: {
 		trigger: ".solution-list",
 		start: "top 100%",
 		end: "top 60%",
-		scrub: 2,
+		scrub: 1,
 		toggleActions: "restart pause reverse pause"
 	},
 	y: 300,
 	rotation: 5,
-	opacity: 0,
+	opacity: 0.25,
 	duration: 2,
 	stagger: 0.9,
 	ease: "none"
@@ -169,12 +183,12 @@ gsap.from(".article-card", {
 		trigger: ".article-cards",
 		start: "top 120%",
 		end: "top 60%",
-		scrub: 2,
+		scrub: 1,
 		toggleActions: "restart pause reverse pause"
 	},
 	y: 300,
 	rotation: 5,
-	opacity: 0,
+	opacity: 0.25,
 	duration: 2,
 	stagger: 0.75,
 	ease: "none"
@@ -185,7 +199,7 @@ gsap.from(".project-card", {
 		trigger: ".project-cards",
 		start: "top 120%",
 		end: "top 60%",
-		scrub: 2,
+		scrub: 1,
 		toggleActions: "restart pause reverse pause"
 	},
 	y: 300,
@@ -199,8 +213,8 @@ gsap.from(".aboutme", {
 	scrollTrigger: {
 		trigger: ".aboutme",
 		start: "top 100%",
-		end: "top 60%",
-		scrub: 2,
+		end: "top 70%",
+		scrub: 1,
 		toggleActions: "restart pause reverse pause"
 	},
 	y: 150,
@@ -214,15 +228,110 @@ gsap.from(".skill-list dl", {
 	scrollTrigger: {
 		trigger: ".skill-list",
 		start: "top 100%",
-		end: "top 60%",
-		scrub: 2,
+		end: "top 70%",
+		scrub: 1,
 		toggleActions: "restart pause reverse pause"
 	},
 	y: 150,
 	rotation:0,
 	opacity: 0,
-	duration: 2,
+	duration: 3,
 	stagger: 0.75,
+	ease: "none"
+});
+gsap.from(".service-list li", {
+	scrollTrigger: {
+		trigger: ".service-list",
+		start: "top 100%",
+		end: "top 70%",
+		scrub: 1,
+		toggleActions: "restart pause reverse pause"
+	},
+	y: 150,
+	rotation:5,
+	opacity: 0,
+	duration: 2,
+	stagger: 0.85,
+	ease: "none"
+});
+gsap.from(".contact-services form", {
+	scrollTrigger: {
+		trigger: ".contact-services form",
+		start: "top 100%",
+		end: "top 80%",
+		scrub: 1,
+		toggleActions: "restart pause reverse pause"
+	},
+	y: 100,
+	rotation:0,
+	opacity: 0,
+	duration:2,
+	ease: "none"
+});
+
+gsap.from(".contact-services .kabob-title", {
+	scrollTrigger: {
+		trigger: "section.contact-services",
+		start: "top 95%",
+		end: "top 75%",
+		scrub: 1,
+		toggleActions: "restart pause reverse pause"
+	},
+	rotation:0,
+	opacity: 0,
+	duration:2,
+	ease: "none"
+});
+gsap.from(".knowledge .kabob-title", {
+	scrollTrigger: {
+		trigger: ".knowledge",
+		start: "top 95%",
+		end: "top 75%",
+		scrub: 1,
+		toggleActions: "restart pause reverse pause"
+	},
+	rotation:0,
+	opacity: 0,
+	duration:2,
+	ease: "none"
+});
+gsap.from(".about .kabob-title", {
+	scrollTrigger: {
+		trigger: ".about",
+		start: "top 95%",
+		end: "top 75%",
+		scrub: 1,
+		toggleActions: "restart pause reverse pause"
+	},
+	rotation:0,
+	opacity: 0,
+	duration:2,
+	ease: "none"
+});
+gsap.from(".featured-articles .kabob-title", {
+	scrollTrigger: {
+		trigger: ".featured-articles",
+		start: "top 95%",
+		end: "top 75%",
+		scrub: 1,
+		toggleActions: "restart pause reverse pause"
+	},
+	rotation:0,
+	opacity: 0,
+	duration:2,
+	ease: "none"
+});
+gsap.from(".projects .kabob-title", {
+	scrollTrigger: {
+		trigger: ".projects",
+		start: "top 95%",
+		end: "top 75%",
+		scrub: 1,
+		toggleActions: "restart pause reverse pause"
+	},
+	rotation:0,
+	opacity: 0,
+	duration:2,
 	ease: "none"
 });
 </script>
