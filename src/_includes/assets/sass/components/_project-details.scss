@@ -1,11 +1,68 @@
 body.project-page{
-  .hero{
-    
+
+  .hero {
+    @media (min-width:1080px) {
+      flex-direction: row;
+    }
+    picture{
+      max-width: 118ch;
+      width: 100vw;
+      aspect-ratio: 3/1;
+      display: block;
+    }
   }
-  .project-details {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap-reverse;
+
+  main > article {
+    padding: 0 !important;
+    gap: 2em;
+    &> section {
+      max-width: 118ch;
+      width: 100%;
+      .kabob-title{
+        font-weight: bold;
+        margin-bottom: 1.5em;
+      }
+    .columned-article{
+      display: grid;
+      grid-template-columns: 37ch 65ch;
+      margin-top: 1em;
+      gap: 2em;
+    }
+
+    .project-details {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        max-width: 26em;
+    padding: 0 2em 0 4vw;
+    h1{
+      font-size: 1.25em;
+      margin-bottom: 0.5em;
+    }
+        ul{
+          list-style: none;
+          padding: 0;
+    
+          label {
+            font-weight: var(--fw-bold);
+            margin-right: 0.25em;
+            display: block;
+    
+          }
+    
+        }
+      }
+      .section-title{
+        font-size: 1.75em;
+        line-height: 1.25;
+        padding-bottom: 1em;
+      }
+
+      p {
+        padding-bottom: 0.5em;
+      }
+    }
+
   }
 }
 

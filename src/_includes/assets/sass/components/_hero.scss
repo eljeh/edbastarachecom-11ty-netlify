@@ -1,21 +1,38 @@
 @use '../abstracts/' as *;
 .hero{
-  padding-top: 3.5em;
-  padding-bottom: 3.5em;
+  flex-direction: column-reverse;
+  padding-top: 9em;
+  @media (min-width:1080px) {
+    padding-top: 6em;
+  }
+  padding-bottom: 2em;
   background: var(--clr-hero-bg);
   color: var(--clr-hero-ft);
-  width: 100%;
+  display: flex;
+  justify-content: center;
   align-items: center;
-}
-.hero-copy{
+  gap: 2em;
   width: 100%;
+
+  picture {
+    max-width: 92vw;
+    @media (min-width:1080px) {
+      max-width: 48vw;
+    }
+    border-radius: 0.25em;
+    flex: 1;
+  }
+
+}
+
+
+
+.hero-copy{
   display: flex;
   gap:0.75em;
   justify-content: center;
   flex-direction: column;
-  padding: 0 4vw;
   align-items: center;
-  text-align: center;
 
   .page-title{
     line-height: 1.25;

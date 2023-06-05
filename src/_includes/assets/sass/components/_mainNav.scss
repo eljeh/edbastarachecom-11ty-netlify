@@ -30,8 +30,13 @@ nav[aria-label='Main Navigation'] {
         width: fit-content;
         padding: 0.382em 1em;
         border-radius: 0.25em;
-        background: var(--clr-header-cta);
-        color: black;
+        transition: all 1s;
+        // background: var(--clr-header-cta);
+        // color: black;
+
+
+        border: 0.125em solid var(--clr-header-cta);
+        color: var(--clr-header-cta);
         font-weight: bold;
       }
     }

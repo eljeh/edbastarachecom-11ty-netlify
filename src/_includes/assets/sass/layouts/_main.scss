@@ -2,32 +2,32 @@
 main {
   min-height: 66vh;
 }
-main>section,
-main>article {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 4vw 4em;
-  min-height: 32vh;
-  @include media-desktop {
-    padding-top: 6em !important;
-  }
-}
-main>article{
-  flex-direction: column;
-}
+ main>section,
+ main>article {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 0 4vw 4em;
+   min-height: 32vh;
+   @include media-desktop {
+     padding-top: 6em !important;
+   }
+ }
+ main>article{
+   flex-direction: column;
+ }
 section>.content,
 article>.content{
-  width: 100vw;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  max-width: 100%;
-  &.contained{
-    max-width: 118ch;
-  }
-}
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   max-width: 100%;
+   &.contained{
+      max-width: 118ch;
+   }
+ }
 .content.contained{
   max-width: 118ch;
 }
@@ -47,6 +47,9 @@ body.scrolled{
     }
     .navList .cta{
       border-radius: 0;
+      background: var(--clr-header-cta);
+      color: Black;
+      transition: all 1s;
     }
   }
 

@@ -1,6 +1,6 @@
 ---
 title: 'Fitts’s Law'
-description: 'The time to acquire a target is a function of the distance to and size of the target.'
+leadIn: 'The time to acquire a target is a function of the distance to and size of the target.'
 heroImage: https://picsum.photos/600/300?random=89
 date: 2021-05-08
 tags: [

@@ -2,38 +2,43 @@
 layout: layouts/_base.njk
 ---
 <article class="article">
-
-  <header class="hero">
-    <div class="content contained">
-      <div class="hero-copy">
-        <h1 class="page-title">{{ title }}</h1>
-          {# removed for MVP #}
-        {# <div class="project-details"> #}
-          {# {% if tags %}
-          <span> #}
-            {# {% for tag in tags %}
-              {%- if tag != "post" -%}
-                {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-                <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-              {%- endif -%}
-            {% endfor %}
-            </span>
-          {% endif %} #}
-        {# </div> #}
-      </div>
-      
-      <picture class="hero-image">
+    <div class="hero">
+      <div>
         {% if heroImage %}
           {% image heroImage, title , "300", ''%}
         {% endif %}
-      </picture>
-
+        <a href="{{ '/' | url }}" class="animated">← Back Home</a>
+      </div>
     </div>
-  </header>
 
-  <section class="content contained">
-    {{ layoutContent | safe }}
-    <a href="{{ '/' | url }}" class="animated">← Back Home</a>
+  <section>
+    <span class="kabob-title">Project Debriefing: </span>
+      <div class="columned-article">
+        <div class="project-details">
+          <h1>{{ title }}</h1>
+          <ul>
+          {% if technologies %}
+            <li><label>Technologies</label>{{technologies}}</li>
+          {% endif %}
+          {% if role %}
+            <li><label>Role</label>{{role}}</li>
+          {% endif %}
+          {% if duration %}
+            <li><label>Duration</label>{{duration}}</li>
+          {% endif %}
+          {% if URL %}
+            <li><label>URL</label>{{URL}}</li>
+          {% endif %}
+          {% if company %}
+            <li><label>Company</label>{{company}}</li>
+          {% endif %}
+          </ul>
+        </div>
+        <article>
+          <h2 class="section-title">{{debriefing}}</h2>
+          {{ layoutContent | safe }}
+        </article>
+      </div>
   </section>
   
 </article>

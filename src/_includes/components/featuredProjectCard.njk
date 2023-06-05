@@ -1,19 +1,19 @@
 <a href="{{ project.url | url }}" class="project-card" >
-<article {% if project.url == url %} data-current="current item"{% endif %}>
-	<picture><img src="{{project.data.heroImage}}"></picture>
-	<div class="project-copy">
-		<h3 class="heading">
-				{% if project.data.title %}
-					{{ project.data.title }}
-				{% else %}
-					Untitled
-				{% endif %}
-		</h3>
-		{% if project.data.description %}
+	<article {% if project.url == url %} data-current="current item"{% endif %}>
+		<picture><img src="{{project.data.heroImage}}"></picture>
+		<div class="copy">
+			<h3 class="heading">
+					{% if project.data.title %}
+						{{ project.data.title }}
+					{% else %}
+						Untitled
+					{% endif %}
+			</h3>
+			{% if project.data.technologies %}
 			<p>
-				{{ project.data.description }}
+				{{ project.data.technologies }}
 			</p>
-		{% endif %}
-	</div>
-</article>
+			{% endif %}
+		</div>
+	</article>
 </a>

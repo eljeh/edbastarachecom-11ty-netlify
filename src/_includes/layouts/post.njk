@@ -3,43 +3,39 @@ layout: layouts/_base.njk
 ---
 <article class="article">
 
-  <header class="hero">
-    <div class="content contained">
-      <div class="hero-copy">
-        <h1 class="page-title">{{ title }}</h1>
-            {# removed for MVP #}
-          {# <div class="article-details">
-            <span><strong>Published:</strong> <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time></span> #}
-            {# {% if tags %}
-            <span>
-              {% for tag in tags %}
-                {%- if tag != "post" -%}
-                  {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-                  <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-                {%- endif -%}
-              {% endfor %}
-              </span>
-            {% endif %} #}
-          {# </div> #}
-      </div>
-
-      <picture class="hero-image">
+  <div class="hero">
+    <div>
         {% if heroImage %}
-          {% image heroImage, title , "300", ''%}
+          {% image heroImage, title , '300', ''%}
         {% endif %}
-      </picture>
 
+        <div class="article-details">
+          <h1 class="page-title">{{ title }}</h1>
+          {% if tags %}
+          <span>
+            {% for tag in tags %}
+              {%- if tag != "post" -%}
+                {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+                <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+              {%- endif -%}
+            {% endfor %}
+            </span>
+          {% endif %}
+        </div>
+
+        <a href="{{ '/' | url }}" class="animated">← Back Home</a>
     </div>
-  </header>
 
-  <section class="content contained">
+  </div>
+
+
+
+  <section>
     {{ layoutContent | safe }}
-    <a href="{{ '/' | url }}" class="animated">← Back Home</a>
   </section>
 
 </article>
 
-  {# <hr class="my-lg">
-  {% include "components/taglist.njk" %} #}
+
 
 

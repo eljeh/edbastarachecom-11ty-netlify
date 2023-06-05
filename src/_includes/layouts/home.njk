@@ -87,7 +87,9 @@ layout: layouts/_base.njk
 		{% include "components/featured-Articleslist.njk" %}
 	</div>
 </section>
-<section id="about" class="about">
+
+
+{# <section id="about" class="about">
 	<div class="content contained column">
 		<h2 class="section-title kabob-title">About Me</h2>
 		{% include "components/aboutme.njk" %}
@@ -98,6 +100,23 @@ layout: layouts/_base.njk
 		<h2 class="section-title kabob-title">Knowledge</h2>
 		{% include "components/skills.njk" %}
 	</div>
+</section> #}
+
+
+<section class="about-knowledge">
+	<div class="content contained column">
+		<div class="flex">
+			<article class="about">
+				<h2 class="article-title kabob-title">About Me</h2>
+					{% include "components/aboutme.njk" %}
+
+			</article>
+			<article class="knowledge">
+				<h2 class="article-title kabob-title">Knowledge</h2>
+					{% include "components/skills.njk" %}
+			</article>
+		</div>
+	</div>
 </section>
 
 
@@ -105,7 +124,7 @@ layout: layouts/_base.njk
 <section class="contact-services">
 	<div class="content contained column">
 		<div class="flex">
-			<div class="services content">
+			<article class="services content">
 				<h2 class="article-title kabob-title">Services</h2>
 				<ul class="service-list">
 					<li>
@@ -127,11 +146,11 @@ layout: layouts/_base.njk
 						</p>
 					</li>
 				</ul>
-			</div>
-			<div class="contact content">
+			</article>
+			<article class="contact content">
 				<h2 class="article-title kabob-title">Contact Me</h2>
 				{% include "components/contactForm.njk" %}
-			</div>
+			</article>
 		</div>
 	</div>
 </section>
@@ -157,6 +176,7 @@ gsap.to(".filter-effects", {
 	},
 	y: -30,
 	rotation: 0,
+
 	opacity: 1,
 	ease: "none"
 });
@@ -209,9 +229,9 @@ gsap.from(".project-card", {
 	stagger: 0.75,
 	ease: "none"
 });
-gsap.from(".aboutme", {
+gsap.from(".aboutme p", {
 	scrollTrigger: {
-		trigger: ".aboutme",
+		trigger: ".aboutme p",
 		start: "top 100%",
 		end: "top 70%",
 		scrub: 1,
@@ -226,7 +246,7 @@ gsap.from(".aboutme", {
 });
 gsap.from(".skill-list dl", {
 	scrollTrigger: {
-		trigger: ".skill-list",
+		trigger: ".skill-list dl",
 		start: "top 100%",
 		end: "top 70%",
 		scrub: 1,
@@ -269,6 +289,35 @@ gsap.from(".contact-services form", {
 	ease: "none"
 });
 
+gsap.from(".projects .list-link", {
+	scrollTrigger: {
+		trigger: ".projects .list-link",
+		start: "top 80%",
+		end: "top 60%",
+		scrub: 1,
+		toggleActions: "restart pause reverse pause"
+
+	},
+	rotation:0,
+	opacity: 0,
+	duration:2,
+	ease: "none"
+});
+gsap.from(".featured-articles .list-link", {
+	scrollTrigger: {
+		trigger: ".featured-articles .list-link",
+		start: "top 80%",
+		end: "top 60%",
+		scrub: 1,
+		toggleActions: "restart pause reverse pause"
+
+	},
+	rotation:0,
+	opacity: 0,
+	duration:2,
+	ease: "none"
+});
+
 gsap.from(".contact-services .kabob-title", {
 	scrollTrigger: {
 		trigger: "section.contact-services",
@@ -282,13 +331,14 @@ gsap.from(".contact-services .kabob-title", {
 	duration:2,
 	ease: "none"
 });
-gsap.from(".knowledge .kabob-title", {
+gsap.from(".knowledge .kabob-title,", {
 	scrollTrigger: {
 		trigger: ".knowledge",
 		start: "top 95%",
 		end: "top 75%",
 		scrub: 1,
 		toggleActions: "restart pause reverse pause"
+
 	},
 	rotation:0,
 	opacity: 0,

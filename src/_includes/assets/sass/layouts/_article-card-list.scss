@@ -1,0 +1,10 @@
+@use '../abstracts/' as *;
+
+.article-cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.618em;
+  width:100%;
+  font-size: 0.9em;
+  line-height: 1.2;
+}

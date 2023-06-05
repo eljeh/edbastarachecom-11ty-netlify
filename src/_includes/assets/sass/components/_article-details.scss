@@ -1,12 +1,39 @@
-.article{
-  padding-top: 5em;
-}
-.article,
-.article > .content{
-  flex-direction: column;
-}
-.article-details {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap-reverse;
+body.article-page{
+  .hero {
+    @media (min-width:1080px) {
+      flex-direction: row;
+    }
+    picture{
+      max-width: 118ch;
+      width: 100vw;
+      aspect-ratio: 3/1;
+      display: block;
+    }
+    .article-details{
+      align-self: center;
+      display: grid;
+      h1{
+        text-align: center;
+      }
+      span{
+        display: none;
+      }
+    }
+  }
+  main > article {
+    padding: 0 !important;
+    gap: 2em;
+    &> section {
+      max-width: 72ch;
+      h2{
+        padding-bottom: 1em;
+      }
+      h3{
+        padding-bottom: 0.75em;
+      }
+      p {
+        padding-bottom: 0.5em;
+      }
+    }
+  }
 }

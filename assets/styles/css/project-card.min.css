@@ -1,0 +1,1 @@
+.project-card{display:flex;flex-direction:column;background:var(--clr-card-bg);padding:1em;flex:1 1 100%;border:2px solid var(--clr-card-br);border-radius:.35em;box-shadow:0px 2px 9px 0px rgba(89,89,89,.3607843137);overflow:hidden}.project-card picture{border-radius:.25em}.project-card .copy{padding:.5em 0 0}@media(min-width: 768px){.project-card{flex:1 1 23.2%}}
