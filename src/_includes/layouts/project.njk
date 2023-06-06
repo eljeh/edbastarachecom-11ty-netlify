@@ -2,14 +2,15 @@
 layout: layouts/_base.njk
 ---
 <article class="article">
-    <div class="hero">
-      <div>
-        {% if heroImage %}
-          {% image heroImage, title , "300", ''%}
-        {% endif %}
-        <a href="{{ '/' | url }}" class="animated">← Back Home</a>
-      </div>
+
+  <div class="hero">
+    <div>
+      {% if heroImage %}
+        {% image heroImage, title , "300", ''%}
+      {% endif %}
+      <a href="{{ '/' | url }}" class="animated pt-md">← Back Home</a>
     </div>
+  </div>
 
   <section>
     <span class="kabob-title">Project Debriefing: </span>

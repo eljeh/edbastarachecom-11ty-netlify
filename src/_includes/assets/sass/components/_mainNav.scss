@@ -48,3 +48,22 @@ nav[aria-label='Main Navigation'] {
       margin-top: 0;
   }
 }
+
+a.animated.cta {
+  height: 100%;
+  &:after {
+    height: 100%;
+    z-index: -1;
+  }
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // transition: all 2s;
+  }
+  &:hover{
+    color: var(--clr-primary-400);
+    transition: all 1s;
+  }
+}
+

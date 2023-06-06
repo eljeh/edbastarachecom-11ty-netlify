@@ -2,7 +2,7 @@
 layout: layouts/_base.njk
 ---
 
-<section class="hero">
+<section id="home" class="hero">
 	<div class="content contained">
 		<div class="hero-copy">
 			<h1 class="page-title">
@@ -14,7 +14,7 @@ layout: layouts/_base.njk
 			<p class="">
 				As an experienced UX/UI Front-end Developer with a decade of expertise in web design and development delivering brand aligned, intuitive, and user-friendly experiences with a focus on SEO best practices.
 			</p>
-			<a href="#" class="cta">Lets Chat</a>
+			<a href="#contact-services" class="cta">Lets Chat</a>
 		</div>
 		<picture class="hero-image">
 			<img src="../../img/ed.png" loading="lazy" width="756" height="1134" alt="Developer Photo">
@@ -25,7 +25,7 @@ layout: layouts/_base.njk
 
 {{ layoutContent | safe }}
 
-<section class="intro">
+<section id="intro" class="intro">
 	<div class="content contained">
 		<ul class="solution-list" data-col="6">
 			<li class="solution-card">
@@ -88,22 +88,7 @@ layout: layouts/_base.njk
 	</div>
 </section>
 
-
-{# <section id="about" class="about">
-	<div class="content contained column">
-		<h2 class="section-title kabob-title">About Me</h2>
-		{% include "components/aboutme.njk" %}
-	</div>
-</section>
-<section class="knowledge">
-	<div class="content contained column">
-		<h2 class="section-title kabob-title">Knowledge</h2>
-		{% include "components/skills.njk" %}
-	</div>
-</section> #}
-
-
-<section class="about-knowledge">
+<section id="about" class="about-knowledge">
 	<div class="content contained column">
 		<div class="flex">
 			<article class="about">
@@ -121,7 +106,7 @@ layout: layouts/_base.njk
 
 
 
-<section class="contact-services">
+<section id="contact-services" class="contact-services">
 	<div class="content contained column">
 		<div class="flex">
 			<article class="services content">
@@ -165,6 +150,30 @@ gsap.registerPlugin(ScrollTrigger);
 		toggleClass: "scrolled",
 		toggleActions: "restart pause reverse pause"
 	});
+
+	let links = gsap.utils.toArray("nav a");
+  links.forEach(a => {
+    let element = document.querySelector(a.getAttribute("href")),
+        linkST = ScrollTrigger.create({
+              trigger: element,
+              start: "top top"
+            });
+    ScrollTrigger.create({
+      trigger: element,
+      start: "top top",
+      end: "bottom bottom",
+      onToggle: self => self.isActive && setActive(a)
+    });
+    a.addEventListener("click", e => {
+      e.preventDefault();
+      gsap.to(window, {duration: 1, scrollTo: linkST.start, overwrite: "auto"});
+    });
+  });
+
+  function setActive(link) {
+    links.forEach(el => el.classList.remove("active"));
+    link.classList.add("active");
+  }
 
 gsap.to(".filter-effects", {
 	scrollTrigger: {
@@ -331,24 +340,23 @@ gsap.from(".contact-services .kabob-title", {
 	duration:2,
 	ease: "none"
 });
-gsap.from(".knowledge .kabob-title,", {
+gsap.from(".knowledge .kabob-title", {
 	scrollTrigger: {
 		trigger: ".knowledge",
-		start: "top 95%",
+		start: "top 105%",
 		end: "top 75%",
 		scrub: 1,
 		toggleActions: "restart pause reverse pause"
-
 	},
 	rotation:0,
 	opacity: 0,
-	duration:2,
+	duration:3,
 	ease: "none"
 });
 gsap.from(".about .kabob-title", {
 	scrollTrigger: {
 		trigger: ".about",
-		start: "top 95%",
+		start: "top 100%",
 		end: "top 75%",
 		scrub: 1,
 		toggleActions: "restart pause reverse pause"
@@ -384,4 +392,5 @@ gsap.from(".projects .kabob-title", {
 	duration:2,
 	ease: "none"
 });
+
 </script>

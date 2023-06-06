@@ -56,23 +56,17 @@ small {
 }
 
 nav .navList .navItem {
-  // font-size: var(--fs-250);
   .fas {
     font-size: 1.5em;
   }
   footer > & {
-    // font-size: var(--fs-200);
     .fab {
       font-size: var(--fs-100);
     }
   }
   @media screen and (min-width: 1080px) {
-    // font-size: var(--fs-350);
     .fas {
       font-size: var(--fs-350);
-    }
-    footer > & {
-      // font-size: var(--fs-350);
     }
   }
 }
