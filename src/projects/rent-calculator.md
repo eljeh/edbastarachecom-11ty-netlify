@@ -1,12 +1,12 @@
 ---
-title: Rent Calculator
-debriefing: Rent Calculator Widget with Affordable Rental Property Recommendations
+title: Affordability Calculator
+debriefing: Rental Affordability Calculator
 heroImage: https://picsum.photos/600/300?random=7
 technologies: HTML, CSS, JS, Umbraco
-role: UI Design, Front-end Developer
+role: UI Designer, Front-end Developer
 company: 
 testimonials:
-results:
+conclusion: The Rental Affordability Calculator project successfully achieved its objectives by providing a user-friendly tool that simplifies the process of determining rental affordability. The intuitive interface, accurate rent affordability calculation algorithm, and responsive design contribute to facilitating informed decision-making about housing options.
 url:
 tags: [
 	'featured',
@@ -14,12 +14,13 @@ tags: [
 	]
 ---
 
+## Project Overview
+The Rental Affordability Calculator project aimed to simplify the process of finding affordable rental properties based on income, utilizing CMHC's Rental Market Data. The objective was to create a user-friendly web-based tool that assists individuals and families in determining their rental affordability range.
 
-The objective of our web-based tool was to simplify the process of finding affordable rental properties based on income, using CMHC's Rental Market Data. The Rent Calculator Widget provides users with an intuitive interface to make well-informed decisions regarding their housing options.
+## Key Project Deliverables
+1. **User-Friendly Interface:** A well-designed and intuitive interface that allows users to input their monthly income effortlessly and calculates their affordable rent range based on CMHC's Rental Market Data.
+2. **Rent Affordability Calculation Algorithm:** Development of a robust algorithm that accurately calculates the affordable rent range based on the user's monthly income and CMHC's Rental Market Data.
+3. **Responsive Design:** Ensuring that the Rental Affordability Calculator is responsive and compatible with various devices, enabling seamless access and a consistent user experience across platforms.
 
-Our main goal for the Rent Calculator project was to create a user-friendly tool that helps individuals and families find rental properties within their affordability range. By calculating an affordable rent range based on the user's monthly income and CMHC's Rental Market Data, the widget presents a prefiltered link to list of rental properties that fall within this range.
 
-We prioritized developing an intuitive and user-friendly interface for the widget. The design is easy to navigate, allowing users to input their monthly income effortlessly and quickly access the list of recommended rental properties within their affordability range.
-
-We ensured that the Rent Calculator Widget is responsive and compatible with various devices, ensuring seamless access regardless of the user's device. By employing a user-friendly interface, the widget facilitates informed decision-making about housing options.
 

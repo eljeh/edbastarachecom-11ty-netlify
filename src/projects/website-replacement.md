@@ -1,12 +1,12 @@
 ---
-title: Website
-debriefing: Evaluating HubSpot as a B to C Replacement
+title: Custom HubSpot Theme
+debriefing: Custom HubSpot Theme Development
 heroImage: https://picsum.photos/600/300?random=9
-technologies: HTML, CSS, JS, Hubl, Hubspot
-role: Project Owner, Hubspot Developer, Subject Matter Export
+technologies: HubSpot , HubL, CSS, JavaScript, XD, SEO, WCAG 2.0, UX, UI
+role: Project Manager,UX/UI Designer,Front-end Developer, HubSpot Developer
 company: 
 testimonials:
-results:
+conclusion: The project successfully achieved its objectives by delivering a custom HubSpot theme, templates, modules, and digital assets that aligned with the brand's visual and brand standards while ensuring SEO and accessibility requirements were met.
 url:
 tags: [
 	'featured',
@@ -14,12 +14,30 @@ tags: [
 	]
 ---
 
-The Search Results Page Refactoring project for Boardwalk REIT aimed to enhance the performance, design, and user experience of their property search results page. Although the prototype is yet to be implemented, it incorporates modern HTML and CSS practices to optimize page speed and CMS manageability, resulting in a faster and more efficient website. Furthermore, the refactoring intended also investigate  a redesign the search results page and introduce an advanced filter system to empower users in refining their searches effectively.
+## Project Overview:
+The objective of this project was to develop and optimize a custom HubSpot theme, templates, modules, and digital assets in alignment with visual and brand standards, while also accommodating SEO and accessibility (WCAG 2.0) requirements. The project involved reviewing past year's analytics, conducting competitor analysis, creating wireframes and prototypes, reviewing the current user flow, and implementing various customizations to enhance the user experience and functionality.
 
-Our team conducted a thorough competitor analysis to identify successful search filters and property information display methods used by other real estate listings platforms. These valuable insights from the research played a pivotal role in the redesign process, ensuring that Boardwalk REIT's website stands out from the competition once implemented.
+## Key Project Deliverables:
+1. **Custom HubSpot Theme:**
+   - Collaborated with the Art Director and Marketing team to develop a custom HubSpot theme that reflected the brand's visual identity and standards.
+   - Ensured the theme was optimized for search engines and followed WCAG 2.0 guidelines for accessibility.
 
-To improve user engagement and conversion rates, we reassessed the user journey and conversion points. This evaluation enabled us to optimize the user experience by creating a seamless and intuitive navigation flow.
+2. **Custom Modules and Templates:**
+   - Created custom modules and templates to provide flexibility and consistency in content creation across various pages and campaigns.
+   - Incorporated user interface (UI) and user experience (UX) best practices to enhance engagement and conversions.
 
-The primary focus of this project was to  investigate restructuring the UI, making it more user-friendly. Through simplified navigation and improved visual hierarchy, we will create an aesthetically pleasing and intuitive interface that enhances user satisfaction.
+3. **Custom Product Search Page:**
+   - Developed a custom product search page with a filtering system to improve the user experience for product browsing and searching.
+   - Implemented a seamless integration with the HubSpot platform and customized the page's functionality based on business requirements.
 
-In conclusion, the implementation of the Search Results Page Refactoring project would be expected to bring significant improvements to Boardwalk REIT's website. The redesigned search results page, modern HTML and CSS implementation, advanced filter system, and enhanced user experience are anticipated to drive increased user engagement and improved conversion rates.
+4. **HubSpot Integrations and Custom Objects:**
+   - Created custom HubSpot objects for efficient retrieval and management of product data.
+   - Troubleshot and resolved any issues related to HubSpot integrations, customizations, and optimizations.
+
+5. Quality Assurance (QA) and Testing:
+   - Conducted thorough QA testing to ensure the proper functioning of templates, modules, and digital assets across different devices, and browsers.
+   - Addressed any identified issues to ensure a seamless user experience.
+
+6. Technical Guidance and Support:
+   - Provided technical guidance, training, and support to internal teams and clients on the effective use and management of the developed assets.
+   - Stayed updated with the latest HubSpot features, best practices, and industry trends to continuously improve the effectiveness and efficiency of HubSpot-powered marketing efforts.

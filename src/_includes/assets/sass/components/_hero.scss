@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: center;
   gap: 2em;
-  width: 100%;
+  width: 100vw;
 
   picture {
     max-width: 92vw;
@@ -22,7 +22,9 @@
     border-radius: 0.25em;
     flex: 1;
   }
-
+  a {
+    padding: 2vh 4vw 0;
+  }
 }
 
 

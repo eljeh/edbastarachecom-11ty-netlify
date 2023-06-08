@@ -16,16 +16,13 @@ layout: layouts/_base.njk
     <span class="kabob-title">Project Debriefing: </span>
       <div class="columned-article">
         <div class="project-details">
-          <h1>{{ title }}</h1>
+          <h1>{{debriefing}}</h1>
           <ul>
           {% if technologies %}
             <li><label>Technologies</label>{{technologies}}</li>
           {% endif %}
           {% if role %}
             <li><label>Role</label>{{role}}</li>
-          {% endif %}
-          {% if duration %}
-            <li><label>Duration</label>{{duration}}</li>
           {% endif %}
           {% if URL %}
             <li><label>URL</label>{{URL}}</li>
@@ -36,8 +33,14 @@ layout: layouts/_base.njk
           </ul>
         </div>
         <article>
-          <h2 class="section-title">{{debriefing}}</h2>
           {{ layoutContent | safe }}
+          {% if conclusion %}
+            <h2>Conclusion</h2>
+            <p>{{conclusion}}</p>
+          {% endif %}
+          
+            <strong class="my-lg">...visuals and code examples to come!</strong>
+
         </article>
       </div>
   </section>
