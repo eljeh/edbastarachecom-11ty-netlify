@@ -1,7 +1,7 @@
 ---
 title: Hick’s Law
 leadIn: This section will include some important UX laws & theory
-heroImage: https://picsum.photos/600/300?random=3
+heroImage: https://edbastarache.dev/img/noImage.jpg
 date:
 articleType:
 tags: [

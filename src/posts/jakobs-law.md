@@ -2,7 +2,7 @@
 title: Jakobs Law
 leadIn: This section will include some important UX laws & theory
 date:
-heroImage: https://picsum.photos/600/300?random=4
+heroImage: https://edbastarache.dev/img/noImage.jpg
 articleType: 
 tags: [
 	#'3d printing',

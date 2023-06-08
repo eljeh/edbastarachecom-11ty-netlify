@@ -1,6 +1,6 @@
 <a href="{{ project.url | url }}" class="project-card" >
 	<article {% if project.url == url %} data-current="current item"{% endif %}>
-		<picture><img src="{{project.data.heroImage}}"></picture>
+		<picture><img src="{{ project.data.heroImage | url }}" alt="{{ project.data.heroImage }}"></picture>
 		<div class="copy">
 			<h3 class="heading">
 					{% if project.data.title %}

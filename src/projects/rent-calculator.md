@@ -1,7 +1,7 @@
 ---
 title: Affordability Calculator
 debriefing: Rental Affordability Calculator
-heroImage: https://picsum.photos/600/300?random=7
+heroImage: https://edbastarache.dev/img/noImage.jpg
 technologies: HTML, CSS, JS, Umbraco
 role: UI Designer, Front-end Developer
 company: 

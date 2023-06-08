@@ -1,7 +1,7 @@
 ---
 title: Search Results Page
 debriefing: The Search Results Page Refactoring
-heroImage: https://picsum.photos/600/300?random=6
+heroImage: https://edbastarache.dev/img/noImage.jpg
 technologies: AdobeDX, HTML, CSS, JS
 role: UI Design, Front-end Developer
 company: 

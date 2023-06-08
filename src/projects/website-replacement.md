@@ -1,7 +1,7 @@
 ---
 title: Custom HubSpot Theme
 debriefing: Custom HubSpot Theme Development
-heroImage: https://picsum.photos/600/300?random=9
+heroImage: https://edbastarache.dev/img/noImage.jpg
 technologies: HubSpot , HubL, CSS, JavaScript, XD, SEO, WCAG 2.0, UX, UI
 role: Project Manager,UX/UI Designer,Front-end Developer, HubSpot Developer
 company: 
@@ -13,6 +13,7 @@ tags: [
 	'project'
 	]
 ---
+
 
 ## Project Overview:
 The objective of this project was to develop and optimize a custom HubSpot theme, templates, modules, and digital assets in alignment with visual and brand standards, while also accommodating SEO and accessibility (WCAG 2.0) requirements. The project involved reviewing past year's analytics, conducting competitor analysis, creating wireframes and prototypes, reviewing the current user flow, and implementing various customizations to enhance the user experience and functionality.

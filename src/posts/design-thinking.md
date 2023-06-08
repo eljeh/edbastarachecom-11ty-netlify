@@ -1,7 +1,7 @@
 ---
 title: Design Thinking
 leadIn: A Powerful Approach for Problem Solving
-heroImage: https://picsum.photos/600/300?random=1
+heroImage: https://edbastarache.dev/img/noImage.jpg
 tags: [
   'User Experience',
 	'User Interface',
