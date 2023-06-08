@@ -9,9 +9,6 @@ main {
    justify-content: center;
    padding: 0 4vw 4em;
    min-height: 32vh;
-   @include media-desktop {
-     padding-top: 6em !important;
-   }
  }
  main>article{
    flex-direction: column;
@@ -34,16 +31,51 @@ article>.content{
 
 .banner,
 .banner-title{
-  transition: all 0.5s
+  transition: height 0.5s, font-size 0.25s;
+  @include media-desktop {
+    transition: all 1s;
+  }
 }
+.banner .banner-title{
+  transition: height 0.5s, font-size 0.25s;
+  @include media-desktop {
+    transition: height 0.5s, font-size 0.25s;
+    transition: all 1s;
+  }
+}
+
+body{
+  .header{
+    transition: translate 0.5s;
+    transition: all 1s;
+    @media (max-width: 768px) {
+      li .home {
+        display: none;
+      }
+    }
+  }
+}
+
 body.scrolled{
+ .header{
+    @media (max-width: 768px) {
+      translate: 0 -1em;
+      transition: translate 0.5s;
+    }
+  }
   .banner{
     margin: 0 3.236vw;
     overflow: hidden;
-    transition: all 0.5s;
+    transition: height 0.5s, font-size 0.25s;
+
     .banner-title{
-      font-size: 2em;
-      transition: all 1s;
+      font-size: 0;
+      transition: height 0.5s, font-size 0.25s;
+      @include media-desktop {
+        font-size: 2em;
+        transition: height 0.5s, font-size 0.25s;
+        transition: all 1s;
+      }
     }
     .navList .cta{
       border-radius: 0;

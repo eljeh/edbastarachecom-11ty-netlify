@@ -30,13 +30,9 @@ nav[aria-label='Main Navigation'] {
       }
       .cta{
         width: fit-content;
-        padding: 0.382em 1em;
+        padding: 0.382em 0.5em;
         border-radius: 0.25em;
         transition: all 1s;
-        // background: var(--clr-header-cta);
-        // color: black;
-
-
         border: 0.125em solid var(--clr-header-cta);
         color: var(--clr-header-cta);
         font-weight: bold;
