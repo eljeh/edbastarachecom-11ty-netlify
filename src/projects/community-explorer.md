@@ -2,7 +2,11 @@
 title: Amenities Widget
 debriefing: Community Amenities Widget
 heroImage: https://edbastarache.dev/img/noImage.jpg
-technologies: HTML, CSS, JS, Umbraco
+skills:
+   - HTML
+   - CSS
+   - JS
+   - Umbraco
 role: UI Designer, Front-end Developer
 company: 
 testimonials:

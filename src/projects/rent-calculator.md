@@ -2,7 +2,11 @@
 title: Affordability Calculator
 debriefing: Rental Affordability Calculator
 heroImage: https://edbastarache.dev/img/noImage.jpg
-technologies: HTML, CSS, JS, Umbraco
+skills:
+   - HTML
+   - CSS
+   - JS
+   - Umbraco
 role: UI Designer, Front-end Developer
 company: 
 testimonials:

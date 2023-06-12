@@ -9,11 +9,13 @@
 						Untitled
 					{% endif %}
 			</h3>
-			{% if project.data.technologies %}
-			<p>
-				{{ project.data.technologies }}
-			</p>
-			{% endif %}
+
+				<ul class="inline-list">
+				{% for skill in project.data.skills %}
+					<li class="fakeIcon">{{ skill }}</li>
+				{% endfor %}
+				<ul>
+
 		</div>
 	</article>
 </a>

@@ -23,6 +23,9 @@ layout: layouts/_base.njk
 	</div>
 </section>
 
+
+
+
 {{ layoutContent | safe }}
 
 <section id="intro" class="intro">
@@ -144,12 +147,6 @@ layout: layouts/_base.njk
 <script>
 gsap.registerPlugin(ScrollTrigger);
 
- ScrollTrigger.create({
-		trigger: "body",
-		start: "top -5%",
-		toggleClass: "scrolled",
-		toggleActions: "restart pause reverse pause"
-	});
 
 	let links = gsap.utils.toArray("nav a");
   links.forEach(a => {

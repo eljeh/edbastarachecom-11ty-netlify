@@ -1,8 +1,14 @@
 ---
 title: Custom HubSpot Theme
 debriefing: Custom HubSpot Theme Development
-heroImage: https://edbastarache.dev/img/noImage.jpg
-technologies: HubSpot , HubL, CSS, JavaScript, XD, SEO, WCAG 2.0, UX, UI
+heroImage: https://edbastarache.dev/img/website.jpg
+skills:
+   - HubL
+   - CSS
+   - JS
+   - XD
+   - SEO
+   - WCAG 2.0
 role: Project Manager,UX/UI Designer,Front-end Developer, HubSpot Developer
 company: 
 testimonials:

@@ -65,3 +65,20 @@ a.animated.cta {
   }
 }
 
+
+body.home-page{
+  @media (max-width: 768px) {
+    .home-link {
+      display: none;
+    }
+  }
+}
+
+body.project-page,
+body.article-page{
+  .projects-link,
+  .articles-link,
+  .about-link{
+    display: none;
+  }
+}

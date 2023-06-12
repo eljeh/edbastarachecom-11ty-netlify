@@ -2,7 +2,11 @@
 title: Search Results Page
 debriefing: The Search Results Page Refactoring
 heroImage: https://edbastarache.dev/img/noImage.jpg
-technologies: AdobeDX, HTML, CSS, JS
+skills:
+   - HTML
+   - CSS
+   - JS
+   - XD
 role: UI Design, Front-end Developer
 company: 
 testimonials:

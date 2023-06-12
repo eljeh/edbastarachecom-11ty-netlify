@@ -11,32 +11,38 @@
   {%- endfor %} #}
 
   <ul aria-label="Main Menu" role="menu" class="navList">
-    <li role="menuitem" class="navItem">
-      <a href="#home" data-current="Home" class="home animated">
+    <li role="menuitem" class="navItem home-link">
+      <a href="https://edbastarache.dev/#home" data-current="Home" class="home animated">
         Home
       </a>
     </li>
-    <li role="menuitem" class="navItem">
+    <li role="menuitem" class="navItem projects-link">
       <a href="#projects" class=" animated">
         Projects
       </a>
     </li>
-    <li role="menuitem" class="navItem">
+    <li role="menuitem" class="navItem articles-link">
       <a href="#articles" class=" animated">
         Articles
       </a>
     </li>
-    <li role="menuitem" class="navItem">
+    <li role="menuitem" class="navItem about-link">
       <a href="#about" class=" animated">
         About
       </a>
     </li>
-    <li role="menuitem" class="navItem">
-		  <a href="#contact-services" class="animated cta"><span>Services</span></a>
+    <li role="menuitem" class="navItem services-link">
+		  <a href="https://edbastarache.dev/#contact-services" class="animated cta"><span>Services</span></a>
     </li>
   </ul>
 </nav>
 
 <script>
+ ScrollTrigger.create({
+		trigger: "body",
+		start: "top -5%",
+		toggleClass: "scrolled",
+		toggleActions: "restart pause reverse pause"
+	});
 
 </script>

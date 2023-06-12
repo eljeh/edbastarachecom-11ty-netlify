@@ -48,11 +48,6 @@ body{
   .header{
     transition: translate 0.5s;
     transition: all 1s;
-    @media (max-width: 768px) {
-      li .home {
-        display: none;
-      }
-    }
   }
 }
 

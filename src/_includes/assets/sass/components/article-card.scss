@@ -15,28 +15,30 @@
   .copy{
     padding: 0.75em;
     .leanIn{
-      padding-bottom: 1em;
-    }
-    .readMore {
-      letter-spacing: 0.1em;
-      font-size: 0.75em;
-      padding: 0.25em 0.5em;
-      line-height: 2em;
-      height: 2em;
-      border: 1px solid var(--clr-tag-br, black);
-      background-color: var(--clr-tag-bg); 
-      color: var(--clr-tag-br);
-      border-radius: 0.25em;
-      text-decoration: none;
-      margin: 0.5em 0.5em 0.5em 0;
-      &:hover {
-        border: 1px solid var(--clr-tag-br-hover, black);
-        background-color: var(--clr-tag-bg-hover, black);
-        color: var(--clr-tag-ft-hover, black);
-      }
+      padding-bottom: 3em;
     }
   }
-
+  .readMore {
+    position: absolute;
+    bottom: 1em;
+    letter-spacing: 0.1em;
+    font-size: 0.85em;
+    padding: 0 0.5em;
+    line-height: 2em;
+    font-weight: bold;
+    height: 2em;
+    border: 1px solid #5c626d;
+    background-color: var(--clr-tag-bg);
+    color: #5c626d;
+    border-radius: 0.25em;
+    text-decoration: none;
+    margin: 0.5em 0.5em 0.5em 0;
+    &:hover {
+      border: 1px solid var(--clr-tag-br-hover, black);
+      background-color: var(--clr-tag-bg-hover, black);
+      color: var(--clr-tag-ft-hover, black);
+    }
+  }
 
   
 

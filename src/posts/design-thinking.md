@@ -1,7 +1,7 @@
 ---
 title: Design Thinking
-leadIn: A Powerful Approach for Problem Solving
-heroImage: https://edbastarache.dev/img/noImage.jpg
+leadIn: A creative and human-centered approach to solving complex problems.
+heroImage: https://source.unsplash.com/1600x900/?design+thinking
 tags: [
   'User Experience',
 	'User Interface',
@@ -9,42 +9,69 @@ tags: [
 	]
 ---
 
-## Unlocking Innovation with Design Thinking: A Powerful Approach for Problem Solving
 
 
-In today's rapidly evolving world, innovation has become a crucial element for organizations to thrive. Design thinking, a human-centered approach to problem-solving, has emerged as a powerful tool to drive innovation. By putting the needs and experiences of users at the forefront, design thinking encourages creativity, empathy, and collaboration. In this blog post, we will explore the key principles and benefits of design thinking, and how it can be applied to unlock new solutions and opportunities.
 
-{% image 'https://images.unsplash.com/1/type-away.jpg?q=80&fm=jpg&w=1080&fit=max' 'A sample inlined image' '600' 'mx-auto' %}
 
-### Understanding Design Thinking:
+## What is design thinking?
 
-Design thinking is a methodology that draws inspiration from the designer's mindset to tackle complex problems. It revolves around a series of iterative steps, allowing for continuous improvement and refinement. The process typically involves five stages: empathize, define, ideate, prototype, and test.
+Design thinking is not just a way of making things look good; it is a way of thinking and working that puts the user at the center of everything. According to Tim Brown, CEO and president of design company IDEO, design thinking is "a methodology that we use to solve complex problems, and it’s a way of using systemic reasoning and intuition to explore ideal future states" ¹.
 
-**1. Empathize:**
-The first stage involves understanding the users and their needs. Designers immerse themselves in the users' world, conducting interviews, observations, and empathy exercises to gain deep insights into their experiences. This empathetic understanding forms the foundation for the entire design process.
+Design thinking is rooted in a set of skills that can be learned and practiced by anyone, not just designers. These skills include:
 
-**2. Define:**
-In this stage, designers synthesize the information gathered during the empathize stage to define the core problem they are seeking to solve. They identify patterns, pain points, and opportunities, and frame the problem statement in a human-centered way.
+- **Empathy**: the ability to understand the emotions, needs, and perspectives of users and stakeholders
+- **Define**: the ability to frame and articulate the problem clearly and concisely
+- **Ideate**: the ability to generate a wide range of possible solutions without judging or limiting them
+- **Prototype**: the ability to create low-fidelity models or representations of solutions that can be tested and improved
+- **Test**: the ability to gather feedback from users and stakeholders and learn from failures and successes
 
-**3. Ideate:**
-This stage is all about generating a wide range of creative ideas. Designers engage in brainstorming sessions, sketching, mind mapping, and other ideation techniques to explore different solutions. The focus is on quantity rather than quality, encouraging a free flow of ideas without judgment.
+These skills are not applied in a linear or sequential way; rather, they are part of an iterative process that cycles through different stages of exploration and experimentation. Design thinking is flexible and adaptable to different contexts and challenges.
 
-**4. Prototype:**
-The ideation stage transitions into prototyping, where designers turn selected ideas into tangible representations. Prototypes can take various forms, such as physical models, digital mockups, or even role-playing scenarios. The goal is to quickly materialize ideas and gather valuable feedback.
+{% image 'https://cdn.pixabay.com/photo/2017/02/18/19/20/logo-2078018_960_720.png' 'Design Thinking Process' '600' '' %}
 
-**5. Test:**
-The final stage involves testing the prototypes with actual users. Designers observe user interactions, gather feedback, and evaluate how well the solutions address the defined problem. This stage provides crucial insights and helps refine and improve the prototypes based on user reactions and preferences.
+## Why use design thinking?
 
-### Key Principles of Design Thinking:
-Design thinking embraces several core principles. First and foremost is the emphasis on human-centricity. It encourages designers to immerse themselves in the world of the user, gaining deep empathy and understanding. Secondly, design thinking encourages collaboration and cross-disciplinary teamwork, leveraging the diverse perspectives and expertise of individuals. Additionally, it promotes a bias towards action and experimentation, valuing the importance of learning from failure. Finally, design thinking encourages a holistic and iterative approach, where solutions are continuously refined and improved upon based on user feedback and evolving needs.
+Design thinking offers many benefits for individuals, teams, organizations, and society. Some of these benefits are:
 
-### Benefits of Design Thinking:
-Design thinking offers numerous benefits to individuals and organizations alike. By focusing on the needs and desires of users, it increases the likelihood of creating meaningful and impactful solutions. The iterative nature of design thinking allows for rapid prototyping and testing, reducing the risks associated with launching new ideas. It promotes a culture of innovation and creativity, unlocking new possibilities and breakthrough ideas. Moreover, design thinking encourages cross-functional collaboration and teamwork, fostering a sense of collective ownership and shared purpose. Finally, it enhances problem-solving skills, encouraging individuals to approach challenges with empathy, open-mindedness, and a willingness to embrace ambiguity.
+- **Innovation**: design thinking helps generate novel and original solutions that meet the needs and desires of users
+- **Collaboration**: design thinking fosters a culture of teamwork and co-creation that leverages diverse perspectives and expertise
+- **Customer satisfaction**: design thinking improves the quality and usability of products and services that delight users and create loyalty
+- **Business value**: design thinking enhances the competitiveness and profitability of organizations that deliver value to customers and stakeholders
+- **Social impact**: design thinking addresses complex and wicked problems that affect people and the planet in positive ways
 
-### Applying Design Thinking:
-Design thinking can be applied across various industries and contexts. From product design and service development to process improvement and organizational change, the principles of design thinking can be adapted to suit different challenges. Organizations such as Apple, IBM, and Airbnb have successfully implemented design thinking to revolutionize their products and services. By integrating design thinking into their problem-solving processes, individuals and organizations can foster a culture of innovation and drive sustainable growth.
+## How to get started with design thinking?
 
-### Conclusion:
-Design thinking offers a transformative approach to problem-solving by placing the needs and experiences of users at the center. It fosters empathy, collaboration, and iterative thinking, enabling individuals and organizations to unlock innovative solutions. By embracing design thinking, we can challenge assumptions, break through traditional barriers, and create meaningful experiences for users. As we navigate an increasingly complex and dynamic world, design thinking equips us with the mindset and tools needed to drive positive change and shape the future.
+Design thinking is not a one-size-fits-all method; it can be adapted and customized to different situations and goals. However, there are some general steps that can help you get started with design thinking:
+
+1. Define your challenge: what problem are you trying to solve? Who are you solving it for? What are your objectives and constraints?
+2. Research your users: who are your target users? What are their needs, pain points, motivations, behaviors, preferences, etc.? How can you empathize with them?
+3. Synthesize your insights: what are the key findings from your research? How can you organize and communicate them? What are the main opportunities for improvement or innovation?
+4. Ideate your solutions: what are some possible ways to address the problem or opportunity? How can you brainstorm many ideas without judging them? How can you select the most promising ones?
+5. Prototype your solutions: how can you make your ideas tangible and testable? What are the key features or functions of your solutions? What materials or tools can you use to create prototypes?
+6. Test your solutions: how can you get feedback from your users and stakeholders? How can you measure the effectiveness of your solutions? How can you learn from failures and successes?
+
+These steps are not fixed or rigid; you can go back and forth between them as needed. You can also use different tools and techniques to support each step, such as interviews, surveys, observations, personas, journey maps, brainstorming sessions, sketching, storyboarding, wireframing, mockups, etc.
+
+{% image 'https://cdn.pixabay.com/photo/2017/05/04/16/37/meeting-2284501_960_720.jpg' 'Design Thinking Tools' '600' '' %}
+
+
+## Examples of design thinking
+
+Design thinking has been used by many organizations across different industries and sectors to create innovative solutions for various problems. Here are some examples:
+
+- Sephora: the makeup retailer used design thinking to improve its online shopping experience by observing how customers used its website and other platforms. It discovered that customers often went to YouTube to watch videos of people using products before making a purchase. Sephora then integrated video content into its website and app, increasing customer engagement and sales ².
+- Airbnb: the online platform for renting homes used design thinking to overcome a crisis in 2009 when it was struggling to attract users and investors. It realized that the quality of the photos of the listings was a key factor in influencing customers' decisions. It then hired professional photographers to take pictures of the homes and offered them for free to the hosts. This simple intervention boosted the bookings and revenues of Airbnb dramatically ³.
+- KONE: the elevator manufacturer used design thinking to develop a new service that monitors the performance and condition of its elevators in real time. It used sensors and data analytics to provide insights and recommendations to its customers and technicians, improving the safety, reliability, and efficiency of its elevators ⁴.
+
+## Conclusion
+
+Design thinking is a powerful way of solving complex problems in a creative and human-centered way. It can help you generate innovative solutions that meet the needs and expectations of your users and stakeholders. It can also help you collaborate better with your team and organization, and create positive impact in your domain and society.
+
+If you want to learn more about design thinking, you can check out these resources:
+
+- [Design thinking: A beginner’s guide | Adobe](https://www.adobe.com/creativecloud/design/discover/design-thinking.html)
+- [Design thinking, explained | MIT Sloan](https://mitsloan.mit.edu/ideas-made-to-matter/design-thinking-explained)
+- [Design thinking - Wikipedia](https://en.wikipedia.org/wiki/Design_thinking)
+
 
 
