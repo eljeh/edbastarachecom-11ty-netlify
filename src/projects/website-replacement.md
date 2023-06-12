@@ -1,7 +1,7 @@
 ---
 title: Custom HubSpot Theme
 debriefing: Custom HubSpot Theme Development
-heroImage: https://edbastarache.dev/img/noImage.jpg
+heroImage: https://edbastarache.dev/img/website.png
 skills:
    - HubL
    - CSS
