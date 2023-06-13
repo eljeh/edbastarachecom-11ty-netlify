@@ -6,11 +6,12 @@ const svgContents = require("eleventy-plugin-svg-contents");
 const Image = require("@11ty/eleventy-img");
 const readingTime = require('eleventy-plugin-reading-time');
 
+
 async function imageShortcode(src, alt, sizes, cls = '') {
   let metadata = await Image(src, {
     widths: [300, 600],
     formats: ["avif", "webp", "jpeg"],
-    outputDir: "./dist/img/"
+    outputDir: "./dist/img",
   });
   let imageAttributes = {
     alt,
@@ -30,8 +31,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("src/_includes/assets/sass/");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("src/includes/assets/");
-  eleventyConfig.addPassthroughCopy("src/img/svgs");
-  eleventyConfig.addPassthroughCopy("src/img/uploads");
+  eleventyConfig.addPassthroughCopy("src/img/");
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(readingTime);
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);

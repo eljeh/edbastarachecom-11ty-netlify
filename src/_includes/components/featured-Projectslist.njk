@@ -4,9 +4,10 @@
 <a href="{{ project.url | url }}" class="project-card" >
 	<article {% if project.url == url %} data-current="current item"{% endif %}>
 
-		{% if project.data.heroImage %}
+		<picture><img src="{{ project.data.heroImage }}"></picture>
+		{# {% if project.data.heroImage %}
 				{% image project.data.heroImage, project.data.title , "300", '' %}
-		{% endif %}
+		{% endif %} #}
 
 		<div class="copy">
 			<h3 class="heading">
