@@ -1,7 +1,7 @@
 ---
 title: Law of Proximity
 leadIn: the human eye perceives elements that are close together as more related than elements that are further apart.
-heroImage: https://edbastarache.dev/img/svgs/LawOfProximity.svg
+heroImage: #https://edbastarache.dev/img/svgs/LawOfProximity.svg
 tags: [
   'User Experience',
 	'User Interface',

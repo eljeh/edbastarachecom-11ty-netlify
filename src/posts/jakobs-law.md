@@ -1,7 +1,7 @@
 ---
 title: Jakobs Law
 leadIn: Why Familiarity Matters in UX Design
-heroImage: https://edbastarache.dev/img/svgs/JakobsLaw.svg
+heroImage: #https://edbastarache.dev/img/svgs/JakobsLaw.svg
 tags: [
   'User Experience',
 	'User Interface',
