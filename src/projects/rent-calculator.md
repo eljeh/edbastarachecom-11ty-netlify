@@ -1,7 +1,7 @@
 ---
 title: Affordability Calculator
 debriefing: Rental Affordability Calculator
-heroImage: https://edbastarache.dev/img/rentCalc.png
+heroImage: https://edbastarache.dev/img/uploads/rentCalc.png
 skills:
    - HTML
    - CSS
