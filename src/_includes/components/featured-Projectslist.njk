@@ -1,6 +1,36 @@
 <div class="project-cards">
 	{% for project in projectslist %}
-		{% include "components/featuredProjectCard.njk" %}
+
+<a href="{{ project.url | url }}" class="project-card" >
+	<article {% if project.url == url %} data-current="current item"{% endif %}>
+
+		{% if project.data.heroImage %}
+				{% image project.data.heroImage, project.data.title , "300", '' %}
+		{% endif %}
+
+		<div class="copy">
+			<h3 class="heading">
+					{% if project.data.title %}
+						{{ project.data.title }}
+					{% else %}
+						Untitled
+					{% endif %}
+			</h3>
+
+				<ul class="inline-list">
+				{% for skill in project.data.skills %}
+					<li class="fakeIcon">{{ skill }}</li>
+				{% endfor %}
+				<ul>
+
+		</div>
+	</article>
+</a>
+
+
+		{# {% include "components/featuredProjectCard.njk" %} #}
+
+
 	{% endfor %}
 </div>
 <span class="list-link">...more to come! {# Full Article list → #}</span>

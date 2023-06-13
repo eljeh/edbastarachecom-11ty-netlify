@@ -1,7 +1,8 @@
 ---
 title: Hick's Law
 leadIn: How to Simplify Decision Making for Users
-heroImage: https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg
+# heroImage: https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg
+heroImage: https://edbastarache.dev/img/svgs/HicksLaw.svg
 tags: [
   'User Experience',
 	'User Interface',
