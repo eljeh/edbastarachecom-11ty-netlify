@@ -73,12 +73,21 @@ body.home-page{
     }
   }
 }
+body{
+  ul[aria-label="Main Menu"]{
+    display: flex;
+  }
+  ul[aria-label="secondary Menu"]{
+    display: none;
+  }
+}
 
 body.project-page,
 body.article-page{
-  .projects-link,
-  .articles-link,
-  .about-link{
+  ul[aria-label="Main Menu"]{
     display: none;
+  }
+  ul[aria-label="secondary Menu"]{
+    display: flex;
   }
 }

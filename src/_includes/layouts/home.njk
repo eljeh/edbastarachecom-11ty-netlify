@@ -148,7 +148,7 @@ layout: layouts/_base.njk
 gsap.registerPlugin(ScrollTrigger);
 
 
-	let links = gsap.utils.toArray("nav a");
+	let links = gsap.utils.toArray("ul[aria-label='Main Menu'] a");
   links.forEach(a => {
     let element = document.querySelector(a.getAttribute("href")),
         linkST = ScrollTrigger.create({

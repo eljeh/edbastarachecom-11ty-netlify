@@ -47,8 +47,13 @@ article>.content{
 body{
   .header{
     transition: translate 0.5s;
-    transition: all 1s;
   }
+}
+
+body{
+ .banner{
+  transition: all 1s;
+ }
 }
 
 body.scrolled{
@@ -62,7 +67,7 @@ body.scrolled{
     margin: 0 3.236vw;
     overflow: hidden;
     transition: height 0.5s, font-size 0.25s;
-
+    transition: all 1s;
     .banner-title{
       font-size: 0;
       transition: height 0.5s, font-size 0.25s;
