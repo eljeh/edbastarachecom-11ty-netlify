@@ -68,7 +68,7 @@ a.animated.cta {
 
 body.home-page{
   @media (max-width: 768px) {
-    .home-link {
+    a[href="#home"] {
       display: none;
     }
   }
