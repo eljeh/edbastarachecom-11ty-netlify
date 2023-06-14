@@ -18,6 +18,7 @@ section.intro {
   min-height: 24em;
   @include media-desktop {
     margin-top: -5em;
+    margin-bottom: 2em;
   }
   .solution-list{
     display: flex;

@@ -6,7 +6,8 @@
   width: 100%;
   align-items: center;
   @include media-desktop {
-    margin-bottom: -12em;
+    padding-top: 5em !important;
+    margin-bottom: -7em;
   }
   & > .content{
     flex-wrap: wrap-reverse;
