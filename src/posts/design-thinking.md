@@ -1,7 +1,8 @@
 ---
 title: Design Thinking
 leadIn: A creative and human-centered approach to solving complex problems.
-heroImage: https://source.unsplash.com/1600x900/?design+thinking
+heroImage: https://images.unsplash.com/photo-1512314889357-e157c22f938d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80
+svgImage: /src/img/svgs/designthinking.svg
 tags: [
   'User Experience',
 	'User Interface',
@@ -16,6 +17,7 @@ tags: [
 ## What is design thinking?
 
 Design thinking is not just a way of making things look good; it is a way of thinking and working that puts the user at the center of everything. According to Tim Brown, CEO and president of design company IDEO, design thinking is "a methodology that we use to solve complex problems, and it’s a way of using systemic reasoning and intuition to explore ideal future states" ¹.
+
 
 Design thinking is rooted in a set of skills that can be learned and practiced by anyone, not just designers. These skills include:
 

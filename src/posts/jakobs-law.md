@@ -1,7 +1,8 @@
 ---
 title: Jakobs Law
 leadIn: Why Familiarity Matters in UX Design
-heroImage: https://edbastarache.dev/img/svgs/JakobsLaw.svg
+heroImage: https://images.unsplash.com/photo-1541367777708-7905fe3296c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80
+svgImage: /src/img/svgs/JakobsLaw.svg
 tags: [
   'User Experience',
 	'User Interface',
@@ -45,11 +46,6 @@ Jakob's Law has been applied by many successful sites and products across differ
 
 Jakob's Law is a principle that states that users prefer your site to work the same way as all the other sites they already know. It helps designers create user-friendly and satisfying experiences that meet the needs and goals of users. It can be applied by following common design patterns and conventions that match users' expectations and mental models.
 
-If you want to learn more about Jakob's Law and UX design principles in general, you can check out these resources:
-
-- [Jakob’s Law | Laws of UX](https://lawsofux.com/jakobs-law/)
-- [1. Jakob’s Law - Laws of UX [Book] - O'Reilly Media](https://www.oreilly.com/library/view/laws-of-ux/9781492055303/ch01.html)
-- [Jakob’s Law of user experience: Don’t make users think](https://www.honestfox.com.au/blog/jakobs-law-of-user-experience/)
 ```
 
 

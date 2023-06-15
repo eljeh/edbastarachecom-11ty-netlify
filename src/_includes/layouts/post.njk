@@ -32,6 +32,11 @@ layout: layouts/_base.njk
 
 
   <section>
+
+        {% if svgImage %}
+            {{ svgImage | svgContents  | safe }}
+        {% endif %}
+
     {{ layoutContent | safe }}
   </section>
 

@@ -1,9 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 150 1920 800" style="width:100%; height: auto; padding-top: 0">
-
-  <title>Law of Proximity</title>
-  <desc>Objects that are near, or proximate to each other, tend to be grouped together.</desc>
-
-  <style type="text/css">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 150 800 400"
+   version="1.1"
+   id="svg97"
+   sodipodi:docname="LawOfProximity.svg"
+   width="800"
+   height="400"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs101" />
+  <sodipodi:namedview
+     id="namedview99"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.63020833"
+     inkscape:cx="922.71074"
+     inkscape:cy="399.86777"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="1072"
+     inkscape:window-y="481"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg97" />
+  <title
+     id="title2">Law of Proximity</title>
+  <desc
+     id="desc4">Objects that are near, or proximate to each other, tend to be grouped together.</desc>
+  <style
+     type="text/css"
+     id="style6">
     .RedactedScript {font-family:RedactedScript-Bold, Redacted Script;font-weight:700}
     .PenScript {font-family:'Nanum Pen Script', cursive;font-weight:600}
     .Muli-Bold {font-family:Muli-Bold, Muli;font-weight:700}
@@ -68,78 +106,322 @@
     .stroke-2{stroke-width:2px;}
     .stroke-none{stroke-width:none;}
   </style>
-
-  <g id="LawOfProximity" clip-path="url(#clip-LawOfProximity)">
-    <g id="Law_of_Proximity" data-name="Law of Proximity">
-     
-      <g transform="translate(0 -30)">
-
-        <text transform="translate(501 299)" class="fill-6b font-40 RedactedScript">
-          <tspan x="-160" y="0">culpa officia aut!</tspan>
-        </text>
-
-        <rect width="175" height="100" transform="translate(113.325 365.26)" class="fill-9h stroke-2 stroke-6b"/>
-        <rect width="175" height="100" transform="translate(704.325 365.26)" class="fill-9h stroke-2 stroke-6b"/>
-        <rect width="175" height="100" transform="translate(704.325 487.26)" class="fill-9h stroke-2 stroke-6b"/>
-        <rect width="175" height="100" transform="translate(309.325 730.26)" class="fill-9h stroke-2 stroke-6b"/>
-
-        <rect width="175" height="100" transform="translate(113.325 487.26)" class="fill-6h stroke-2 stroke-6b"/>
-        <rect width="175" height="100" transform="translate(506.325 730.26)" class="fill-6h stroke-2 stroke-6b"/>
-        <rect width="175" height="100" transform="translate(506.325 486.26)" class="fill-6h stroke-2 stroke-6b"/>
-        <rect width="175" height="100" transform="translate(112.325 730.26)" class="fill-6h stroke-2 stroke-6b"/>
-
-        <rect width="175" height="100" transform="translate(309.325 364.26)" class="fill-2h stroke-2 stroke-6b"/>
-        <rect width="175" height="100" transform="translate(309.325 608.26)" class="fill-2h stroke-2 stroke-6b"/>
-        <rect width="175" height="100" transform="translate(704.325 609.26)" class="fill-2h stroke-2 stroke-6b"/>
-        <rect width="175" height="100" transform="translate(506.325 608.26)" class="fill-2h stroke-2 stroke-6b"/>
-
-        <rect width="175" height="100" transform="translate(507.325 365.26)" class="fill-hb stroke-2 stroke-6b"/>
-        <rect width="175" height="100" transform="translate(112.325 608.26)" class="fill-hb stroke-2 stroke-6b"/>
-        <rect width="175" height="100" transform="translate(309.325 486.26)" class="fill-hb stroke-2 stroke-6b"/>
-        <rect width="175" height="100" transform="translate(704.325 731.26)" class="fill-hb stroke-2 stroke-6b"/>
-
+  <g
+     id="LawOfProximity"
+     clip-path="url(#clip-LawOfProximity)"
+     transform="matrix(0.47055646,0,0,0.61394787,-44.152868,11.885753)">
+    <g
+       id="Law_of_Proximity"
+       data-name="Law of Proximity">
+      <g
+         transform="translate(0,-30)"
+         id="g44">
+        <text
+           transform="translate(501,299)"
+           class="fill-6b font-40 RedactedScript"
+           id="text10"><tspan
+             x="-160"
+             y="0"
+             id="tspan8">culpa officia aut!</tspan></text>
+        <rect
+           width="175"
+           height="100"
+           transform="translate(113.325,365.26)"
+           class="fill-9h stroke-2 stroke-6b"
+           id="rect12"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(704.325,365.26)"
+           class="fill-9h stroke-2 stroke-6b"
+           id="rect14"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(704.325,487.26)"
+           class="fill-9h stroke-2 stroke-6b"
+           id="rect16"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(309.325,730.26)"
+           class="fill-9h stroke-2 stroke-6b"
+           id="rect18"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(113.325,487.26)"
+           class="fill-6h stroke-2 stroke-6b"
+           id="rect20"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(506.325,730.26)"
+           class="fill-6h stroke-2 stroke-6b"
+           id="rect22"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(506.325,486.26)"
+           class="fill-6h stroke-2 stroke-6b"
+           id="rect24"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(112.325,730.26)"
+           class="fill-6h stroke-2 stroke-6b"
+           id="rect26"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(309.325,364.26)"
+           class="fill-2h stroke-2 stroke-6b"
+           id="rect28"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(309.325,608.26)"
+           class="fill-2h stroke-2 stroke-6b"
+           id="rect30"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(704.325,609.26)"
+           class="fill-2h stroke-2 stroke-6b"
+           id="rect32"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(506.325,608.26)"
+           class="fill-2h stroke-2 stroke-6b"
+           id="rect34"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(507.325,365.26)"
+           class="fill-hb stroke-2 stroke-6b"
+           id="rect36"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(112.325,608.26)"
+           class="fill-hb stroke-2 stroke-6b"
+           id="rect38"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(309.325,486.26)"
+           class="fill-hb stroke-2 stroke-6b"
+           id="rect40"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(704.325,731.26)"
+           class="fill-hb stroke-2 stroke-6b"
+           id="rect42"
+           x="0"
+           y="0" />
       </g>
-
-      <g id="Group_1280" data-name="Group 1280" transform="translate(0 -6)">
-        <text transform="translate(1087 274)" class="fill-6b font-24 RedactedScript">
-          <tspan x="-76.152" y="0">harum nesciunt</tspan>
-        </text>
-        <rect width="175" height="100" transform="translate(1008.325 285.26)" class="fill-9h stroke-6b stroke-2"/>
-        <rect width="175" height="100" transform="translate(1205.325 285.26)" class="fill-9h stroke-6b stroke-2"/>
-        <rect width="175" height="100" transform="translate(1402.325 285.26)" class="fill-9h stroke-6b stroke-2"/>
-        <rect width="175" height="100" transform="translate(1599.325 285.26)" class="fill-9h stroke-6b stroke-2"/>
-
-        <text transform="translate(1087 426)" class="fill-6b font-24 RedactedScript">
-          <tspan x="-76.152" y="0">harum nesciunt</tspan>
-        </text>
-        <rect width="175" height="100" transform="translate(1008.325 437.26)" class="fill-6h stroke-6b stroke-2"/>
-        <rect width="175" height="100" transform="translate(1205.325 437.26)" class="fill-6h stroke-6b stroke-2"/>
-        <rect width="175" height="100" transform="translate(1402.325 437.26)" class="fill-6h stroke-6b stroke-2"/>
-        <rect width="175" height="100" transform="translate(1599.325 437.26)" class="fill-6h stroke-6b stroke-2"/>
-
-        <text transform="translate(1087 577)" class="fill-6b font-24 RedactedScript">
-          <tspan x="-76.152" y="0">harum nesciunt</tspan>
-        </text>
-        <rect width="175" height="100" transform="translate(1008.325 589.26)" class="fill-2h stroke-6b stroke-2"/>
-        <rect width="175" height="100" transform="translate(1205.325 589.26)" class="fill-2h stroke-6b stroke-2"/>
-        <rect width="175" height="100" transform="translate(1402.325 589.26)" class="fill-2h stroke-6b stroke-2"/>
-        <rect width="175" height="100" transform="translate(1599.325 589.26)" class="fill-2h stroke-6b stroke-2"/>
-
-        <text transform="translate(1087 731)" class="fill-6b font-24 RedactedScript">
-          <tspan x="-76.152" y="0">harum nesciunt</tspan>
-        </text>
-        <rect width="175" height="100" transform="translate(1008.325 741.26)" class="fill-hb stroke-6b stroke-2"/>
-        <rect width="175" height="100" transform="translate(1205.325 741.26)" class="fill-hb stroke-6b stroke-2"/>
-        <rect width="175" height="100" transform="translate(1402.325 741.26)" class="fill-hb stroke-6b stroke-2"/>
-        <rect width="175" height="100" transform="translate(1599.325 741.26)" class="fill-hb stroke-6b stroke-2"/>
-
-
-
-
-
-
+      <g
+         id="Group_1280"
+         data-name="Group 1280"
+         transform="translate(0,-6)">
+        <text
+           transform="translate(1087,274)"
+           class="fill-6b font-24 RedactedScript"
+           id="text48"><tspan
+             x="-76.152"
+             y="0"
+             id="tspan46">harum nesciunt</tspan></text>
+        <rect
+           width="175"
+           height="100"
+           transform="translate(1008.325,285.26)"
+           class="fill-9h stroke-6b stroke-2"
+           id="rect50"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(1205.325,285.26)"
+           class="fill-9h stroke-6b stroke-2"
+           id="rect52"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(1402.325,285.26)"
+           class="fill-9h stroke-6b stroke-2"
+           id="rect54"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(1599.325,285.26)"
+           class="fill-9h stroke-6b stroke-2"
+           id="rect56"
+           x="0"
+           y="0" />
+        <text
+           transform="translate(1087,426)"
+           class="fill-6b font-24 RedactedScript"
+           id="text60"><tspan
+             x="-76.152"
+             y="0"
+             id="tspan58">harum nesciunt</tspan></text>
+        <rect
+           width="175"
+           height="100"
+           transform="translate(1008.325,437.26)"
+           class="fill-6h stroke-6b stroke-2"
+           id="rect62"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(1205.325,437.26)"
+           class="fill-6h stroke-6b stroke-2"
+           id="rect64"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(1402.325,437.26)"
+           class="fill-6h stroke-6b stroke-2"
+           id="rect66"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(1599.325,437.26)"
+           class="fill-6h stroke-6b stroke-2"
+           id="rect68"
+           x="0"
+           y="0" />
+        <text
+           transform="translate(1087,577)"
+           class="fill-6b font-24 RedactedScript"
+           id="text72"><tspan
+             x="-76.152"
+             y="0"
+             id="tspan70">harum nesciunt</tspan></text>
+        <rect
+           width="175"
+           height="100"
+           transform="translate(1008.325,589.26)"
+           class="fill-2h stroke-6b stroke-2"
+           id="rect74"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(1205.325,589.26)"
+           class="fill-2h stroke-6b stroke-2"
+           id="rect76"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(1402.325,589.26)"
+           class="fill-2h stroke-6b stroke-2"
+           id="rect78"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(1599.325,589.26)"
+           class="fill-2h stroke-6b stroke-2"
+           id="rect80"
+           x="0"
+           y="0" />
+        <text
+           transform="translate(1087,731)"
+           class="fill-6b font-24 RedactedScript"
+           id="text84"><tspan
+             x="-76.152"
+             y="0"
+             id="tspan82">harum nesciunt</tspan></text>
+        <rect
+           width="175"
+           height="100"
+           transform="translate(1008.325,741.26)"
+           class="fill-hb stroke-6b stroke-2"
+           id="rect86"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(1205.325,741.26)"
+           class="fill-hb stroke-6b stroke-2"
+           id="rect88"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(1402.325,741.26)"
+           class="fill-hb stroke-6b stroke-2"
+           id="rect90"
+           x="0"
+           y="0" />
+        <rect
+           width="175"
+           height="100"
+           transform="translate(1599.325,741.26)"
+           class="fill-hb stroke-6b stroke-2"
+           id="rect92"
+           x="0"
+           y="0" />
       </g>
-
     </g>
   </g>
+  <metadata
+     id="metadata103">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Law of Proximity</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>
