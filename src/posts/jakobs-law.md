@@ -46,6 +46,5 @@ Jakob's Law has been applied by many successful sites and products across differ
 
 Jakob's Law is a principle that states that users prefer your site to work the same way as all the other sites they already know. It helps designers create user-friendly and satisfying experiences that meet the needs and goals of users. It can be applied by following common design patterns and conventions that match users' expectations and mental models.
 
-```
 
 

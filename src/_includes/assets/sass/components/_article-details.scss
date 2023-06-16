@@ -6,8 +6,8 @@ body.article-page{
     picture{
       max-width: 118ch;
       width: 100vw;
-      aspect-ratio: 3/1;
-      display: block;
+      aspect-ratio: 6/3;
+      display:flex;
     }
     .article-details{
       align-self: center;
@@ -21,8 +21,11 @@ body.article-page{
     }
   }
   main > article {
-    padding: 0 !important;
+    // padding: 0 !important;
     gap: 2em;
+    svg {
+      width: 100%;
+    }
     &> section {
       max-width: 72ch;
       h2{

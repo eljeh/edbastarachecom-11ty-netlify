@@ -50,15 +50,3 @@ The law of proximity has been applied by many successful sites and products acro
 
 The law of proximity is a principle in Gestalt psychology that describes how the human eye perceives elements that are close together as more related than elements that are further apart. It helps designers create user-friendly and satisfying experiences that meet the needs and goals of users. It can be applied by grouping similar or related elements together and separating different groups of elements.
 
-If you want to learn more about the law of proximity and UX design principles in general, you can check out these resources:
-
-- [What Is the Law of Proximity & Why Does it Matter in UX Design?](https://blog.hubspot.com/website/law-of-proximity)
-- [What Are the Gestalt Principles? - Verywell Mind](https://www.verywellmind.com/gestalt-laws-of-perceptual-organization-2795835)
-- [Law of Proximity (Gestalt Principle): Examples & Definition](https://helpfulprofessor.com/law-of-proximity/)
-```
-
-Source: Conversation with Bing, 2023-06-09(1) What Is the Law of Proximity & Why Does it Matter in UX Design?. https://blog.hubspot.com/website/law-of-proximity Accessed 2023-06-09.
-(2) . https://bing.com/search?q=Law+of+Proximity Accessed 2023-06-09.
-(3) What Are the Gestalt Principles? - Verywell Mind. https://www.verywellmind.com/gestalt-laws-of-perceptual-organization-2795835 Accessed 2023-06-09.
-(4) Law of Proximity (Gestalt Principle): Examples & Definition. https://helpfulprofessor.com/law-of-proximity/ Accessed 2023-06-09.
-

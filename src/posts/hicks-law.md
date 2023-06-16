@@ -54,10 +54,4 @@ Hick's Law has been applied by many successful sites and products across differe
 Hick's Law is a psychological principle that states that the more choices a person is presented with, the longer it will take for him or her to make a decision about which option is best. It helps designers create user-friendly and satisfying experiences that meet the needs and goals of users. It can be applied by reducing the number of choices and simplifying the decision making process.
 
 
-If you want to learn more about Hick's Law and UX design principles in general, you can check out these resources:
-
-- [Hick's law - Wikipedia](https://en.wikipedia.org/wiki/Hick%27s_law)
-- [What is Hick’s Law? | IxDF](https://www.interaction-design.org/literature/topics/hick-s-law)
-- [What is Hick's law? | Definition from TechTarget](https://www.techtarget.com/whatis/definition/Hicks-law)
-
 
