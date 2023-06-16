@@ -10,20 +10,6 @@ layout: layouts/_base.njk
           {% image heroImage, title , '300', ''%}
         {% endif %} #}
 
-        <div class="article-details">
-          <h1 class="page-title">{{ title }}</h1>
-          {% if tags %}
-          <span>
-            {% for tag in tags %}
-              {%- if tag != "post" -%}
-                {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-                <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-              {%- endif -%}
-            {% endfor %}
-            </span>
-          {% endif %}
-        </div>
-
         <a href="{{ '/' | url }}" class="animated">← Back Home</a>
     </div>
 
@@ -32,10 +18,23 @@ layout: layouts/_base.njk
 
 
   <section>
+    <div class="article-details">
+      <h1 class="page-title">{{ title }}</h1>
+      {% if tags %}
+      <span>
+        {% for tag in tags %}
+          {%- if tag != "post" -%}
+            {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+            <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+          {%- endif -%}
+        {% endfor %}
+        </span>
+      {% endif %}
+    </div>
 
-        {% if svgImage %}
-            {{ svgImage | svgContents  | safe }}
-        {% endif %}
+    {% if svgImage %}
+        {{ svgImage | svgContents  | safe }}
+    {% endif %}
 
     {{ layoutContent | safe }}
   </section>

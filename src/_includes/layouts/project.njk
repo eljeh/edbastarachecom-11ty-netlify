@@ -13,11 +13,10 @@ layout: layouts/_base.njk
   </div>
 
   <section>
-    <span class="kabob-title">Project Debriefing: </span>
-      <div class="columned-article">
-        <div class="project-details">
-          <h1>{{debriefing}}</h1>
-          <ul>
+    <h1 class="title">{{debriefing}}</h1>
+    <div class="columned-article">
+      <div class="project-details">
+        <ul>
           {% if Skills %}
             <li><label>Skills</label>{{Skills}}</li>
           {% endif %}
@@ -30,19 +29,19 @@ layout: layouts/_base.njk
           {% if company %}
             <li><label>Company</label>{{company}}</li>
           {% endif %}
-          </ul>
-        </div>
-        <article>
-          {{ layoutContent | safe }}
-          {% if conclusion %}
-            <h2>Conclusion</h2>
-            <p>{{conclusion}}</p>
-          {% endif %}
-          
-            <strong class="my-lg">...visuals and code examples to come!</strong>
-
-        </article>
+        </ul>
       </div>
+      <article>
+        {{ layoutContent | safe }}
+        {% if conclusion %}
+          <h2>Conclusion</h2>
+          <p>{{conclusion}}</p>
+        {% endif %}
+        
+          <strong class="my-lg">...visuals and code examples to come!</strong>
+
+      </article>
+    </div>
   </section>
   
 </article>

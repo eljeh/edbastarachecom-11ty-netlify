@@ -9,20 +9,25 @@ body.article-page{
       aspect-ratio: 6/3;
       display:flex;
     }
+
+  }
+  main > article {
+    gap: 2em;
+
     .article-details{
       align-self: center;
       display: grid;
       h1{
+        font-size: 2em;
         text-align: center;
+        margin-bottom: 1em
       }
       span{
         display: none;
       }
     }
-  }
-  main > article {
-    // padding: 0 !important;
-    gap: 2em;
+
+
     svg {
       width: 100%;
     }

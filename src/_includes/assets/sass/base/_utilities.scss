@@ -169,7 +169,8 @@ picture {
   overflow: hidden;
   display: flex;
   img{
-    min-width: 100%
+    min-width: 100%;
+    width: auto;
   }
 }
 
