@@ -5,7 +5,7 @@
   @media (min-width:1080px) {
     padding-top: 6em;
   }
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   background: var(--clr-hero-bg);
   color: var(--clr-hero-ft);
   display: flex;
@@ -17,7 +17,7 @@
   picture {
     max-width: 92vw;
     @media (min-width:1080px) {
-      max-width: 92ch;
+      max-width: 78ch;
     }
     border-radius: 0.25em;
     flex: 1;

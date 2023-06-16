@@ -10,7 +10,7 @@ layout: layouts/_base.njk
           {% image heroImage, title , '300', ''%}
         {% endif %} #}
 
-        <a href="{{ '/' | url }}" class="animated">← Back Home</a>
+        <a href="{{ '/' | url }}" class="animated pt-md">← Back Home</a>
     </div>
 
   </div>
@@ -33,7 +33,7 @@ layout: layouts/_base.njk
     </div>
 
     {% if svgImage %}
-        {{ svgImage | svgContents  | safe }}
+        {{ svgImage | svgContents("my-xl")  | safe }}
     {% endif %}
 
     {{ layoutContent | safe }}

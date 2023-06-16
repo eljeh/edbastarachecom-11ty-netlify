@@ -35,8 +35,8 @@ body.project-page{
         flex-direction: column;
         flex: 0 1 65ch;
         @container (min-width: 1089px) {
-          padding: 0 2em 0 0;
-          flex: 0 1 18em;
+          padding: 0 1em 0 0;
+          flex: 0 1 16em;
           text-align: right;
         }
           h1{
@@ -58,7 +58,7 @@ body.project-page{
         }
 
       article{
-        flex: 0 1 62ch;
+        flex: 0 1 52ch;
         h2{
           font-size: 1.25em;
           padding: 1em 0 0.5em;
