@@ -17,8 +17,16 @@ layout: layouts/_base.njk
     <div class="columned-article">
       <div class="project-details">
         <ul>
-          {% if Skills %}
-            <li><label>Skills</label>{{Skills}}</li>
+          {% if skills %}
+            <li>
+              <label>Skills</label>
+              <ul class="inline-list">
+                {% for skill in skills %}
+                  <li class="fakeIcon">{{ skill }}</li>
+                {% endfor %}
+              <ul>
+              
+              </li>
           {% endif %}
           {% if role %}
             <li><label>Role</label>{{role}}</li>

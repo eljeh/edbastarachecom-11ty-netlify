@@ -3,7 +3,8 @@ body.project-page{
   .hero {
     @media (min-width:1080px) {
       flex-direction: row;
-      width: 100vw;
+
+      width: 99.3vw;
     }
     picture{
       aspect-ratio: 9/7;
@@ -13,7 +14,11 @@ body.project-page{
   main > article {
     gap: 2em;
     &> section {
-      max-width: 92ch;
+      max-width: 76ch;
+      @media (min-width: 900px) {
+        max-width: 82ch;
+      }
+
       width: 100%;
       container-type: inline-size;
       .title{
@@ -25,7 +30,7 @@ body.project-page{
       .columned-article{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        // justify-content: center;
         margin-top: 1em;
         gap: 1em;
       }
@@ -34,9 +39,9 @@ body.project-page{
         display: flex;
         flex-direction: column;
         flex: 0 1 65ch;
-        @container (min-width: 1089px) {
+        @container (min-width: 825px) {
           padding: 0 1em 0 0;
-          flex: 0 1 16em;
+          flex: 0 1 18em;
           text-align: right;
         }
           h1{
@@ -52,6 +57,20 @@ body.project-page{
               margin-right: 0.25em;
               display: block;
 
+            }
+
+            .fakeIcon{
+              background: black;
+              color: white;
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+              font-size: 0.6em;
+              padding: 0 0.5em;
+              border: 0.25em solid black;
+              border-radius: 0.5em;
+              margin: 0.125em 0;
+              letter-spacing:0.05em;
             }
 
           }
