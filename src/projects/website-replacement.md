@@ -48,6 +48,3 @@ The objective of this project was to develop and optimize a custom HubSpot theme
 6. **Technical Guidance and Support:**
    - Provided technical guidance, training, and support to internal teams and clients on the effective use and management of the developed assets.
    - Stayed updated with the latest HubSpot features, best practices, and industry trends to continuously improve the effectiveness and efficiency of HubSpot-powered marketing efforts.
-
-
-{% image 'https://source.unsplash.com/random/600x400' 'A sample inlined image' '600' 'mx-auto' %}
