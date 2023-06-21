@@ -41,10 +41,13 @@ The objective of this project was to develop and optimize a custom HubSpot theme
    - Created custom HubSpot objects for efficient retrieval and management of product data.
    - Troubleshot and resolved any issues related to HubSpot integrations, customizations, and optimizations.
 
-5. Quality Assurance (QA) and Testing:
+5. **Quality Assurance (QA) and Testing:**
    - Conducted thorough QA testing to ensure the proper functioning of templates, modules, and digital assets across different devices, and browsers.
    - Addressed any identified issues to ensure a seamless user experience.
 
-6. Technical Guidance and Support:
+6. **Technical Guidance and Support:**
    - Provided technical guidance, training, and support to internal teams and clients on the effective use and management of the developed assets.
    - Stayed updated with the latest HubSpot features, best practices, and industry trends to continuously improve the effectiveness and efficiency of HubSpot-powered marketing efforts.
+
+
+{% image 'https://source.unsplash.com/random/600x400' 'A sample inlined image' '600' 'mx-auto' %}
