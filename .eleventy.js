@@ -9,7 +9,7 @@ const readingTime = require('eleventy-plugin-reading-time');
 
 async function imageShortcode(src, alt, sizes, cls = '') {
   let metadata = await Image(src, {
-    widths: [300, 600],
+    widths: [300, 900],
     formats: ["avif", "webp", "jpeg"],
     outputDir: "./dist/img",
   });
