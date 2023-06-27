@@ -6,8 +6,9 @@ layout: layouts/_base.njk
   <div class="hero">
     <div>
       {% if heroImage %}
-        {# {% image heroImage, title , "900", ''%} #}
-        <img alt="{{title}}" class="" loading="lazy" decoding="async" src="{{heroImage}}" width="900" height="700">
+        <picture>
+          <img alt="{{title}}" class="" loading="lazy" decoding="async" src="{{heroImage}}" width="1200" height="700">
+        </picture>
       {% endif %}
       <a href="{{ '/' | url }}" class="animated pt-md">← Back Home</a>
     </div>
