@@ -1,7 +1,7 @@
 ---
 title: Amenities Widget
 debriefing: Community Amenities Widget
-#heroImage: 'https://edbastarache.dev/img/uploads/amenitiesWidget.png'
+heroImage: 'https://edbastarache.dev/img/uploads/amenitiesWidget.png'
 skills:
    - HTML
    - CSS
