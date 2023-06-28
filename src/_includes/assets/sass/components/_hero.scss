@@ -1,10 +1,7 @@
 @use '../abstracts/' as *;
 .hero{
   flex-direction: column-reverse;
-  padding-top: 9em;
-  @media (min-width:1080px) {
-    padding-top: 6em;
-  }
+  padding-top: 6.5em;
   padding-bottom: 1em;
   background: var(--clr-hero-bg);
   color: var(--clr-hero-ft);
@@ -15,10 +12,8 @@
   width: 100vw;
 
   picture {
-    max-width: 92vw;
-    @media (min-width:1080px) {
-      max-width: 118ch;
-    }
+    width: 92vw;
+    max-width: 118ch;
     border-radius: 0.25em;
     flex: 1;
   }

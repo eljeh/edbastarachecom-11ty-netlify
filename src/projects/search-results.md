@@ -10,7 +10,7 @@ skills:
 role: UI Design, Front-end Developer
 company: 
 testimonials:
-conclusion: The implementation of the Search Results Page Refactoring project is expected to bring significant improvements to Boardwalk REIT's website. The redesigned search results page, modern HTML and CSS implementation, advanced filter system, and enhanced user experience are anticipated to drive increased user engagement and improved conversion rates. The project has successfully leveraged competitor analysis and valuable research insights to ensure that Boardwalk REIT's website stands out from the competition.
+conclusion: The implementation of the Search Results Page Refactoring project is expected to bring significant improvements to the client's website. The redesigned search results page, modern HTML and CSS implementation, advanced filter system, and enhanced user experience are anticipated to drive increased user engagement and improved conversion rates. The project has successfully leveraged competitor analysis and valuable research insights to ensure that the client's website stands out from the competition.
 url:
 tags: [
 	'featured',
