@@ -16,7 +16,7 @@
     "url": "https://edbastarache.dev/"
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-img": "^0.8.0",
     "autoprefixer": "^9.8.6",
     "cheerio": "^1.0.0-rc.3",

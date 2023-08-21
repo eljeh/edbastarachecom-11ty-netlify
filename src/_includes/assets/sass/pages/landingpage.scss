@@ -1,0 +1,77 @@
+@use '../abstracts/' as *;
+@forward '../components/lp-hero';
+
+body {
+  background: var(--clr-body-bg);
+  color: var(--clr-body-ft);
+  height: 1538px;
+}
+
+header,
+main {
+  max-width: 2560px;
+  font-size: 1.2em;
+}
+main { 
+  section{
+    min-height: 1538px;
+  }
+}
+
+section.hero{
+  container-type: inline-size;
+}
+
+section.intro {
+  min-height: 24em;
+  @include media-desktop {
+    margin-top: -5em;
+    margin-bottom: 2em;
+  }
+  .solution-list{
+    display: flex;
+    gap:2em;
+    padding-top: 1.618em !important;
+    flex-wrap: wrap;
+    @include media-desktop {
+      justify-content: space-around;
+      gap: 5vh;
+    }
+    .solution-card{
+      flex: 1 1 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      text-align: center;
+      background: var(--clr-card-bg);
+      padding: 0.5em 1em;
+      border: 2px solid var(--clr-card-br);
+      border-radius: 0.25em;
+      box-shadow: 0px 2px 9px 0px #5959595c;
+      background: radial-gradient(at top left, #ffffff 20%, var(--clr-accent-100) 200%);
+      border: 6px solid #e8edf7;
+
+      @include media-desktop {
+        align-items: start;
+        text-align: left;
+        z-index: 1;
+        flex: 0 1 28%;
+        max-width: 20em;
+      }
+      &>.icon{
+        font-size: 3em;
+        padding: 0.125em;
+        margin: 0.125em 0 0.5em;
+        color: white;
+        background: var(--clr-primary-400);
+        border-radius: 0.125em;
+      }
+    }
+  }
+}
+.banner{
+  max-width: 130ch;
+  margin: 3em auto;
+}
+
