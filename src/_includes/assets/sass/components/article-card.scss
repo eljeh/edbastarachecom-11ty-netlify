@@ -29,7 +29,7 @@
     letter-spacing: 0.1em;
     font-size: 0.85em;
     padding: 0 0.5em;
-    line-height: 2em;
+    line-height: 1.75em;
     font-weight: bold;
     height: 2em;
     border: 1px solid #5c626d;
@@ -38,12 +38,6 @@
     border-radius: 0.25em;
     text-decoration: none;
     margin: 0.5em 0.5em 0.5em 0;
-    &:hover {
-      // border: 1px solid var(--clr-tag-br-hover, black);
-      // background-color: var(--clr-tag-bg-hover, black);
-      // color: var(--clr-tag-ft-hover, black);
-    }
-
     &.animated {
       display: flex;
       align-items: end;
@@ -58,7 +52,32 @@
         z-index: -1;
         transition: all 0.25s;
       }
-      &:hover {
+      // &:hover {
+      //   &:after{
+      //     width: 100%;
+      //     height: 100%;
+      //     border: 1px solid var(--clr-tag-br-hover, black);
+      //     background-color: var(--clr-tag-bg-hover, black);
+      //     transition: all 0.25s;
+      //   }
+      //   transition: all 0.5s;
+      //   color: var(--clr-tag-ft-hover, black);
+      // }
+    }
+  }
+
+  
+
+  @include media-desktop {  
+    flex: 1 1 23.2%;
+  }
+
+
+  &:hover {
+    .readMore{
+      &.animated{
+        transition: all 0.5s;
+        color: var(--clr-tag-ft-hover, black);
         &:after{
           width: 100%;
           height: 100%;
@@ -66,40 +85,8 @@
           background-color: var(--clr-tag-bg-hover, black);
           transition: all 0.25s;
         }
-        transition: all 0.5s;
-        color: var(--clr-tag-ft-hover, black);
       }
     }
   }
-
-  
-
-
-
-
-  @include media-desktop {  
-    flex: 1 1 23.2%;
-  }
 }
 
-
-
-// .article-card{
-//   display: flex;
-//   flex-direction: column;
-//   background:  var(--clr-card-bg);
-//   padding: 1em;
-//   flex: 1 1 100%;
-//   border: 2px solid var(--clr-card-br);
-//   border-radius: 0.25em;
-//   box-shadow: 0px 2px 9px 0px #5959595c;
-//   picture{
-//     border-radius: 0.25em;
-//   }
-//   .copy{
-//     padding: 0.5em 0;
-//   }
-//   @include media-desktop {  
-//     flex: 1 1 23.2%;
-//   }
-// }
