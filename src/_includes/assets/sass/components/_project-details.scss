@@ -16,7 +16,7 @@ body.project-page{
     &> section {
       max-width: 76ch;
       @media (min-width: 900px) {
-        max-width: 82ch;
+        max-width: 92ch;
       }
 
       width: 100%;
@@ -77,7 +77,7 @@ body.project-page{
         }
 
       article{
-        flex: 0 1 52ch;
+        flex: 0 1 62ch;
         h2{
           font-size: 1.25em;
           padding: 1em 0 0.5em;
@@ -87,6 +87,9 @@ body.project-page{
         }
   
         p {
+          padding-bottom: 0.5em;
+        }
+        ul, ol, dl {
           padding-bottom: 0.5em;
         }
       }

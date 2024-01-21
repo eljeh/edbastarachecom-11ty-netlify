@@ -1,7 +1,7 @@
 ---
 title: Custom HubSpot Theme
 debriefing: Custom HubSpot Theme Development
-heroImage: https://edbastarache.dev/img/uploads/HSTheme.png
+heroImage: 'https://edbastarache.com/img/uploads/HSTheme.png'
 skills:
    - HubL
    - CSS
@@ -25,26 +25,26 @@ tags: [
 The objective of this project was to develop and optimize a custom HubSpot theme, templates, modules, and digital assets in alignment with visual and brand standards, while also accommodating SEO and accessibility (WCAG 2.0) requirements. The project involved reviewing past year's analytics, conducting competitor analysis, creating wireframes and prototypes, reviewing the current user flow, and implementing various customizations to enhance the user experience and functionality.
 
 ## Key Project Deliverables:
-1. **Custom HubSpot Theme:**
+**Custom HubSpot Theme:**
    - Collaborated with the Art Director and Marketing team to develop a custom HubSpot theme that reflected the brand's visual identity and standards.
    - Ensured the theme was optimized for search engines and followed WCAG 2.0 guidelines for accessibility.
 
-2. **Custom Modules and Templates:**
+**Custom Modules and Templates:**
    - Created custom modules and templates to provide flexibility and consistency in content creation across various pages and campaigns.
    - Incorporated user interface (UI) and user experience (UX) best practices to enhance engagement and conversions.
 
-3. **Custom Product Search Page:**
+**Custom Product Search Page:**
    - Developed a custom product search page with a filtering system to improve the user experience for product browsing and searching.
    - Implemented a seamless integration with the HubSpot platform and customized the page's functionality based on business requirements.
 
-4. **HubSpot Integrations and Custom Objects:**
+**HubSpot Integrations and Custom Objects:**
    - Created custom HubSpot objects for efficient retrieval and management of product data.
    - Troubleshot and resolved any issues related to HubSpot integrations, customizations, and optimizations.
 
-5. **Quality Assurance (QA) and Testing:**
+**Quality Assurance (QA) and Testing:**
    - Conducted thorough QA testing to ensure the proper functioning of templates, modules, and digital assets across different devices, and browsers.
    - Addressed any identified issues to ensure a seamless user experience.
 
-6. **Technical Guidance and Support:**
+**Technical Guidance and Support:**
    - Provided technical guidance, training, and support to internal teams and clients on the effective use and management of the developed assets.
    - Stayed updated with the latest HubSpot features, best practices, and industry trends to continuously improve the effectiveness and efficiency of HubSpot-powered marketing efforts.

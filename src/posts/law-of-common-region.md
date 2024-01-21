@@ -1,7 +1,7 @@
 ---
 title: Law of Common Region
 leadIn: This section will include some important UX laws & theory
-heroImage: https://picsum.photos/600/300?random=54
+heroImage: 
 date:
 articleType:
 tags: [

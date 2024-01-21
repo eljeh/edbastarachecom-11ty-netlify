@@ -1,7 +1,7 @@
 ---
 title: Design Thinking
 leadIn: A creative and human-centered approach to solving complex problems.
-heroImage: https://images.unsplash.com/photo-1512314889357-e157c22f938d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80
+heroImage: '/img/uploads/designThinking.jpg'
 svgImage: /src/img/svgs/designthinking.svg
 tags: [
   'User Experience',
@@ -47,9 +47,6 @@ Design thinking is not a one-size-fits-all method; it can be adapted and customi
 6. Test your solutions: how can you get feedback from your users and stakeholders? How can you measure the effectiveness of your solutions? How can you learn from failures and successes?
 
 These steps are not fixed or rigid; you can go back and forth between them as needed. You can also use different tools and techniques to support each step, such as interviews, surveys, observations, personas, journey maps, brainstorming sessions, sketching, storyboarding, wireframing, mockups, etc.
-
-{% image 'https://cdn.pixabay.com/photo/2017/05/04/16/37/meeting-2284501_960_720.jpg' 'Design Thinking Tools' '600' '' %}
-
 
 ## Examples of design thinking
 

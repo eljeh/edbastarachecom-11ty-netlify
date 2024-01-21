@@ -1,7 +1,7 @@
 ---
 title: Aesthetic Usability Effect
 leadIn: Users often perceive aesthetically pleasing design as design that’s more usable.
-heroImage: https://picsum.photos/600/300?random=1
+heroImage: 
 date:
 articleType:
 tags: [
