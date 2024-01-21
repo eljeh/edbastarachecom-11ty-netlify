@@ -177,16 +177,17 @@ gsap.to(".filter-effects", {
 gsap.from(".solution-card", {
 	scrollTrigger: {
 		trigger: ".solution-list",
-		start: "top 100%", 
-		end: "top 60%",
+		start: "top 120%", 
+		end: "top 55%",
 		scrub: 1,
 		toggleActions: "restart pause reverse pause"
 	},
-	y: 300,
-	rotation: 5,
-	opacity: 0.25,
-	duration: 2,
-	stagger: 0.9,
+	y: 100,
+	{# rotation: 5, #}
+	scale: 0.25,
+	{# opacity: 0.75, #}
+	duration: 15,
+	stagger: 0.5,
 	ease: "none"
 });
 
@@ -200,7 +201,8 @@ gsap.from(".article-card", {
 	},
 	y: 300,
 	rotation: 5,
-	opacity: 0.25,
+	scale: 0.25,
+	opacity: 0.5,
 	duration: 2,
 	stagger: 0.75,
 	ease: "none"
@@ -216,6 +218,7 @@ gsap.from(".project-card", {
 	},
 	y: 300,
 	rotation: 5,
+	scale: 0.25,
 	opacity: 0,
 	duration: 2,
 	stagger: 0.75,
@@ -231,6 +234,7 @@ gsap.from(".aboutme p", {
 	},
 	y: 150,
 	rotation: 0,
+	scale: 0.25,
 	opacity: 0,
 	duration: 2,
 	stagger: 0.75,
@@ -246,6 +250,7 @@ gsap.from(".skill-list dl", {
 	},
 	y: 150,
 	rotation:0,
+	scale: 0.25,
 	opacity: 0,
 	duration: 3,
 	stagger: 0.75,
@@ -261,6 +266,7 @@ gsap.from(".service-list li", {
 	},
 	y: 150,
 	rotation:5,
+	scale: 0.25,
 	opacity: 0,
 	duration: 2,
 	stagger: 0.85,
@@ -276,6 +282,7 @@ gsap.from(".contact-services form", {
 	},
 	y: 100,
 	rotation:0,
+	scale: 0.25,
 	opacity: 0,
 	duration:2,
 	ease: "none"
