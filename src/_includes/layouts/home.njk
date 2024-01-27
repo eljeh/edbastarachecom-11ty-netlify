@@ -2,6 +2,38 @@
 layout: layouts/_base.njk
 ---
 
+<style>
+	section.hero {
+			container-type: inline-size;
+			overflow: hidden;
+			box-shadow: inset 0px -5em 8em #010714;
+	}
+	section.hero .gridWrapper{
+    position: absolute;
+    inset: -15rem -5rem;
+    z-index: -5;
+	}
+	section.hero svg {
+		transform: rotate3d(1, 2, 1,20deg);
+		zoom:5;
+		opacity: 0.125;
+	}
+
+ section.hero .hero-copy:before {
+    content: "";
+    width: 190%;
+    background: #040b17;
+    height: 60%;
+    position: absolute;
+    filter: blur(8em);
+    z-index: -1;
+    margin-left: -20em;
+	}
+
+
+</style>
+
+
 <section id="home" class="hero">
 	<div class="content contained">
 		<div class="hero-copy">
@@ -11,7 +43,7 @@ layout: layouts/_base.njk
 			<h2 class="Sub-title">
 				Bringing your idea to life
 			</h2>
-			<p class="">
+			<p class="writeup">
 				As an experienced UX/UI Front-end Developer with a decade of expertise in web design and development delivering brand aligned, intuitive, and user-friendly experiences with a focus on SEO best practices.
 			</p>
 			<a href="#contact-services" class="cta animated"><span>Lets Chat</span></a>
@@ -21,6 +53,26 @@ layout: layouts/_base.njk
 			<img src="../../img/uploads/ed.png" loading="lazy" width="756" height="1134" role="presentation" class="filter-effects">
 		</picture>
 	</div>
+<div class="gridWrapper">
+		<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+			<defs>
+				<pattern id="smallGrid" width="10" height="10" patternUnits="userSpaceOnUse">
+					<path d="M 10 0 L 0 0 0 10" fill="none" stroke="lightblue" stroke-width="0.5"/>
+				</pattern>
+				<pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+					<rect width="100" height="100" fill="url(#smallGrid)"/>
+					<path d="M 100 0 L 0 0 0 100" fill="none" stroke="lightblue" stroke-width="1"/>
+				</pattern>
+			</defs>
+
+			<rect width="100%" height="100%" fill="url(#grid)" />
+		</svg>
+</div>
+
+
+
+
+
 </section>
 
 {{ layoutContent | safe }}
